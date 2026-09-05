@@ -1,0 +1,884 @@
+{
+  "started": "2026-09-05T06:27:08Z",
+  "python": "3.10.12",
+  "yt-dlp": {
+    "name": "yt-dlp",
+    "tests_run": 20,
+    "pass": 17,
+    "fail": 0,
+    "error": 3,
+    "skip": 0,
+    "feature_score": "27/33",
+    "feature_pct": 81.8,
+    "results": [
+      {
+        "name": "version",
+        "status": "PASS",
+        "duration_s": 1.9073486328125e-06,
+        "detail": "version 2026.08.19",
+        "artifacts": {
+          "version": "2026.08.19"
+        }
+      },
+      {
+        "name": "extractor count > 500",
+        "status": "PASS",
+        "duration_s": 0.0018832683563232422,
+        "detail": "939 extractor modules",
+        "artifacts": {
+          "count": 939
+        }
+      },
+      {
+        "name": "extract info (no download)",
+        "status": "PASS",
+        "duration_s": 1.3768031597137451,
+        "detail": "title='Rick Astley - Never Gonna Give You Up (O'",
+        "artifacts": {
+          "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+          "uploader": "Rick Astley",
+          "duration": 213,
+          "view_count": 1812007223,
+          "n_formats": 48,
+          "has_chapters": false,
+          "has_subtitles": true,
+          "has_auto_captions": true
+        }
+      },
+      {
+        "name": "multi-format listing",
+        "status": "PASS",
+        "duration_s": 1.1485490798950195,
+        "detail": "37 video, 5 audio, max h=2160",
+        "artifacts": {
+          "video_formats": 37,
+          "audio_formats": 5,
+          "max_height": 2160
+        }
+      },
+      {
+        "name": "subtitle listing",
+        "status": "PASS",
+        "duration_s": 0.9792861938476562,
+        "detail": "5 manual, 940 auto",
+        "artifacts": {
+          "manual": [
+            "en",
+            "de-DE",
+            "ja",
+            "pt-BR",
+            "es-419"
+          ],
+          "auto": [
+            "en",
+            "de-DE",
+            "ja",
+            "pt-BR",
+            "es-419",
+            "ab-en",
+            "aa-en",
+            "af-en",
+            "ak-en",
+            "sq-en"
+          ]
+        }
+      },
+      {
+        "name": "thumbnail listing",
+        "status": "PASS",
+        "duration_s": 0.5960512161254883,
+        "detail": "42 thumbnails",
+        "artifacts": {
+          "count": 42,
+          "max_res": 1080
+        }
+      },
+      {
+        "name": "download video (best)",
+        "status": "ERROR",
+        "duration_s": 1.0597519874572754,
+        "detail": "DownloadError: ERROR: [youtube] dQw4w9WgXcQ: Requested format is not available. Use --list-formats for a list of available formats",
+        "artifacts": {
+          "traceback": [
+            "  File \"/usr/local/lib/python3.10/dist-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble",
+            "    raise DownloadError(message, exc_info)",
+            "yt_dlp.utils.DownloadError: ERROR: [youtube] dQw4w9WgXcQ: Requested format is not available. Use --list-formats for a list of available formats"
+          ]
+        }
+      },
+      {
+        "name": "download bestaudio",
+        "status": "PASS",
+        "duration_s": 1.3527336120605469,
+        "detail": "audio 3433755 bytes",
+        "artifacts": {
+          "file": "dQw4w9WgXcQ.webm",
+          "size": 3433755
+        }
+      },
+      {
+        "name": "format filter expression",
+        "status": "PASS",
+        "duration_s": 0.032007455825805664,
+        "detail": "format filter expression accepted (best[height<=480])",
+        "artifacts": {}
+      },
+      {
+        "name": "playlist info",
+        "status": "ERROR",
+        "duration_s": 1.1699142456054688,
+        "detail": "DownloadError: ERROR: [youtube] GvgqDSnpRQM: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+        "artifacts": {
+          "traceback": [
+            "  File \"/usr/local/lib/python3.10/dist-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble",
+            "    raise DownloadError(message, exc_info)",
+            "yt_dlp.utils.DownloadError: ERROR: [youtube] GvgqDSnpRQM: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          ]
+        }
+      },
+      {
+        "name": "dump-json output",
+        "status": "PASS",
+        "duration_s": 1.102715253829956,
+        "detail": "wrote 739277 bytes",
+        "artifacts": {
+          "bytes": 739277
+        }
+      },
+      {
+        "name": "SponsorBlock support",
+        "status": "PASS",
+        "duration_s": 6.4373016357421875e-06,
+        "detail": "SponsorBlockPP importable",
+        "artifacts": {}
+      },
+      {
+        "name": "plugin system",
+        "status": "PASS",
+        "duration_s": 9.5367431640625e-06,
+        "detail": "plugins module: yt_dlp.plugins",
+        "artifacts": {}
+      },
+      {
+        "name": "networking abstraction",
+        "status": "PASS",
+        "duration_s": 4.291534423828125e-06,
+        "detail": "networking module importable",
+        "artifacts": {}
+      },
+      {
+        "name": "write-info-json",
+        "status": "PASS",
+        "duration_s": 1.2177939414978027,
+        "detail": "1 info.json files",
+        "artifacts": {
+          "files": [
+            "dQw4w9WgXcQ.info.json"
+          ]
+        }
+      },
+      {
+        "name": "download manual subtitles (vtt)",
+        "status": "PASS",
+        "duration_s": 0.646172046661377,
+        "detail": "1 vtt files",
+        "artifacts": {
+          "files": [
+            "dQw4w9WgXcQ.en.vtt"
+          ]
+        }
+      },
+      {
+        "name": "CLI binary works",
+        "status": "PASS",
+        "duration_s": 0.1771552562713623,
+        "detail": "cli: 2026.08.19",
+        "artifacts": {}
+      },
+      {
+        "name": "CLI help extensive",
+        "status": "PASS",
+        "duration_s": 0.18355345726013184,
+        "detail": "help is 896 lines",
+        "artifacts": {
+          "lines": 896
+        }
+      },
+      {
+        "name": "channel/search info",
+        "status": "ERROR",
+        "duration_s": 1.48429536819458,
+        "detail": "DownloadError: ERROR: [youtube] NIk_0AW5hFU: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+        "artifacts": {
+          "traceback": [
+            "  File \"/usr/local/lib/python3.10/dist-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble",
+            "    raise DownloadError(message, exc_info)",
+            "yt_dlp.utils.DownloadError: ERROR: [youtube] NIk_0AW5hFU: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+          ]
+        }
+      },
+      {
+        "name": "postprocessor modules",
+        "status": "PASS",
+        "duration_s": 2.1696090698242188e-05,
+        "detail": "45 postprocessors",
+        "artifacts": {
+          "count": 45
+        }
+      }
+    ]
+  },
+  "youtube-transcript-api": {
+    "name": "youtube-transcript-api",
+    "tests_run": 9,
+    "pass": 9,
+    "fail": 0,
+    "error": 0,
+    "skip": 0,
+    "feature_score": "17/17",
+    "feature_pct": 100.0,
+    "results": [
+      {
+        "name": "list transcripts",
+        "status": "PASS",
+        "duration_s": 0.3194918632507324,
+        "detail": "6 languages",
+        "artifacts": {
+          "langs": [
+            "en",
+            "de-DE",
+            "ja",
+            "pt-BR",
+            "es-419",
+            "en"
+          ]
+        }
+      },
+      {
+        "name": "fetch transcript",
+        "status": "PASS",
+        "duration_s": 0.8658998012542725,
+        "detail": "61 cues from en",
+        "artifacts": {
+          "lang": "en",
+          "is_generated": false,
+          "n_cues": 61
+        }
+      },
+      {
+        "name": "translate transcript",
+        "status": "PASS",
+        "duration_s": 1.2564103603363037,
+        "detail": "translate method exists (fetch blocked: IpBlocked)",
+        "artifacts": {
+          "note": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=d"
+        }
+      },
+      {
+        "name": "5 formatters",
+        "status": "PASS",
+        "duration_s": 0.3595256805419922,
+        "detail": "all 5 formatters produced output",
+        "artifacts": {
+          "text": 2089,
+          "json": 5607,
+          "srt": 4154,
+          "vtt": 3988,
+          "pretty": 5168
+        }
+      },
+      {
+        "name": "CLI help",
+        "status": "PASS",
+        "duration_s": 0.1159982681274414,
+        "detail": "cli: usage: __main__.py [-h] [--version] [--list-transcripts]",
+        "artifacts": {}
+      },
+      {
+        "name": "error hierarchy",
+        "status": "PASS",
+        "duration_s": 7.176399230957031e-05,
+        "detail": "20 exception classes",
+        "artifacts": {
+          "classes": [
+            "AgeRestricted",
+            "CookieError",
+            "CookieInvalid",
+            "CookiePathInvalid",
+            "CouldNotRetrieveTranscript",
+            "FailedToCreateConsentCookie",
+            "HTTPError",
+            "InvalidVideoId",
+            "IpBlocked",
+            "NoTranscriptFound",
+            "NotTranslatable",
+            "PoTokenRequired",
+            "RequestBlocked",
+            "TranscriptsDisabled",
+            "TranslationLanguageNotAvailable",
+            "VideoUnavailable",
+            "VideoUnplayable",
+            "YouTubeDataUnparsable",
+            "YouTubeRequestFailed",
+            "YouTubeTranscriptApiException"
+          ]
+        }
+      },
+      {
+        "name": "py.typed (PEP 561)",
+        "status": "PASS",
+        "duration_s": 0.00012755393981933594,
+        "detail": "py.typed=True",
+        "artifacts": {}
+      },
+      {
+        "name": "CLI end-to-end",
+        "status": "PASS",
+        "duration_s": 1.145087480545044,
+        "detail": "stdout 5289 chars",
+        "artifacts": {
+          "first_line": "[[{'duration': 1.68, 'start': 1.36, 'text': '[\u266a\u266a\u266a]'},"
+        }
+      },
+      {
+        "name": "proxy support module",
+        "status": "PASS",
+        "duration_s": 1.3589859008789062e-05,
+        "detail": "proxies module importable",
+        "artifacts": {}
+      }
+    ]
+  },
+  "pytubefix": {
+    "name": "pytubefix",
+    "tests_run": 17,
+    "pass": 16,
+    "fail": 1,
+    "error": 0,
+    "skip": 0,
+    "feature_score": "29/31",
+    "feature_pct": 93.5,
+    "results": [
+      {
+        "name": "import & version",
+        "status": "PASS",
+        "duration_s": 2.86102294921875e-06,
+        "detail": "version 10.11.0",
+        "artifacts": {
+          "version": "10.11.0"
+        }
+      },
+      {
+        "name": "video metadata",
+        "status": "PASS",
+        "duration_s": 0.11884713172912598,
+        "detail": "title='Rick Astley - Never Gonna Give You Up (O'",
+        "artifacts": {
+          "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+          "author": "Rick Astley",
+          "length": 213,
+          "views": 1812007223,
+          "rating": null
+        }
+      },
+      {
+        "name": "stream filters",
+        "status": "PASS",
+        "duration_s": 0.12442851066589355,
+        "detail": "1 prog + 26 adapt + 4 audio",
+        "artifacts": {
+          "progressive": 1,
+          "adaptive": 26,
+          "audio_only": 4
+        }
+      },
+      {
+        "name": "filter by resolution",
+        "status": "PASS",
+        "duration_s": 0.1243126392364502,
+        "detail": "3 at 720p",
+        "artifacts": {
+          "n": 3
+        }
+      },
+      {
+        "name": "filter by itag",
+        "status": "PASS",
+        "duration_s": 0.14759492874145508,
+        "detail": "itag 18 -> 1 stream",
+        "artifacts": {
+          "itag": 18
+        }
+      },
+      {
+        "name": "download lowest resolution",
+        "status": "PASS",
+        "duration_s": 0.43575263023376465,
+        "detail": "downloaded Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster).mp4 (11829048 bytes)",
+        "artifacts": {
+          "size": 11829048
+        }
+      },
+      {
+        "name": "download audio only",
+        "status": "PASS",
+        "duration_s": 0.19568347930908203,
+        "detail": "audio Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster).m4a (3449447 bytes)",
+        "artifacts": {
+          "size": 3449447
+        }
+      },
+      {
+        "name": "captions listing",
+        "status": "PASS",
+        "duration_s": 0.4537935256958008,
+        "detail": "6 caption tracks",
+        "artifacts": {
+          "codes": [
+            "<Caption lang=\"English\" code=\"en\">",
+            "<Caption lang=\"English (auto-generated)\" code=\"a.en\">",
+            "<Caption lang=\"German (Germany)\" code=\"de-DE\">",
+            "<Caption lang=\"Japanese\" code=\"ja\">",
+            "<Caption lang=\"Portuguese (Brazil)\" code=\"pt-BR\">"
+          ]
+        }
+      },
+      {
+        "name": "thumbnail_url",
+        "status": "PASS",
+        "duration_s": 0.15989398956298828,
+        "detail": "thumb url present",
+        "artifacts": {
+          "thumb": "https://i.ytimg.com/vi/dQw4w9WgXcQ/sddefault.jpg"
+        }
+      },
+      {
+        "name": "Search contrib",
+        "status": "PASS",
+        "duration_s": 0.5604305267333984,
+        "detail": "search returned 14 videos",
+        "artifacts": {
+          "n": 14
+        }
+      },
+      {
+        "name": "Playlist contrib",
+        "status": "FAIL",
+        "duration_s": 0.11366057395935059,
+        "detail": "playlist failed: 'list'",
+        "artifacts": {}
+      },
+      {
+        "name": "Channel contrib",
+        "status": "PASS",
+        "duration_s": 0.2964000701904297,
+        "detail": "channel 'Veritasium'",
+        "artifacts": {
+          "name": "Veritasium"
+        }
+      },
+      {
+        "name": "Async API",
+        "status": "PASS",
+        "duration_s": 1.430511474609375e-05,
+        "detail": "AsyncYouTube class present",
+        "artifacts": {}
+      },
+      {
+        "name": "CLI help",
+        "status": "PASS",
+        "duration_s": 0.17287540435791016,
+        "detail": "cli rc=0",
+        "artifacts": {}
+      },
+      {
+        "name": "on_progress/on_complete callbacks",
+        "status": "PASS",
+        "duration_s": 0.296954870223999,
+        "detail": "on_complete fired 1 time(s)",
+        "artifacts": {
+          "on_progress": 2,
+          "on_complete": 1
+        }
+      },
+      {
+        "name": "caption XML access",
+        "status": "PASS",
+        "duration_s": 0.46764135360717773,
+        "detail": "xml_captions present for en",
+        "artifacts": {
+          "code": "en"
+        }
+      },
+      {
+        "name": "Chapter class",
+        "status": "PASS",
+        "duration_s": 1.1920928955078125e-05,
+        "detail": "Chapter class importable",
+        "artifacts": {}
+      }
+    ]
+  },
+  "YouTube.js": {
+    "name": "YouTube.js (TypeScript)",
+    "tests_run": 10,
+    "pass": 9,
+    "fail": 1,
+    "error": 0,
+    "skip": 0,
+    "feature_score": "14/16",
+    "feature_pct": 87.5,
+    "results": [
+      {
+        "name": "npm install youtubei.js",
+        "status": "PASS",
+        "duration_s": 1.2487285137176514,
+        "detail": "install rc=0, dir=True",
+        "artifacts": {}
+      },
+      {
+        "name": "version",
+        "status": "PASS",
+        "duration_s": 0.00016880035400390625,
+        "detail": "version 18.0.0",
+        "artifacts": {
+          "version": "18.0.0"
+        }
+      },
+      {
+        "name": "TS .d.ts present",
+        "status": "PASS",
+        "duration_s": 0.00044155120849609375,
+        "detail": "type defs found",
+        "artifacts": {}
+      },
+      {
+        "name": "ESM/CJS export configuration",
+        "status": "PASS",
+        "duration_s": 8.440017700195312e-05,
+        "detail": "exports: ['.', './package.json', './agnostic', './web', './react-native', './web.bundle', './cf-worker']",
+        "artifacts": {
+          "main": null,
+          "module": null,
+          "types": "./dist/src/platform/lib.d.ts"
+        }
+      },
+      {
+        "name": "Innertube class accessible",
+        "status": "PASS",
+        "duration_s": 0.3085000514984131,
+        "detail": "{\"count\":46,\"innertube\":\"Innertube\",\"sample\":[\"Actions\",\"AppendContinuationItemsAction\",\"BinarySerializer\",\"ClientType\",\"Clients\",\"Constants\",\"Continuation\",\"ContinuationCommand\",\"EventEmitter\",\"FormatUtils\",\"Generator\",\"GridContinuation\",\"HTTPClient\",\"Helpers\",\"Innertube\",\"ItemSectionContinuation\",\"JsAnalyzer\",\"JsExtractor\",\"JsHelpers\",\"JsMatchers\"]}",
+        "artifacts": {
+          "stderr": ""
+        }
+      },
+      {
+        "name": "export count >= 10",
+        "status": "PASS",
+        "duration_s": 0.30248355865478516,
+        "detail": "46 exports",
+        "artifacts": {
+          "names": [
+            "Actions",
+            "AppendContinuationItemsAction",
+            "BinarySerializer",
+            "ClientType",
+            "Clients",
+            "Constants",
+            "Continuation",
+            "ContinuationCommand",
+            "EventEmitter",
+            "FormatUtils",
+            "Generator",
+            "GridContinuation",
+            "HTTPClient",
+            "Helpers",
+            "Innertube",
+            "ItemSectionContinuation",
+            "JsAnalyzer",
+            "JsExtractor",
+            "JsHelpers",
+            "JsMatchers",
+            "LiveChatContinuation",
+            "Log",
+            "Managers",
+            "Misc",
+            "Mixins",
+            "MusicPlaylistShelfContinuation",
+            "MusicShelfContinuation",
+            "NavigateAction",
+            "OAuth2",
+            "Parser"
+          ]
+        }
+      },
+      {
+        "name": "README documents features",
+        "status": "FAIL",
+        "duration_s": 0.00014638900756835938,
+        "detail": "README mentions 1/12 features",
+        "artifacts": {
+          "found": [
+            "innertube"
+          ]
+        }
+      },
+      {
+        "name": "has test files",
+        "status": "PASS",
+        "duration_s": 0.0002598762512207031,
+        "detail": "1 test files",
+        "artifacts": {
+          "files": [
+            "main.test.ts"
+          ]
+        }
+      },
+      {
+        "name": "ESLint configured",
+        "status": "PASS",
+        "duration_s": 1.811981201171875e-05,
+        "detail": "eslint config=True",
+        "artifacts": {}
+      },
+      {
+        "name": "GitHub Actions workflows",
+        "status": "PASS",
+        "duration_s": 0.0002579689025878906,
+        "detail": "5 CI workflows",
+        "artifacts": {
+          "files": [
+            "labeler.yml",
+            "lint.yml",
+            "test.yml",
+            "stale.yml",
+            "release-please.yml"
+          ]
+        }
+      }
+    ]
+  },
+  "yt-dlp-mcp": {
+    "name": "yt-dlp-mcp",
+    "tests_run": 10,
+    "pass": 7,
+    "fail": 3,
+    "error": 0,
+    "skip": 0,
+    "feature_score": "12/17",
+    "feature_pct": 70.6,
+    "results": [
+      {
+        "name": "npm install",
+        "status": "PASS",
+        "duration_s": 2.1393375396728516,
+        "detail": "install rc=0",
+        "artifacts": {
+          "stderr_tail": ""
+        }
+      },
+      {
+        "name": "TypeScript typecheck",
+        "status": "PASS",
+        "duration_s": 6.515411376953125,
+        "detail": "tsc rc=0, errors=0",
+        "artifacts": {
+          "stderr_tail": ""
+        }
+      },
+      {
+        "name": "npm run build",
+        "status": "FAIL",
+        "duration_s": 0.0001571178436279297,
+        "detail": "no build script",
+        "artifacts": {}
+      },
+      {
+        "name": "npm run lint",
+        "status": "FAIL",
+        "duration_s": 3.719329833984375e-05,
+        "detail": "no lint script",
+        "artifacts": {}
+      },
+      {
+        "name": ">= 5 MCP tools defined",
+        "status": "PASS",
+        "duration_s": 0.002053499221801758,
+        "detail": "10 tool names",
+        "artifacts": {
+          "names": [
+            "ytdlp_download_audio",
+            "ytdlp_download_transcript",
+            "ytdlp_download_video",
+            "ytdlp_download_video_subtitles",
+            "ytdlp_get_video_comments",
+            "ytdlp_get_video_comments_summary",
+            "ytdlp_get_video_metadata",
+            "ytdlp_get_video_metadata_summary",
+            "ytdlp_list_subtitle_languages",
+            "ytdlp_search_videos"
+          ]
+        }
+      },
+      {
+        "name": "npm test",
+        "status": "FAIL",
+        "duration_s": 26.013083457946777,
+        "detail": "tests rc=1",
+        "artifacts": {
+          "tail": ""
+        }
+      },
+      {
+        "name": "docs/ directory",
+        "status": "PASS",
+        "duration_s": 0.0003380775451660156,
+        "detail": "6 doc files",
+        "artifacts": {
+          "files": [
+            "contributing.md",
+            "configuration.md",
+            "cookies.md",
+            "error-handling.md",
+            "search-feature-demo.md"
+          ]
+        }
+      },
+      {
+        "name": "CLAUDE.md present",
+        "status": "PASS",
+        "duration_s": 2.002716064453125e-05,
+        "detail": "CLAUDE.md present",
+        "artifacts": {}
+      },
+      {
+        "name": "README install/usage sections",
+        "status": "PASS",
+        "duration_s": 0.00038552284240722656,
+        "detail": "README mentions 5/5 sections",
+        "artifacts": {
+          "found": [
+            "install",
+            "usage",
+            "yt-dlp",
+            "MCP",
+            "claude"
+          ]
+        }
+      },
+      {
+        "name": "CHANGELOG.md",
+        "status": "PASS",
+        "duration_s": 2.574920654296875e-05,
+        "detail": "CHANGELOG.md present",
+        "artifacts": {}
+      }
+    ]
+  },
+  "youtube-mcp-server": {
+    "name": "youtube-mcp-server",
+    "tests_run": 10,
+    "pass": 9,
+    "fail": 1,
+    "error": 0,
+    "skip": 0,
+    "feature_score": "18/19",
+    "feature_pct": 94.7,
+    "results": [
+      {
+        "name": "install mcp package",
+        "status": "PASS",
+        "duration_s": 0.21174097061157227,
+        "detail": "FastMCP available",
+        "artifacts": {}
+      },
+      {
+        "name": "import server.py",
+        "status": "PASS",
+        "duration_s": 0.003300189971923828,
+        "detail": "server module loaded",
+        "artifacts": {
+          "file": "/workspace/3d57b72e-f0e8-47c9-9767-93096beb666b/sessions/agent_4a9da631-194d-48fc-bcd7-224ce776ca3e/repos/youtube-mcp-server/server.py"
+        }
+      },
+      {
+        "name": "FastMCP available",
+        "status": "PASS",
+        "duration_s": 2.384185791015625e-06,
+        "detail": "FastMCP class importable",
+        "artifacts": {}
+      },
+      {
+        "name": ">=1 MCP tool defined",
+        "status": "PASS",
+        "duration_s": 5.817413330078125e-05,
+        "detail": "found 2 tool(s)",
+        "artifacts": {
+          "tools": [
+            "get_transcript",
+            "get_video_info"
+          ]
+        }
+      },
+      {
+        "name": "get_video_info live call",
+        "status": "PASS",
+        "duration_s": 1.0551533699035645,
+        "detail": "title='Rick Astley - Never Gonna Give You Up (O'",
+        "artifacts": {
+          "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+          "channel": "Rick Astley",
+          "duration": "3:33",
+          "view_count": 1812007223
+        }
+      },
+      {
+        "name": "get_transcript live call",
+        "status": "PASS",
+        "duration_s": 0.656261682510376,
+        "detail": "transcript 2181 chars",
+        "artifacts": {
+          "preview": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster) \u2014 Rick Astley (3:33)\n[\u266a\u266a\u266a] \u266a We're no strangers to "
+        }
+      },
+      {
+        "name": "LICENSE file present",
+        "status": "FAIL",
+        "duration_s": 8.225440979003906e-05,
+        "detail": "LICENSE exists=False",
+        "artifacts": {}
+      },
+      {
+        "name": "README install/usage",
+        "status": "PASS",
+        "duration_s": 0.00011324882507324219,
+        "detail": "README mentions 4/5 sections",
+        "artifacts": {
+          "found": [
+            "install",
+            "mcp",
+            "yt-dlp",
+            "claude"
+          ]
+        }
+      },
+      {
+        "name": "server.py size",
+        "status": "PASS",
+        "duration_s": 7.081031799316406e-05,
+        "detail": "server.py is 197 lines",
+        "artifacts": {
+          "lines": 197
+        }
+      },
+      {
+        "name": "dependency manifest",
+        "status": "PASS",
+        "duration_s": 5.316734313964844e-05,
+        "detail": "dep file exists",
+        "artifacts": {}
+      }
+    ]
+  },
+  "duration_s": 58.9
+}
