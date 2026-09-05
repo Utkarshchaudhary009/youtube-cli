@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/3d57b72e-f0e8-47c9-9767-93096beb666b/sessions/agent_4a9da631-194d-48fc-bcd7-224ce776ca3e/repos/eval_multi_service.py", line 33, in <module>
+    from eval_stealth import classify_text, classify_error
+  File "/workspace/3d57b72e-f0e8-47c9-9767-93096beb666b/sessions/agent_4a9da631-194d-48fc-bcd7-224ce776ca3e/repos/eval_stealth.py", line 82, in <module>
+    import yt_dlp as _ytdlp
+ModuleNotFoundError: No module named 'yt_dlp'
