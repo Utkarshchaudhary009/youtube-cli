@@ -1,0 +1,21 @@
+================================================================================
+Per-library breakdown (reclassified):
+================================================================================
+Library                        OK  NoCap  Rate  Priv  Net  Err  Score   Grade
+--------------------------------------------------------------------------------
+youtube-transcript-api          1      2    23     1    0   36    2.7%  F  failing
+pytubefix                       1     58     0     0    4    0  100.0%  A+ excellent
+yt-dlp                          1      0    24    38    0    0  100.0%  A+ excellent
+youtube-mcp-server              1      0    24    38    0    0  100.0%  A+ excellent
+================================================================================
+
+Total attempts: 252
+Unique videos: 63
+
+Cross-library verdict per video (most informative status wins):
+  ERROR     38  (60%)
+  RATE      23  (37%)
+  OK         1  (2%)
+  PRIVATE    1  (2%)
+
+Videos that succeeded per library: {'youtube-transcript-api': 1, 'pytubefix': 1, 'yt-dlp': 1, 'youtube-mcp-server': 1}

@@ -1,0 +1,3979 @@
+{
+  "started": "2026-09-05T07:37:16Z",
+  "duration_s": 335.3,
+  "n_videos": 63,
+  "libraries": [
+    "youtube-transcript-api",
+    "pytubefix",
+    "yt-dlp",
+    "youtube-mcp-server"
+  ],
+  "library_stats": {
+    "youtube-transcript-api": {
+      "ok": 1,
+      "empty": 0,
+      "error": 38,
+      "rate": 23,
+      "private": 1,
+      "network": 0,
+      "total_chars": 2089,
+      "total_s": 44.83,
+      "first_ok_at": "dQw4w9WgXcQ",
+      "score_friendly": 2.6,
+      "total": 63,
+      "avg_chars": 2089
+    },
+    "pytubefix": {
+      "ok": 1,
+      "empty": 58,
+      "error": 0,
+      "rate": 0,
+      "private": 0,
+      "network": 4,
+      "total_chars": 4555,
+      "total_s": 71.01999999999998,
+      "first_ok_at": "dQw4w9WgXcQ",
+      "score_friendly": 1.7,
+      "total": 63,
+      "avg_chars": 4555
+    },
+    "yt-dlp": {
+      "ok": 1,
+      "empty": 0,
+      "error": 0,
+      "rate": 24,
+      "private": 38,
+      "network": 0,
+      "total_chars": 8079,
+      "total_s": 55.559999999999995,
+      "first_ok_at": "dQw4w9WgXcQ",
+      "score_friendly": 100.0,
+      "total": 63,
+      "avg_chars": 8079
+    },
+    "youtube-mcp-server": {
+      "ok": 1,
+      "empty": 0,
+      "error": 0,
+      "rate": 24,
+      "private": 38,
+      "network": 0,
+      "total_chars": 2181,
+      "total_s": 62.90000000000001,
+      "first_ok_at": "dQw4w9WgXcQ",
+      "score_friendly": 100.0,
+      "total": 63,
+      "avg_chars": 2181
+    }
+  },
+  "per_video": {
+    "dQw4w9WgXcQ": {
+      "youtube-transcript-api": {
+        "status": "OK",
+        "reason": "looks like real transcript",
+        "text_len": 2089,
+        "duration_s": 0.54
+      },
+      "pytubefix": {
+        "status": "OK",
+        "reason": "looks like real transcript",
+        "text_len": 4555,
+        "duration_s": 6.21
+      },
+      "yt-dlp": {
+        "status": "OK",
+        "reason": "looks like real transcript",
+        "text_len": 8079,
+        "duration_s": 1.93
+      },
+      "youtube-mcp-server": {
+        "status": "OK",
+        "reason": "looks like real transcript",
+        "text_len": 2181,
+        "duration_s": 1.52
+      }
+    },
+    "jNQXAC9IVRw": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.71
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.85
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.93
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.92
+      }
+    },
+    "fJ9rUzIMcZQ": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.93
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 1.02
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.92
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.83
+      }
+    },
+    "9bZkp7q19f0": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 1.16
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.93
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.11
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.08
+      }
+    },
+    "kJQP7kiw5Fk": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.76
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.85
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.15
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.04
+      }
+    },
+    "JGwWNGJdvx8": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.94
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 1.01
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.21
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.92
+      }
+    },
+    "RgKAFK5djSk": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.42
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 1.03
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.02
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.5
+      }
+    },
+    "OPf0YbXqDm0": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.97
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 1.18
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.02
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.06
+      }
+    },
+    "CevxZvSJLk8": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 1.08
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.95
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 10.25
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.05
+      }
+    },
+    "YQHsXMglC9A": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 1.19
+      },
+      "pytubefix": {
+        "status": "NETWORK",
+        "reason": "SSL/connection error",
+        "text_len": 0,
+        "duration_s": 10.46
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.91
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.98
+      }
+    },
+    "hT_nvWreIhg": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 1.05
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.8
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.04
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.82
+      }
+    },
+    "C_duEE4X0EI": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.23
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.38
+      }
+    },
+    "ymNFyx6Ip1Q": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.26
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.21
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      }
+    },
+    "uelHwf8o7_U": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 1.08
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.83
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.05
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.01
+      }
+    },
+    "fKopy74FusU": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.33
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.33
+      }
+    },
+    "hLQl3WQQoQ0": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.98
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.88
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.91
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.12
+      }
+    },
+    "i62sjv-C1zU": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.32
+      }
+    },
+    "MYSVMgM6CKk": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.23
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      }
+    },
+    "F-aB4ohNyaY": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.23
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.27
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.32
+      }
+    },
+    "8jPQjjsBbIc": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.7
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.76
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.72
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.82
+      }
+    },
+    "UF8uR6Z6KLc": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.82
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 1.06
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.69
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.03
+      }
+    },
+    "ltg6B3wvg0k": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.31
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      }
+    },
+    "cwKwtox0HS8": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.26
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.33
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 8.67
+      }
+    },
+    "Unzc731iCmY": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.28
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.23
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.32
+      }
+    },
+    "pX7FFaEvrcs": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.28
+      },
+      "pytubefix": {
+        "status": "NETWORK",
+        "reason": "SSL/connection error",
+        "text_len": 0,
+        "duration_s": 9.17
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      }
+    },
+    "Ks-_M_r1kf0": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.23
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      }
+    },
+    "hVFRKo7tzlE": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.21
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.74
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.27
+      }
+    },
+    "RxgXc3VRNAM": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      }
+    },
+    "iONDebHX9qk": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.82
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.82
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.9
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.03
+      }
+    },
+    "rrkrvAUbU9Y": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.86
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.97
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.98
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 7.78
+      }
+    },
+    "VC_nIO08zxA": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.21
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.35
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.28
+      }
+    },
+    "qp0HIF3SfI4": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.73
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.95
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.75
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.78
+      }
+    },
+    "lOKEsJoiXX4": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 9.22
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.33
+      }
+    },
+    "iCvmsMzlF7o": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.92
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.92
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.91
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.94
+      }
+    },
+    "Yq6QyTGUjbU": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.26
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.28
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      }
+    },
+    "x2mH4EzlDAY": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.23
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.21
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.27
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.34
+      }
+    },
+    "GiFOMYpCBkY": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.32
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.38
+      }
+    },
+    "NyhelCCbgyk": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.27
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.32
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.32
+      }
+    },
+    "9dGT2zppHFg": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 6.58
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      }
+    },
+    "CFRnumU8y7Y": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.26
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.4
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.34
+      }
+    },
+    "zSgiXGELjbc": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.91
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.83
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.92
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.01
+      }
+    },
+    "5pGNxA1SGfY": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.33
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      }
+    },
+    "WUvTyaaNkzM": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.88
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.92
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.91
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.85
+      }
+    },
+    "ltLUd5tMBl4": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      }
+    },
+    "wupToqz1e2g": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.79
+      },
+      "pytubefix": {
+        "status": "NETWORK",
+        "reason": "SSL/connection error",
+        "text_len": 0,
+        "duration_s": 8.26
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.78
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.14
+      }
+    },
+    "HluANRwPyNo": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 7.08
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.81
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.82
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.82
+      }
+    },
+    "N8sblAmBp-Y": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.32
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 6.08
+      }
+    },
+    "y6120QOlsfU": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.91
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.78
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.12
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 1.02
+      }
+    },
+    "tNkZsRW7h2c": {
+      "youtube-transcript-api": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.9
+      },
+      "pytubefix": {
+        "status": "NETWORK",
+        "reason": "SSL/connection error",
+        "text_len": 0,
+        "duration_s": 8.38
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.9
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.86
+      }
+    },
+    "iYriJrvZNhM": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      }
+    },
+    "SRGptyFNURI": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.28
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.23
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.36
+      }
+    },
+    "1SLp42B8qFQ": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.27
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.21
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.4
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 5.71
+      }
+    },
+    "iFpzy4FM2iw": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.26
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.21
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      }
+    },
+    "e2dlUv9sUVI": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.26
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.32
+      }
+    },
+    "a3Z7zEc7AXQ": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      }
+    },
+    "6stlCkUDG_s": {
+      "youtube-transcript-api": {
+        "status": "RATE",
+        "reason": "rate limit",
+        "text_len": 0,
+        "duration_s": 0.87
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 1.02
+      },
+      "yt-dlp": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.81
+      },
+      "youtube-mcp-server": {
+        "status": "RATE",
+        "reason": "bot sign-in required",
+        "text_len": 0,
+        "duration_s": 0.93
+      }
+    },
+    "k5G8EAvt40w": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      }
+    },
+    "z0G3DK8OKQU": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.26
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      }
+    },
+    "DtKjV1c2K-g": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.28
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.27
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      }
+    },
+    "An6LvWTSs_E": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.29
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.43
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.29
+      }
+    },
+    "LlY70suN3Qg": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.24
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.3
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.33
+      }
+    },
+    "EKqdwUMWTYY": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.27
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.22
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.31
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.28
+      }
+    },
+    "BHACKCNvPXI": {
+      "youtube-transcript-api": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.25
+      },
+      "pytubefix": {
+        "status": "EMPTY",
+        "reason": "empty string",
+        "text_len": 0,
+        "duration_s": 0.23
+      },
+      "yt-dlp": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.34
+      },
+      "youtube-mcp-server": {
+        "status": "PRIVATE",
+        "reason": "video unavailable/private",
+        "text_len": 0,
+        "duration_s": 0.32
+      }
+    }
+  },
+  "attempts": [
+    {
+      "video_id": "dQw4w9WgXcQ",
+      "library": "youtube-transcript-api",
+      "status": "OK",
+      "duration_s": 0.54,
+      "text_len": 2089,
+      "preview": "[\u266a\u266a\u266a] \u266a We're no strangers to love \u266a \u266a You know the rules and so do I \u266a \u266a A full commitment's what I'm thinking of \u266a \u266a Y",
+      "error": ""
+    },
+    {
+      "video_id": "dQw4w9WgXcQ",
+      "library": "pytubefix",
+      "status": "OK",
+      "duration_s": 6.21,
+      "text_len": 4555,
+      "preview": "<?xml version=\"1.0\" encoding=\"utf-8\" ?><transcript><text start=\"1.36\" dur=\"1.68\">[\u266a\u266a\u266a]</text><text start=\"18.64\" dur=\"3.",
+      "error": ""
+    },
+    {
+      "video_id": "dQw4w9WgXcQ",
+      "library": "yt-dlp",
+      "status": "OK",
+      "duration_s": 1.93,
+      "text_len": 8079,
+      "preview": "{   \"wireMagic\": \"pb3\",   \"pens\": [ {      } ],   \"wsWinStyles\": [ {      } ],   \"wpWinPositions\": [ {      } ],   \"even",
+      "error": ""
+    },
+    {
+      "video_id": "dQw4w9WgXcQ",
+      "library": "youtube-mcp-server",
+      "status": "OK",
+      "duration_s": 1.52,
+      "text_len": 2181,
+      "preview": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster) \u2014 Rick Astley (3:33) [\u266a\u266a\u266a] \u266a We're no strangers to ",
+      "error": ""
+    },
+    {
+      "video_id": "jNQXAC9IVRw",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.71,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=jNQXAC9IVRw! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "jNQXAC9IVRw",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.85,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "jNQXAC9IVRw",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.93,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] jNQXAC9IVRw: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "jNQXAC9IVRw",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.92,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] jNQXAC9IVRw: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "fJ9rUzIMcZQ",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.93,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=fJ9rUzIMcZQ! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "fJ9rUzIMcZQ",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 1.02,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "fJ9rUzIMcZQ",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.92,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] fJ9rUzIMcZQ: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "fJ9rUzIMcZQ",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.83,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] fJ9rUzIMcZQ: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "9bZkp7q19f0",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 1.16,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=9bZkp7q19f0! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "9bZkp7q19f0",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.93,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "9bZkp7q19f0",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 1.11,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 9bZkp7q19f0: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "9bZkp7q19f0",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.08,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 9bZkp7q19f0: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "kJQP7kiw5Fk",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.76,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=kJQP7kiw5Fk! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "kJQP7kiw5Fk",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.85,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "kJQP7kiw5Fk",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 1.15,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] kJQP7kiw5Fk: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "kJQP7kiw5Fk",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.04,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] kJQP7kiw5Fk: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "JGwWNGJdvx8",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.94,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=JGwWNGJdvx8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "JGwWNGJdvx8",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 1.01,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "JGwWNGJdvx8",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 1.21,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] JGwWNGJdvx8: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "JGwWNGJdvx8",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.92,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] JGwWNGJdvx8: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "RgKAFK5djSk",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.42,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=RgKAFK5djSk! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "RgKAFK5djSk",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 1.03,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "RgKAFK5djSk",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 1.02,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] RgKAFK5djSk: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "RgKAFK5djSk",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.5,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] RgKAFK5djSk: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "OPf0YbXqDm0",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.97,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=OPf0YbXqDm0! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "OPf0YbXqDm0",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 1.18,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "OPf0YbXqDm0",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 1.02,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] OPf0YbXqDm0: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "OPf0YbXqDm0",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.06,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] OPf0YbXqDm0: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "CevxZvSJLk8",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 1.08,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=CevxZvSJLk8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "CevxZvSJLk8",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.95,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "CevxZvSJLk8",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 10.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] CevxZvSJLk8: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "CevxZvSJLk8",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.05,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] CevxZvSJLk8: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "YQHsXMglC9A",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 1.19,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=YQHsXMglC9A! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "YQHsXMglC9A",
+      "library": "pytubefix",
+      "status": "NETWORK",
+      "duration_s": 10.46,
+      "text_len": 0,
+      "preview": "",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "YQHsXMglC9A",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.91,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] YQHsXMglC9A: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "YQHsXMglC9A",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.98,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] YQHsXMglC9A: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "hT_nvWreIhg",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 1.05,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=hT_nvWreIhg! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "hT_nvWreIhg",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.8,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "hT_nvWreIhg",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 1.04,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] hT_nvWreIhg: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "hT_nvWreIhg",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.82,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] hT_nvWreIhg: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "C_duEE4X0EI",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=C_duEE4X0EI! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "C_duEE4X0EI",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.23,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "C_duEE4X0EI",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] C_duEE4X0EI: This video is unavailable"
+    },
+    {
+      "video_id": "C_duEE4X0EI",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.38,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] C_duEE4X0EI: This video is unavailable"
+    },
+    {
+      "video_id": "ymNFyx6Ip1Q",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.26,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=ymNFyx6Ip1Q! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "ymNFyx6Ip1Q",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.21,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "ymNFyx6Ip1Q",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] ymNFyx6Ip1Q: This video is unavailable"
+    },
+    {
+      "video_id": "ymNFyx6Ip1Q",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] ymNFyx6Ip1Q: This video is unavailable"
+    },
+    {
+      "video_id": "uelHwf8o7_U",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 1.08,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=uelHwf8o7_U! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "uelHwf8o7_U",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.83,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "uelHwf8o7_U",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 1.05,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] uelHwf8o7_U: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "uelHwf8o7_U",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.01,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] uelHwf8o7_U: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "fKopy74FusU",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=fKopy74FusU! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "fKopy74FusU",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "fKopy74FusU",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.33,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] fKopy74FusU: This video is unavailable"
+    },
+    {
+      "video_id": "fKopy74FusU",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.33,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] fKopy74FusU: This video is unavailable"
+    },
+    {
+      "video_id": "hLQl3WQQoQ0",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.98,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=hLQl3WQQoQ0! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "hLQl3WQQoQ0",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.88,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "hLQl3WQQoQ0",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.91,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] hLQl3WQQoQ0: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "hLQl3WQQoQ0",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.12,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] hLQl3WQQoQ0: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "i62sjv-C1zU",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=i62sjv-C1zU! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "i62sjv-C1zU",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "i62sjv-C1zU",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] i62sjv-C1zU: This video is unavailable"
+    },
+    {
+      "video_id": "i62sjv-C1zU",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.32,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] i62sjv-C1zU: This video is unavailable"
+    },
+    {
+      "video_id": "MYSVMgM6CKk",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=MYSVMgM6CKk! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "MYSVMgM6CKk",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.23,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "MYSVMgM6CKk",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] MYSVMgM6CKk: This video is unavailable"
+    },
+    {
+      "video_id": "MYSVMgM6CKk",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] MYSVMgM6CKk: This video is unavailable"
+    },
+    {
+      "video_id": "F-aB4ohNyaY",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=F-aB4ohNyaY! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "F-aB4ohNyaY",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.23,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "F-aB4ohNyaY",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.27,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] F-aB4ohNyaY: This video is unavailable"
+    },
+    {
+      "video_id": "F-aB4ohNyaY",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.32,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] F-aB4ohNyaY: This video is unavailable"
+    },
+    {
+      "video_id": "8jPQjjsBbIc",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.7,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=8jPQjjsBbIc! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "8jPQjjsBbIc",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.76,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "8jPQjjsBbIc",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.72,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 8jPQjjsBbIc: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "8jPQjjsBbIc",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.82,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 8jPQjjsBbIc: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "UF8uR6Z6KLc",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.82,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=UF8uR6Z6KLc! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "UF8uR6Z6KLc",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 1.06,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "UF8uR6Z6KLc",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.69,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] UF8uR6Z6KLc: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "UF8uR6Z6KLc",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.03,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] UF8uR6Z6KLc: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "ltg6B3wvg0k",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=ltg6B3wvg0k! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "ltg6B3wvg0k",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "ltg6B3wvg0k",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] ltg6B3wvg0k: This video is unavailable"
+    },
+    {
+      "video_id": "ltg6B3wvg0k",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] ltg6B3wvg0k: This video is unavailable"
+    },
+    {
+      "video_id": "cwKwtox0HS8",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.26,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=cwKwtox0HS8! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "cwKwtox0HS8",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "cwKwtox0HS8",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.33,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] cwKwtox0HS8: This video is unavailable"
+    },
+    {
+      "video_id": "cwKwtox0HS8",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 8.67,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] cwKwtox0HS8: This video is unavailable"
+    },
+    {
+      "video_id": "Unzc731iCmY",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.28,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Unzc731iCmY! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "Unzc731iCmY",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.23,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "Unzc731iCmY",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] Unzc731iCmY: This video is unavailable"
+    },
+    {
+      "video_id": "Unzc731iCmY",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.32,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] Unzc731iCmY: This video is unavailable"
+    },
+    {
+      "video_id": "pX7FFaEvrcs",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.28,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=pX7FFaEvrcs! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "pX7FFaEvrcs",
+      "library": "pytubefix",
+      "status": "NETWORK",
+      "duration_s": 9.17,
+      "text_len": 0,
+      "preview": "",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "pX7FFaEvrcs",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] pX7FFaEvrcs: This video is unavailable"
+    },
+    {
+      "video_id": "pX7FFaEvrcs",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] pX7FFaEvrcs: This video is unavailable"
+    },
+    {
+      "video_id": "Ks-_M_r1kf0",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.23,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Ks-_M_r1kf0! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "Ks-_M_r1kf0",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "Ks-_M_r1kf0",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] Ks-_M_r1kf0: This video is unavailable"
+    },
+    {
+      "video_id": "Ks-_M_r1kf0",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] Ks-_M_r1kf0: This video is unavailable"
+    },
+    {
+      "video_id": "hVFRKo7tzlE",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=hVFRKo7tzlE! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "hVFRKo7tzlE",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.21,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "hVFRKo7tzlE",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.74,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] hVFRKo7tzlE: This video is unavailable"
+    },
+    {
+      "video_id": "hVFRKo7tzlE",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.27,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] hVFRKo7tzlE: This video is unavailable"
+    },
+    {
+      "video_id": "RxgXc3VRNAM",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=RxgXc3VRNAM! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "RxgXc3VRNAM",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "RxgXc3VRNAM",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] RxgXc3VRNAM: This video is unavailable"
+    },
+    {
+      "video_id": "RxgXc3VRNAM",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] RxgXc3VRNAM: This video is unavailable"
+    },
+    {
+      "video_id": "iONDebHX9qk",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.82,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=iONDebHX9qk! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "iONDebHX9qk",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.82,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "iONDebHX9qk",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.9,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] iONDebHX9qk: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "iONDebHX9qk",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.03,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] iONDebHX9qk: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "rrkrvAUbU9Y",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.86,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=rrkrvAUbU9Y! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "rrkrvAUbU9Y",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.97,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "rrkrvAUbU9Y",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.98,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] rrkrvAUbU9Y: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "rrkrvAUbU9Y",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 7.78,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] rrkrvAUbU9Y: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "VC_nIO08zxA",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=VC_nIO08zxA! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "VC_nIO08zxA",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.21,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "VC_nIO08zxA",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.35,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] VC_nIO08zxA: This video is unavailable"
+    },
+    {
+      "video_id": "VC_nIO08zxA",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.28,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] VC_nIO08zxA: This video is unavailable"
+    },
+    {
+      "video_id": "qp0HIF3SfI4",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.73,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=qp0HIF3SfI4! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "qp0HIF3SfI4",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.95,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "qp0HIF3SfI4",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.75,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] qp0HIF3SfI4: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "qp0HIF3SfI4",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.78,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] qp0HIF3SfI4: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "lOKEsJoiXX4",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=lOKEsJoiXX4! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "lOKEsJoiXX4",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "lOKEsJoiXX4",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 9.22,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] lOKEsJoiXX4: This video is unavailable"
+    },
+    {
+      "video_id": "lOKEsJoiXX4",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.33,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] lOKEsJoiXX4: This video is unavailable"
+    },
+    {
+      "video_id": "iCvmsMzlF7o",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.92,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=iCvmsMzlF7o! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "iCvmsMzlF7o",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.92,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "iCvmsMzlF7o",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.91,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] iCvmsMzlF7o: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "iCvmsMzlF7o",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.94,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] iCvmsMzlF7o: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "Yq6QyTGUjbU",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.26,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=Yq6QyTGUjbU! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "Yq6QyTGUjbU",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "Yq6QyTGUjbU",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.28,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] Yq6QyTGUjbU: This video is unavailable"
+    },
+    {
+      "video_id": "Yq6QyTGUjbU",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] Yq6QyTGUjbU: This video is unavailable"
+    },
+    {
+      "video_id": "x2mH4EzlDAY",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.23,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=x2mH4EzlDAY! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "x2mH4EzlDAY",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.21,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "x2mH4EzlDAY",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.27,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] x2mH4EzlDAY: This video is unavailable"
+    },
+    {
+      "video_id": "x2mH4EzlDAY",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.34,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] x2mH4EzlDAY: This video is unavailable"
+    },
+    {
+      "video_id": "GiFOMYpCBkY",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=GiFOMYpCBkY! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "GiFOMYpCBkY",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.32,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "GiFOMYpCBkY",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] GiFOMYpCBkY: This video is unavailable"
+    },
+    {
+      "video_id": "GiFOMYpCBkY",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.38,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] GiFOMYpCBkY: This video is unavailable"
+    },
+    {
+      "video_id": "NyhelCCbgyk",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.27,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=NyhelCCbgyk! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "NyhelCCbgyk",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.32,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "NyhelCCbgyk",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] NyhelCCbgyk: This video is unavailable"
+    },
+    {
+      "video_id": "NyhelCCbgyk",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.32,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] NyhelCCbgyk: This video is unavailable"
+    },
+    {
+      "video_id": "9dGT2zppHFg",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 6.58,
+      "text_len": 0,
+      "preview": "",
+      "error": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=9dGT2zppHFg! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden"
+    },
+    {
+      "video_id": "9dGT2zppHFg",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "9dGT2zppHFg",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 9dGT2zppHFg: This video is unavailable"
+    },
+    {
+      "video_id": "9dGT2zppHFg",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 9dGT2zppHFg: This video is unavailable"
+    },
+    {
+      "video_id": "CFRnumU8y7Y",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.26,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=CFRnumU8y7Y! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "CFRnumU8y7Y",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "CFRnumU8y7Y",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.4,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] CFRnumU8y7Y: This video is unavailable"
+    },
+    {
+      "video_id": "CFRnumU8y7Y",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.34,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] CFRnumU8y7Y: This video is unavailable"
+    },
+    {
+      "video_id": "zSgiXGELjbc",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.91,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=zSgiXGELjbc! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "zSgiXGELjbc",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.83,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "zSgiXGELjbc",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.92,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] zSgiXGELjbc: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "zSgiXGELjbc",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.01,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] zSgiXGELjbc: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "5pGNxA1SGfY",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=5pGNxA1SGfY! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "5pGNxA1SGfY",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "5pGNxA1SGfY",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.33,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 5pGNxA1SGfY: This video is unavailable"
+    },
+    {
+      "video_id": "5pGNxA1SGfY",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 5pGNxA1SGfY: This video is unavailable"
+    },
+    {
+      "video_id": "WUvTyaaNkzM",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.88,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=WUvTyaaNkzM! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "WUvTyaaNkzM",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.92,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "WUvTyaaNkzM",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.91,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] WUvTyaaNkzM: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "WUvTyaaNkzM",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.85,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] WUvTyaaNkzM: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "ltLUd5tMBl4",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=ltLUd5tMBl4! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "ltLUd5tMBl4",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "ltLUd5tMBl4",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] ltLUd5tMBl4: This video is unavailable"
+    },
+    {
+      "video_id": "ltLUd5tMBl4",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] ltLUd5tMBl4: This video is unavailable"
+    },
+    {
+      "video_id": "wupToqz1e2g",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.79,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=wupToqz1e2g! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "wupToqz1e2g",
+      "library": "pytubefix",
+      "status": "NETWORK",
+      "duration_s": 8.26,
+      "text_len": 0,
+      "preview": "",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "wupToqz1e2g",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.78,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] wupToqz1e2g: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "wupToqz1e2g",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.14,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] wupToqz1e2g: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "HluANRwPyNo",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 7.08,
+      "text_len": 0,
+      "preview": "",
+      "error": "YouTubeRequestFailed: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=HluANRwPyNo! This is most likely caused by:\n\nRequest to YouTube failed: 403 Client Error: Forbidden"
+    },
+    {
+      "video_id": "HluANRwPyNo",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.81,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "HluANRwPyNo",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.82,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] HluANRwPyNo: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "HluANRwPyNo",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.82,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] HluANRwPyNo: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "N8sblAmBp-Y",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=N8sblAmBp-Y! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "N8sblAmBp-Y",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "N8sblAmBp-Y",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.32,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] N8sblAmBp-Y: This video is unavailable"
+    },
+    {
+      "video_id": "N8sblAmBp-Y",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 6.08,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] N8sblAmBp-Y: This video is unavailable"
+    },
+    {
+      "video_id": "y6120QOlsfU",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.91,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=y6120QOlsfU! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "y6120QOlsfU",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.78,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "y6120QOlsfU",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 1.12,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] y6120QOlsfU: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "y6120QOlsfU",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 1.02,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] y6120QOlsfU: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "tNkZsRW7h2c",
+      "library": "youtube-transcript-api",
+      "status": "PRIVATE",
+      "duration_s": 0.9,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnplayable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=tNkZsRW7h2c! This is most likely caused by:\n\nThe video is unplayable for the following reason: This live"
+    },
+    {
+      "video_id": "tNkZsRW7h2c",
+      "library": "pytubefix",
+      "status": "NETWORK",
+      "duration_s": 8.38,
+      "text_len": 0,
+      "preview": "",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "video_id": "tNkZsRW7h2c",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.9,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] tNkZsRW7h2c: This live stream recording is not available."
+    },
+    {
+      "video_id": "tNkZsRW7h2c",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.86,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] tNkZsRW7h2c: This live stream recording is not available."
+    },
+    {
+      "video_id": "iYriJrvZNhM",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=iYriJrvZNhM! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "iYriJrvZNhM",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "iYriJrvZNhM",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] iYriJrvZNhM: This video is unavailable"
+    },
+    {
+      "video_id": "iYriJrvZNhM",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] iYriJrvZNhM: This video is unavailable"
+    },
+    {
+      "video_id": "SRGptyFNURI",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.28,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=SRGptyFNURI! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "SRGptyFNURI",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.23,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "SRGptyFNURI",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] SRGptyFNURI: This video is unavailable"
+    },
+    {
+      "video_id": "SRGptyFNURI",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.36,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] SRGptyFNURI: This video is unavailable"
+    },
+    {
+      "video_id": "1SLp42B8qFQ",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.27,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=1SLp42B8qFQ! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "1SLp42B8qFQ",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.21,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "1SLp42B8qFQ",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.4,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 1SLp42B8qFQ: This video is unavailable"
+    },
+    {
+      "video_id": "1SLp42B8qFQ",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 5.71,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 1SLp42B8qFQ: This video is unavailable"
+    },
+    {
+      "video_id": "iFpzy4FM2iw",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.26,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=iFpzy4FM2iw! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "iFpzy4FM2iw",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.21,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "iFpzy4FM2iw",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] iFpzy4FM2iw: This video is unavailable"
+    },
+    {
+      "video_id": "iFpzy4FM2iw",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] iFpzy4FM2iw: This video is unavailable"
+    },
+    {
+      "video_id": "e2dlUv9sUVI",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.26,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=e2dlUv9sUVI! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "e2dlUv9sUVI",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "e2dlUv9sUVI",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] e2dlUv9sUVI: This video is unavailable"
+    },
+    {
+      "video_id": "e2dlUv9sUVI",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.32,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] e2dlUv9sUVI: This video is unavailable"
+    },
+    {
+      "video_id": "a3Z7zEc7AXQ",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=a3Z7zEc7AXQ! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "a3Z7zEc7AXQ",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "a3Z7zEc7AXQ",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] a3Z7zEc7AXQ: This video is unavailable"
+    },
+    {
+      "video_id": "a3Z7zEc7AXQ",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] a3Z7zEc7AXQ: This video is unavailable"
+    },
+    {
+      "video_id": "6stlCkUDG_s",
+      "library": "youtube-transcript-api",
+      "status": "RATE",
+      "duration_s": 0.87,
+      "text_len": 0,
+      "preview": "",
+      "error": "RequestBlocked: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=6stlCkUDG_s! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is d"
+    },
+    {
+      "video_id": "6stlCkUDG_s",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 1.02,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "6stlCkUDG_s",
+      "library": "yt-dlp",
+      "status": "RATE",
+      "duration_s": 0.81,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 6stlCkUDG_s: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "6stlCkUDG_s",
+      "library": "youtube-mcp-server",
+      "status": "RATE",
+      "duration_s": 0.93,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] 6stlCkUDG_s: Sign in to confirm you\u2019re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-"
+    },
+    {
+      "video_id": "k5G8EAvt40w",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=k5G8EAvt40w! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "k5G8EAvt40w",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "k5G8EAvt40w",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] k5G8EAvt40w: This video is unavailable"
+    },
+    {
+      "video_id": "k5G8EAvt40w",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] k5G8EAvt40w: This video is unavailable"
+    },
+    {
+      "video_id": "z0G3DK8OKQU",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.26,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=z0G3DK8OKQU! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "z0G3DK8OKQU",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "z0G3DK8OKQU",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] z0G3DK8OKQU: This video is unavailable"
+    },
+    {
+      "video_id": "z0G3DK8OKQU",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] z0G3DK8OKQU: This video is unavailable"
+    },
+    {
+      "video_id": "DtKjV1c2K-g",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.28,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=DtKjV1c2K-g! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "DtKjV1c2K-g",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.27,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "DtKjV1c2K-g",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] DtKjV1c2K-g: This video is unavailable"
+    },
+    {
+      "video_id": "DtKjV1c2K-g",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] DtKjV1c2K-g: This video is unavailable"
+    },
+    {
+      "video_id": "An6LvWTSs_E",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=An6LvWTSs_E! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "An6LvWTSs_E",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "An6LvWTSs_E",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.43,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] An6LvWTSs_E: This video is unavailable"
+    },
+    {
+      "video_id": "An6LvWTSs_E",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.29,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] An6LvWTSs_E: This video is unavailable"
+    },
+    {
+      "video_id": "LlY70suN3Qg",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.24,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=LlY70suN3Qg! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "LlY70suN3Qg",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "LlY70suN3Qg",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] LlY70suN3Qg: This video is unavailable"
+    },
+    {
+      "video_id": "LlY70suN3Qg",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.33,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] LlY70suN3Qg: This video is unavailable"
+    },
+    {
+      "video_id": "EKqdwUMWTYY",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.27,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=EKqdwUMWTYY! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "EKqdwUMWTYY",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.22,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "EKqdwUMWTYY",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.31,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] EKqdwUMWTYY: This video is unavailable"
+    },
+    {
+      "video_id": "EKqdwUMWTYY",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.28,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] EKqdwUMWTYY: This video is unavailable"
+    },
+    {
+      "video_id": "BHACKCNvPXI",
+      "library": "youtube-transcript-api",
+      "status": "ERROR",
+      "duration_s": 0.25,
+      "text_len": 0,
+      "preview": "",
+      "error": "VideoUnavailable: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=BHACKCNvPXI! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the"
+    },
+    {
+      "video_id": "BHACKCNvPXI",
+      "library": "pytubefix",
+      "status": "EMPTY",
+      "duration_s": 0.23,
+      "text_len": 0,
+      "preview": "",
+      "error": ""
+    },
+    {
+      "video_id": "BHACKCNvPXI",
+      "library": "yt-dlp",
+      "status": "PRIVATE",
+      "duration_s": 0.34,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] BHACKCNvPXI: This video is unavailable"
+    },
+    {
+      "video_id": "BHACKCNvPXI",
+      "library": "youtube-mcp-server",
+      "status": "PRIVATE",
+      "duration_s": 0.32,
+      "text_len": 0,
+      "preview": "",
+      "error": "DownloadError: ERROR: [youtube] BHACKCNvPXI: This video is unavailable"
+    }
+  ]
+}
