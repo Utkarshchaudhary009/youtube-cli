@@ -1,0 +1,1508 @@
+{
+  "started": "2026-09-05T09:46:50Z",
+  "duration_s": 117.0,
+  "n_videos": 63,
+  "library": "yttools.co",
+  "stats": {
+    "ok": 6,
+    "empty": 3,
+    "error": 54,
+    "rate": 0,
+    "private": 0,
+    "network": 0,
+    "total_chars": 56591,
+    "total_s": 52.76999999999999,
+    "first_ok_at": "dQw4w9WgXcQ"
+  },
+  "score_pct": 9.523809523809524,
+  "grade": "F  failing",
+  "per_video": {
+    "dQw4w9WgXcQ": {
+      "yttools.co": {
+        "status": "OK",
+        "reason": "real transcript",
+        "text_len": 2116,
+        "duration_s": 0.38,
+        "techniques": [
+          "yttools.co",
+          "lang=en",
+          "n_segments=61"
+        ]
+      }
+    },
+    "jNQXAC9IVRw": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.61,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "fJ9rUzIMcZQ": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.59,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "9bZkp7q19f0": {
+      "yttools.co": {
+        "status": "EMPTY",
+        "reason": "low english (0 hits)",
+        "text_len": 681,
+        "duration_s": 0.25,
+        "techniques": [
+          "yttools.co",
+          "lang=en",
+          "n_segments=67"
+        ]
+      }
+    },
+    "kJQP7kiw5Fk": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.52,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "JGwWNGJdvx8": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.44,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "RgKAFK5djSk": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.5,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "OPf0YbXqDm0": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.55,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "CevxZvSJLk8": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.65,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "YQHsXMglC9A": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.51,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "hT_nvWreIhg": {
+      "yttools.co": {
+        "status": "OK",
+        "reason": "real transcript",
+        "text_len": 3278,
+        "duration_s": 0.3,
+        "techniques": [
+          "yttools.co",
+          "lang=en",
+          "n_segments=83"
+        ]
+      }
+    },
+    "C_duEE4X0EI": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.52,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "ymNFyx6Ip1Q": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.49,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "uelHwf8o7_U": {
+      "yttools.co": {
+        "status": "OK",
+        "reason": "real transcript",
+        "text_len": 3974,
+        "duration_s": 0.23,
+        "techniques": [
+          "yttools.co",
+          "lang=en",
+          "n_segments=95"
+        ]
+      }
+    },
+    "fKopy74FusU": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.65,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "hLQl3WQQoQ0": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.39,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "i62sjv-C1zU": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.45,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "MYSVMgM6CKk": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.4,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "F-aB4ohNyaY": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.49,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "8jPQjjsBbIc": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.5,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "UF8uR6Z6KLc": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.6,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "ltg6B3wvg0k": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.7,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "cwKwtox0HS8": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.52,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "Unzc731iCmY": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.38,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "pX7FFaEvrcs": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.48,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "Ks-_M_r1kf0": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.36,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "hVFRKo7tzlE": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.55,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "RxgXc3VRNAM": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.52,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "iONDebHX9qk": {
+      "yttools.co": {
+        "status": "OK",
+        "reason": "real transcript",
+        "text_len": 15872,
+        "duration_s": 0.44,
+        "techniques": [
+          "yttools.co",
+          "lang=en",
+          "n_segments=464"
+        ]
+      }
+    },
+    "rrkrvAUbU9Y": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.58,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "VC_nIO08zxA": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.56,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "qp0HIF3SfI4": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.58,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "lOKEsJoiXX4": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.49,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "iCvmsMzlF7o": {
+      "yttools.co": {
+        "status": "OK",
+        "reason": "real transcript",
+        "text_len": 18381,
+        "duration_s": 10.49,
+        "techniques": [
+          "yttools.co",
+          "lang=en",
+          "n_segments=475"
+        ]
+      }
+    },
+    "Yq6QyTGUjbU": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.58,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "x2mH4EzlDAY": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.44,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "GiFOMYpCBkY": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.45,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "NyhelCCbgyk": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.4,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "9dGT2zppHFg": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.53,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "CFRnumU8y7Y": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.47,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "zSgiXGELjbc": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.61,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "5pGNxA1SGfY": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.62,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "WUvTyaaNkzM": {
+      "yttools.co": {
+        "status": "EMPTY",
+        "reason": "low english (1 hits)",
+        "text_len": 12145,
+        "duration_s": 10.43,
+        "techniques": [
+          "yttools.co",
+          "lang=en",
+          "n_segments=192"
+        ]
+      }
+    },
+    "ltLUd5tMBl4": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.64,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "wupToqz1e2g": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.44,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "HluANRwPyNo": {
+      "yttools.co": {
+        "status": "EMPTY",
+        "reason": "too short (30 chars)",
+        "text_len": 30,
+        "duration_s": 0.54,
+        "techniques": [
+          "yttools.co",
+          "lang=en",
+          "n_segments=1"
+        ]
+      }
+    },
+    "N8sblAmBp-Y": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.65,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "y6120QOlsfU": {
+      "yttools.co": {
+        "status": "OK",
+        "reason": "real transcript",
+        "text_len": 114,
+        "duration_s": 0.3,
+        "techniques": [
+          "yttools.co",
+          "lang=en",
+          "n_segments=17"
+        ]
+      }
+    },
+    "tNkZsRW7h2c": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.49,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "iYriJrvZNhM": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.69,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "SRGptyFNURI": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.6,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "1SLp42B8qFQ": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.63,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "iFpzy4FM2iw": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.38,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "e2dlUv9sUVI": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.73,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "a3Z7zEc7AXQ": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.47,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "6stlCkUDG_s": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.65,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "k5G8EAvt40w": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.71,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "z0G3DK8OKQU": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.51,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "DtKjV1c2K-g": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.61,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "An6LvWTSs_E": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.76,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "LlY70suN3Qg": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.68,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "EKqdwUMWTYY": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.43,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    },
+    "BHACKCNvPXI": {
+      "yttools.co": {
+        "status": "ERROR",
+        "reason": "library exception",
+        "text_len": 0,
+        "duration_s": 0.66,
+        "techniques": [
+          "yttools.co"
+        ]
+      }
+    }
+  },
+  "attempts": [
+    {
+      "video_id": "dQw4w9WgXcQ",
+      "library": "yttools.co",
+      "status": "OK",
+      "duration_s": 0.38,
+      "text_len": 2116,
+      "preview": "<<yttools.co:dQw4w9WgXcQ>> [\u266a\u266a\u266a] \u266a We're no strangers to love \u266a \u266a You know the rules and so do I \u266a \u266a A full commitment's",
+      "error": "",
+      "techniques": [
+        "yttools.co",
+        "lang=en",
+        "n_segments=61"
+      ]
+    },
+    {
+      "video_id": "jNQXAC9IVRw",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.61,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "fJ9rUzIMcZQ",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.59,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "9bZkp7q19f0",
+      "library": "yttools.co",
+      "status": "EMPTY",
+      "duration_s": 0.25,
+      "text_len": 681,
+      "preview": "<<yttools.co:9bZkp7q19f0>> \uc624\ubc18 \uac15\ub0a8 \uc2a4\ud0c0\uc77c \uac15\ub0a8 \uc2a4\ud0c0\uc77c \ub0ae\uc5d0\ub294 \ub530\ub85c\uc628 \uc778\uac04\uc801\uc778 \uc5ec\uc790 \ucee4\ud53c \ud55c \uc794\uc5d0 \uc5ec\uc720\ub97c \uc544\ub294 \ud488\uaca9 \uc788\ub294 \uc5ec\uc790 \ubc24\uc774 \uc5b4\uba70 \uc2ec\uc7a5\uc774 \ub728\uac70\uc6cc\uc9c0\ub294 \uc5ec\uc790 \uadf8\ub7f0 \uc804 \uc788\ub294 \uc5ec\uc790 \ub098\ub294 \uc11c\ub108\uc5d0",
+      "error": "",
+      "techniques": [
+        "yttools.co",
+        "lang=en",
+        "n_segments=67"
+      ]
+    },
+    {
+      "video_id": "kJQP7kiw5Fk",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.52,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "JGwWNGJdvx8",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.44,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "RgKAFK5djSk",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.5,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "OPf0YbXqDm0",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.55,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "CevxZvSJLk8",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.65,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "YQHsXMglC9A",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.51,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "hT_nvWreIhg",
+      "library": "yttools.co",
+      "status": "OK",
+      "duration_s": 0.3,
+      "text_len": 3278,
+      "preview": "<<yttools.co:hT_nvWreIhg>> \u266a Lately, I've been, I've been losing sleep \u266a \u266a Dreaming about the things that we could be \u266a ",
+      "error": "",
+      "techniques": [
+        "yttools.co",
+        "lang=en",
+        "n_segments=83"
+      ]
+    },
+    {
+      "video_id": "C_duEE4X0EI",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.52,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "ymNFyx6Ip1Q",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.49,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "uelHwf8o7_U",
+      "library": "yttools.co",
+      "status": "OK",
+      "duration_s": 0.23,
+      "text_len": 3974,
+      "preview": "<<yttools.co:uelHwf8o7_U>> \u266a JUST GONNA STAND THERE AND WATCH ME BURN \u266a \u266a WELL THAT'S ALL RIGHT BECAUSE I LIKE THE WAY I",
+      "error": "",
+      "techniques": [
+        "yttools.co",
+        "lang=en",
+        "n_segments=95"
+      ]
+    },
+    {
+      "video_id": "fKopy74FusU",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.65,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "hLQl3WQQoQ0",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.39,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "i62sjv-C1zU",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.45,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "MYSVMgM6CKk",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.4,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "F-aB4ohNyaY",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.49,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "8jPQjjsBbIc",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.5,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "UF8uR6Z6KLc",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.6,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "ltg6B3wvg0k",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.7,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "cwKwtox0HS8",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.52,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "Unzc731iCmY",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.38,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "pX7FFaEvrcs",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.48,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "Ks-_M_r1kf0",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.36,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "hVFRKo7tzlE",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.55,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "RxgXc3VRNAM",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.52,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "iONDebHX9qk",
+      "library": "yttools.co",
+      "status": "OK",
+      "duration_s": 0.44,
+      "text_len": 15872,
+      "preview": "<<yttools.co:iONDebHX9qk>> all right so over the past 10 years i have read basically all of the books around productivit",
+      "error": "",
+      "techniques": [
+        "yttools.co",
+        "lang=en",
+        "n_segments=464"
+      ]
+    },
+    {
+      "video_id": "rrkrvAUbU9Y",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.58,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "VC_nIO08zxA",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.56,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "qp0HIF3SfI4",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.58,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "lOKEsJoiXX4",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.49,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "iCvmsMzlF7o",
+      "library": "yttools.co",
+      "status": "OK",
+      "duration_s": 10.49,
+      "text_len": 18381,
+      "preview": "<<yttools.co:iCvmsMzlF7o>> Translator: Armela Mancellari Reviewer: Helena Bedalli Po e filloj me nj\u00eb histori: Rreth dy v",
+      "error": "",
+      "techniques": [
+        "yttools.co",
+        "lang=en",
+        "n_segments=475"
+      ]
+    },
+    {
+      "video_id": "Yq6QyTGUjbU",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.58,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "x2mH4EzlDAY",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.44,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "GiFOMYpCBkY",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.45,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "NyhelCCbgyk",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.4,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "9dGT2zppHFg",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.53,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "CFRnumU8y7Y",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.47,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "zSgiXGELjbc",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.61,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "5pGNxA1SGfY",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.62,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "WUvTyaaNkzM",
+      "library": "yttools.co",
+      "status": "EMPTY",
+      "duration_s": 10.43,
+      "text_len": 12145,
+      "preview": "<<yttools.co:WUvTyaaNkzM>> [\u062a\u0631\u062c\u0645\u0629 Yaso Xtreme and Grant Sanderson. \u0623\u0631\u0633\u0644 \u0627\u0644\u062a\u0635\u062d\u064a\u062d\u0627\u062a \u0639\u0644\u0649 criblate.com] [\u0645\u0648\u0633\u064a\u0642\u0629 \u0627\u0644\u0645\u0642\u062f\u0645\u0629] \u0623\u0632\u064a",
+      "error": "",
+      "techniques": [
+        "yttools.co",
+        "lang=en",
+        "n_segments=192"
+      ]
+    },
+    {
+      "video_id": "ltLUd5tMBl4",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.64,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "wupToqz1e2g",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.44,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "HluANRwPyNo",
+      "library": "yttools.co",
+      "status": "EMPTY",
+      "duration_s": 0.54,
+      "text_len": 30,
+      "preview": "<<yttools.co:HluANRwPyNo>> god",
+      "error": "",
+      "techniques": [
+        "yttools.co",
+        "lang=en",
+        "n_segments=1"
+      ]
+    },
+    {
+      "video_id": "N8sblAmBp-Y",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.65,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "y6120QOlsfU",
+      "library": "yttools.co",
+      "status": "OK",
+      "duration_s": 0.3,
+      "text_len": 114,
+      "preview": "<<yttools.co:y6120QOlsfU>> [M\u00fasica] m [M\u00fasica] m [M\u00fasica] ah [M\u00fasica] i [M\u00fasica] [M\u00fasica] m m m en \u00e9l e [M\u00fasica] m",
+      "error": "",
+      "techniques": [
+        "yttools.co",
+        "lang=en",
+        "n_segments=17"
+      ]
+    },
+    {
+      "video_id": "tNkZsRW7h2c",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.49,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "iYriJrvZNhM",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.69,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "SRGptyFNURI",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.6,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "1SLp42B8qFQ",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.63,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "iFpzy4FM2iw",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.38,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "e2dlUv9sUVI",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.73,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "a3Z7zEc7AXQ",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.47,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "6stlCkUDG_s",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.65,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "k5G8EAvt40w",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.71,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "z0G3DK8OKQU",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.51,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "DtKjV1c2K-g",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.61,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "An6LvWTSs_E",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.76,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "LlY70suN3Qg",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.68,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "EKqdwUMWTYY",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.43,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    },
+    {
+      "video_id": "BHACKCNvPXI",
+      "library": "yttools.co",
+      "status": "ERROR",
+      "duration_s": 0.66,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "yttools.co"
+      ]
+    }
+  ]
+}

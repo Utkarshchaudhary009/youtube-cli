@@ -1,0 +1,1472 @@
+{
+  "started": "2026-09-05T10:01:50Z",
+  "duration_s": 882.7,
+  "n_videos": 63,
+  "library": "yttools.co (with retries)",
+  "stats": {
+    "ok": 4,
+    "empty": 1,
+    "error": 58,
+    "rate": 0,
+    "private": 0,
+    "network": 0,
+    "total_chars": 7658,
+    "total_s": 708.8999999999997,
+    "first_ok_at": "dQw4w9WgXcQ"
+  },
+  "score_pct": 6.349206349206349,
+  "grade": "F  failing",
+  "per_video": {
+    "dQw4w9WgXcQ": {
+      "status": "OK",
+      "reason": "real transcript",
+      "text_len": 2116,
+      "duration_s": 0.42,
+      "attempts_used": 1,
+      "techniques": [
+        "attempt=1",
+        "n_segments=61"
+      ]
+    },
+    "jNQXAC9IVRw": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.45,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "fJ9rUzIMcZQ": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.52,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "9bZkp7q19f0": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.09,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "kJQP7kiw5Fk": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.84,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "JGwWNGJdvx8": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.62,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "RgKAFK5djSk": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.08,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "OPf0YbXqDm0": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.35,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "CevxZvSJLk8": {
+      "status": "OK",
+      "reason": "real transcript",
+      "text_len": 1644,
+      "duration_s": 10.91,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "n_segments=31"
+      ]
+    },
+    "YQHsXMglC9A": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.64,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "hT_nvWreIhg": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.05,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "C_duEE4X0EI": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.4,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "ymNFyx6Ip1Q": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.1,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "uelHwf8o7_U": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.41,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "fKopy74FusU": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.74,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "hLQl3WQQoQ0": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.41,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "i62sjv-C1zU": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.04,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "MYSVMgM6CKk": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.27,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "F-aB4ohNyaY": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.51,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "8jPQjjsBbIc": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.22,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "UF8uR6Z6KLc": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.85,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "ltg6B3wvg0k": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.2,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "cwKwtox0HS8": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.42,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "Unzc731iCmY": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.93,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "pX7FFaEvrcs": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.76,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "Ks-_M_r1kf0": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.92,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "hVFRKo7tzlE": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.96,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "RxgXc3VRNAM": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.51,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "iONDebHX9qk": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.5,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "rrkrvAUbU9Y": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.53,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "VC_nIO08zxA": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.73,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "qp0HIF3SfI4": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.04,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "lOKEsJoiXX4": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.53,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "iCvmsMzlF7o": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.15,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "Yq6QyTGUjbU": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.61,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "x2mH4EzlDAY": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.95,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "GiFOMYpCBkY": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.98,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "NyhelCCbgyk": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.9,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "9dGT2zppHFg": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.97,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "CFRnumU8y7Y": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.27,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "zSgiXGELjbc": {
+      "status": "EMPTY",
+      "reason": "low english (0 hits)",
+      "text_len": 1521,
+      "duration_s": 4.57,
+      "attempts_used": 2,
+      "techniques": [
+        "attempt=2",
+        "n_segments=58"
+      ]
+    },
+    "5pGNxA1SGfY": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.39,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "WUvTyaaNkzM": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.26,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "ltLUd5tMBl4": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.49,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "wupToqz1e2g": {
+      "status": "OK",
+      "reason": "real transcript",
+      "text_len": 2263,
+      "duration_s": 4.79,
+      "attempts_used": 2,
+      "techniques": [
+        "attempt=2",
+        "n_segments=68"
+      ]
+    },
+    "HluANRwPyNo": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.73,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "N8sblAmBp-Y": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.0,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "y6120QOlsfU": {
+      "status": "OK",
+      "reason": "real transcript",
+      "text_len": 114,
+      "duration_s": 3.86,
+      "attempts_used": 2,
+      "techniques": [
+        "attempt=2",
+        "n_segments=17"
+      ]
+    },
+    "tNkZsRW7h2c": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.81,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "iYriJrvZNhM": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.72,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "SRGptyFNURI": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.06,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "1SLp42B8qFQ": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.27,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "iFpzy4FM2iw": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.83,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "e2dlUv9sUVI": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.01,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "a3Z7zEc7AXQ": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.88,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "6stlCkUDG_s": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.58,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "k5G8EAvt40w": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.07,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "z0G3DK8OKQU": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.56,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "DtKjV1c2K-g": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.03,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "An6LvWTSs_E": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.3,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "LlY70suN3Qg": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 10.92,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "EKqdwUMWTYY": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 12.02,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    "BHACKCNvPXI": {
+      "status": "ERROR",
+      "reason": "library exception",
+      "text_len": 0,
+      "duration_s": 11.97,
+      "attempts_used": 3,
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    }
+  },
+  "attempts": [
+    {
+      "video_id": "dQw4w9WgXcQ",
+      "status": "OK",
+      "duration_s": 0.42,
+      "text_len": 2116,
+      "preview": "<<yttools.co:dQw4w9WgXcQ>> [\u266a\u266a\u266a] \u266a We're no strangers to love \u266a \u266a You know the rules and so do I \u266a \u266a A full commitment's",
+      "error": "",
+      "techniques": [
+        "attempt=1",
+        "n_segments=61"
+      ]
+    },
+    {
+      "video_id": "jNQXAC9IVRw",
+      "status": "ERROR",
+      "duration_s": 12.45,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "fJ9rUzIMcZQ",
+      "status": "ERROR",
+      "duration_s": 11.52,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "9bZkp7q19f0",
+      "status": "ERROR",
+      "duration_s": 12.09,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "kJQP7kiw5Fk",
+      "status": "ERROR",
+      "duration_s": 11.84,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "JGwWNGJdvx8",
+      "status": "ERROR",
+      "duration_s": 11.62,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "RgKAFK5djSk",
+      "status": "ERROR",
+      "duration_s": 12.08,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "OPf0YbXqDm0",
+      "status": "ERROR",
+      "duration_s": 11.35,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "CevxZvSJLk8",
+      "status": "OK",
+      "duration_s": 10.91,
+      "text_len": 1644,
+      "preview": "<<yttools.co:CevxZvSJLk8>> I used to bite my tongue and hold my breath Scared to rock the boat and make a mess So I sat ",
+      "error": "",
+      "techniques": [
+        "attempt=3",
+        "n_segments=31"
+      ]
+    },
+    {
+      "video_id": "YQHsXMglC9A",
+      "status": "ERROR",
+      "duration_s": 11.64,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "hT_nvWreIhg",
+      "status": "ERROR",
+      "duration_s": 12.05,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "C_duEE4X0EI",
+      "status": "ERROR",
+      "duration_s": 12.4,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "ymNFyx6Ip1Q",
+      "status": "ERROR",
+      "duration_s": 12.1,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "uelHwf8o7_U",
+      "status": "ERROR",
+      "duration_s": 11.41,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "fKopy74FusU",
+      "status": "ERROR",
+      "duration_s": 11.74,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "hLQl3WQQoQ0",
+      "status": "ERROR",
+      "duration_s": 11.41,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "i62sjv-C1zU",
+      "status": "ERROR",
+      "duration_s": 12.04,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "MYSVMgM6CKk",
+      "status": "ERROR",
+      "duration_s": 11.27,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "F-aB4ohNyaY",
+      "status": "ERROR",
+      "duration_s": 12.51,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "8jPQjjsBbIc",
+      "status": "ERROR",
+      "duration_s": 12.22,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "UF8uR6Z6KLc",
+      "status": "ERROR",
+      "duration_s": 11.85,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "ltg6B3wvg0k",
+      "status": "ERROR",
+      "duration_s": 12.2,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "cwKwtox0HS8",
+      "status": "ERROR",
+      "duration_s": 12.42,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "Unzc731iCmY",
+      "status": "ERROR",
+      "duration_s": 11.93,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "pX7FFaEvrcs",
+      "status": "ERROR",
+      "duration_s": 11.76,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "Ks-_M_r1kf0",
+      "status": "ERROR",
+      "duration_s": 11.92,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "hVFRKo7tzlE",
+      "status": "ERROR",
+      "duration_s": 11.96,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "RxgXc3VRNAM",
+      "status": "ERROR",
+      "duration_s": 11.51,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "iONDebHX9qk",
+      "status": "ERROR",
+      "duration_s": 11.5,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "rrkrvAUbU9Y",
+      "status": "ERROR",
+      "duration_s": 11.53,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "VC_nIO08zxA",
+      "status": "ERROR",
+      "duration_s": 11.73,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "qp0HIF3SfI4",
+      "status": "ERROR",
+      "duration_s": 12.04,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "lOKEsJoiXX4",
+      "status": "ERROR",
+      "duration_s": 11.53,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "iCvmsMzlF7o",
+      "status": "ERROR",
+      "duration_s": 12.15,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "Yq6QyTGUjbU",
+      "status": "ERROR",
+      "duration_s": 11.61,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "x2mH4EzlDAY",
+      "status": "ERROR",
+      "duration_s": 11.95,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "GiFOMYpCBkY",
+      "status": "ERROR",
+      "duration_s": 11.98,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "NyhelCCbgyk",
+      "status": "ERROR",
+      "duration_s": 11.9,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "9dGT2zppHFg",
+      "status": "ERROR",
+      "duration_s": 11.97,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "CFRnumU8y7Y",
+      "status": "ERROR",
+      "duration_s": 11.27,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "zSgiXGELjbc",
+      "status": "EMPTY",
+      "duration_s": 4.57,
+      "text_len": 1521,
+      "preview": "<<yttools.co:zSgiXGELjbc>> \u0644\u0633\u062a \u0623\u062c\u064a\u062f \u0627\u0644\u063a\u0646\u0627\u0621 \u0644\u0643\u0646 \u0633\u0623\u062d\u0627\u0648\u0644 \u0625\u0646 \u0623\u0631\u062f\u062a\u0645 \u0625\u0646\u0634\u0627\u0621 \u0641\u0637\u064a\u0631\u0629 \u062a\u0641\u0627\u062d \u0645\u0646 \u0644\u0627 \u0634\u064a\u0621 \u0639\u0644\u064a\u0643\u0645 \u0623\u0648\u0644\u0627 \u0623\u0646 \u062a\u062e\u062a\u0631\u0639\u0648\u0627 \u0627\u0644\u0643\u0648\u0646 \u0627\u0644",
+      "error": "",
+      "techniques": [
+        "attempt=2",
+        "n_segments=58"
+      ]
+    },
+    {
+      "video_id": "5pGNxA1SGfY",
+      "status": "ERROR",
+      "duration_s": 11.39,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "WUvTyaaNkzM",
+      "status": "ERROR",
+      "duration_s": 11.26,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "ltLUd5tMBl4",
+      "status": "ERROR",
+      "duration_s": 11.49,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "wupToqz1e2g",
+      "status": "OK",
+      "duration_s": 4.79,
+      "text_len": 2263,
+      "preview": "<<yttools.co:wupToqz1e2g>> From this distant vantage point, the Earth might not seem of any particular interest. But for",
+      "error": "",
+      "techniques": [
+        "attempt=2",
+        "n_segments=68"
+      ]
+    },
+    {
+      "video_id": "HluANRwPyNo",
+      "status": "ERROR",
+      "duration_s": 12.73,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "N8sblAmBp-Y",
+      "status": "ERROR",
+      "duration_s": 11.0,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "y6120QOlsfU",
+      "status": "OK",
+      "duration_s": 3.86,
+      "text_len": 114,
+      "preview": "<<yttools.co:y6120QOlsfU>> [M\u00fasica] m [M\u00fasica] m [M\u00fasica] ah [M\u00fasica] i [M\u00fasica] [M\u00fasica] m m m en \u00e9l e [M\u00fasica] m",
+      "error": "",
+      "techniques": [
+        "attempt=2",
+        "n_segments=17"
+      ]
+    },
+    {
+      "video_id": "tNkZsRW7h2c",
+      "status": "ERROR",
+      "duration_s": 11.81,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "iYriJrvZNhM",
+      "status": "ERROR",
+      "duration_s": 11.72,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "SRGptyFNURI",
+      "status": "ERROR",
+      "duration_s": 12.06,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "1SLp42B8qFQ",
+      "status": "ERROR",
+      "duration_s": 12.27,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "iFpzy4FM2iw",
+      "status": "ERROR",
+      "duration_s": 11.83,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "e2dlUv9sUVI",
+      "status": "ERROR",
+      "duration_s": 11.01,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "a3Z7zEc7AXQ",
+      "status": "ERROR",
+      "duration_s": 11.88,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "6stlCkUDG_s",
+      "status": "ERROR",
+      "duration_s": 11.58,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "k5G8EAvt40w",
+      "status": "ERROR",
+      "duration_s": 12.07,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "z0G3DK8OKQU",
+      "status": "ERROR",
+      "duration_s": 11.56,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "DtKjV1c2K-g",
+      "status": "ERROR",
+      "duration_s": 12.03,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "An6LvWTSs_E",
+      "status": "ERROR",
+      "duration_s": 11.3,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "LlY70suN3Qg",
+      "status": "ERROR",
+      "duration_s": 10.92,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "EKqdwUMWTYY",
+      "status": "ERROR",
+      "duration_s": 12.02,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    },
+    {
+      "video_id": "BHACKCNvPXI",
+      "status": "ERROR",
+      "duration_s": 11.97,
+      "text_len": 0,
+      "preview": "",
+      "error": "yttools: HTTPError: HTTP Error 422: Unprocessable Entity",
+      "techniques": [
+        "attempt=3",
+        "all-retries-failed"
+      ]
+    }
+  ]
+}
