@@ -1,0 +1,349 @@
+
+=== https://notegpt.io/youtube-transcript-generator [200] bundles=1 buildId=-
+  url   https://cdn.notegpt.io/notegpt/pages/public/youtube-transcript-generator/_payload.json?9a804651-14ba-4ab9-af2c-6557427e0793
+  url   https://notegpt.io/youtube-transcript-generator
+  url   https://cdn.notegpt.io/notegpt/static/tario_image/youtube-transcript-generator/youtube-transcript-generator1.png
+  url   https://notegpt.io/cn/youtube-transcript-generator
+  url   https://notegpt.io/zh-TW/youtube-transcript-generator
+  url   https://notegpt.io/es/youtube-transcript-generator
+  url   https://notegpt.io/pt/youtube-transcript-generator
+  url   https://notegpt.io/id/youtube-transcript-generator
+  url   https://notegpt.io/fr/youtube-transcript-generator
+  url   https://notegpt.io/de/youtube-transcript-generator
+  url   https://notegpt.io/ko/youtube-transcript-generator
+  url   https://notegpt.io/ja/youtube-transcript-generator
+  url   https://notegpt.io/ru/youtube-transcript-generator
+  url   https://www.youtube.com/watch?v=example
+  url   https://cdn.notegpt.io/notegpt/static/tario_image/youtube-transcript-generator/notegpt-empty-container.png
+  url   https://cdn.notegpt.io/notegpt/static/tario_image/youtube-video-summarizer/example/cover_1.png?x-oss-process=image/resize,w_350
+  url   https://cdn.notegpt.io/notegpt/static/tario_image/youtube-video-summarizer/example/cover_2.png?x-oss-process=image/resize,w_350
+  url   https://cdn.notegpt.io/notegpt/static/tario_image/youtube-video-summarizer/example/cover_3.png?x-oss-process=image/resize,w_350
+  url   https://cdn.notegpt.io/notegpt/static/tario_image/youtube-video-summarizer/example/cover_4.png?x-oss-process=image/resize,w_350
+  url   https://www.youtube.com/@NoteGPT
+  url   https://chromewebstore.google.com/detail/notegpt-youtube-summary-c/baecjmoceaobpnffgnlkloccenkoibbb?hl=en&amp;;utm_source=ng_youtube_note
+  url   https://microsoftedge.microsoft.com/addons/detail/notegpt-youtube-web-su/mnnmpdiaiikcakickjaihekjeggflebl
+  url   https://cdn.notegpt.io/notegpt/static/workspace/image/YouTube_Subscribe_TED.jpg
+  url   https://www.youtube.com/@TED
+  rel   /api/_nuxt_icon
+  rel   /api/v1/ai-tab/get-prod-config
+  rel   /api/v2/ai-chat
+  rel   /api/v2/ai-chat/details
+  rel   /api/v2/share-link
+  rel   /api/v2/share/details
+  rel   /api/v2/share
+  rel   /api/v2/notes/add-video-notes
+  rel   /api/v2/notes/update-note
+  rel   /api/v2/notes/add-video
+  rel   /api/v2/notes/get-video-by-id
+  rel   /api/v2/notes/update-title
+  rel   /api/v2/notes/delete-note-content
+  rel   /api/v2/notes/list-folders
+  rel   /api/v2/notes/add-folder
+  rel   /api/v2/notes/rename-folder
+
+=== https://youtubetotranscript.com/ [200] bundles=4 buildId=-
+  url   https://youtubetotranscript.com/
+  url   https://youtubetotranscript.com
+  url   https://youtubetotranscript.com/YouTube_To_Transcript_Thumbnail.png
+  url   https://youtubetotranscript.com/youtubetotranscript.png
+  url   https://youtubetotranscript.com/transcript?youtube_url=
+  url   https://transcriptapi.com/?utm_source=youtubetotranscript&utm_medium=navbar&utm_campaign=api_link
+  url   https://chromewebstore.google.com/detail/youtube-to-transcript-ai/bcmoplgjpddohaelhnnodojbamdobbhc?utm_source=youtubetotranscript&utm_medium=homepage&utm_campaign=chrome_cta
+  url   https://www.skool.com/scrapes/about?utm_source=youtubetotranscript&amp;utm_medium=referral&amp;utm_campaign=sponsor&amp;utm_content=agentic-academy
+  url   https://link.chatseo.app/PrKBRYC?utm_source=youtubetotranscript&amp;utm_medium=referral&amp;utm_campaign=sponsor&amp;utm_content=chatseo
+  url   https://stealthgpt.ai/?utm_source=youtubetotranscript&amp;utm_medium=paid-ad&amp;utm_campaign=Copy+Variant+A
+  url   https://meetergo.com/en/kostenlos?utm_source=youtubetotranscript&amp;utm_medium=sponsor&amp;utm_campaign=core5-2026-08
+  rel   /api/content/note
+
+=== https://www.youtube-transcript.io/ [0] bundles=0 buildId=-
+
+=== https://kome.ai/tools/youtube-transcript-generator [200] bundles=13 buildId=-
+  url   https://nextjs.org/docs/app/api-reference/functions/use-search-params#updating-searchparams
+  url   https://nextjs.org/docs/messages/next-dynamic-api-wrong-context
+  url   https://kome.ai/api/transcript
+  rel   /api/extension/revoke
+  rel   /api/user
+  rel   /api/transcript/checkout
+  rel   /api/user/checkout
+  rel   /api/transcript/send
+  rel   /api/user/status
+  rel   /api/auth
+  url   https://nextjs.org/docs/messages/sync-dynamic-apis
+
+=== https://tactiq.io/tools/youtube-transcript [200] bundles=5 buildId=-
+  url   https://tactiq.io/tools/youtube-transcript
+  url   https://tactiq.io/es/herramientas/transcripcion-de-youtube
+  url   https://tactiq.io/pt-br/ferramentas/transcricao-do-youtube
+  url   https://tactiq.io/ja/tools/youtube-transcript
+  url   https://fonts.googleapis.com
+  url   https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js
+  url   https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/64f54c529d914de17789f519_video-playlist%203.svg
+  url   https://www.youtube.com/watch?v=Mcm3CDNMnd0
+  url   https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/669f5d7576c7dc3815c7899e_Youtube%20Transcript%20-%20Copy%20YouTube%20video%20link%20-%20Tactiq.png
+  url   https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/669f5d9be7573029c079d892_Transcribe%20Youtube%20video%20-%20paste%20Youtube%20video%20link%20-%20Tactiq.png
+  url   https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/669f5db7ea8e57f57cffbfd3_Transcribe%20YouTube%20video%20-%20Tactiq.png
+  url   https://tactiq.io/features/summaries
+  url   https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/669f5a62c4ca8fb0b31ca922_YouTube%20transcript%20-%20Tactiq.png
+  url   https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/669f5a62c4ca8fb0b31ca922_YouTube%20transcript%20-%20Tactiq-p-500.png
+  url   https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/669f5a62c4ca8fb0b31ca922_YouTube%20transcript%20-%20Tactiq-p-800.png
+  url   https://chrome.google.com/webstore/detail/tactiq-chatgpt-meeting-su/fggkaccpbmombhnjkjokndojfgagejfb/?utm_source=Organic&amp;utm_medium=Tools&amp;utm_campaign=youtube-transcript
+  url   https://challenges.cloudflare.com/turnstile/v0/api.js
+  url   https://webflow.com/api/v1/form/
+  url   https://editor-api.webflow.com/api/editor/view
+  url   https://editor-api.webflow.com
+
+=== https://tubetranscript.com/en [200] bundles=2 buildId=-
+  url   https://tubetranscript.com/en
+  url   https://tubetranscript.com/
+  url   https://tubetranscript.com/ru
+  url   https://tubetranscript.com/es
+  url   https://tubetranscript.com/ro
+  url   https://tubetranscript.com/id
+  url   https://tubetranscript.com/fil
+  url   https://tubetranscript.com/hi
+  url   https://tubetranscript.com/de
+  url   https://tubetranscript.com/fr
+  url   https://tubetranscript.com/ar
+  url   https://tubetranscript.com/da
+  url   https://tubetranscript.com/nl
+  url   https://tubetranscript.com/he
+  url   https://tubetranscript.com/it
+  url   https://tubetranscript.com/ja
+  url   https://tubetranscript.com/ko
+  url   https://tubetranscript.com/pl
+  url   https://tubetranscript.com/pt
+  url   https://tubetranscript.com/sv
+  url   https://tubetranscript.com/tr
+  url   https://tubetranscript.com/vi
+  url   https://tubetranscript.com/th
+  url   https://tubetranscript.com/uk
+  url   https://tubetranscript.com/no
+  url   https://tubetranscript.com/fi
+  url   https://tubetranscript.com/zh-CN
+  url   https://tubetranscript.com/zh-TW
+  url   https://tubetranscript.com/features/
+  url   https://tubetranscript.com/about-us/
+  url   https://tubetranscript.com/contact-us/
+  url   https://chromewebstore.google.com/detail/youtube-to-text/apnedodbofogffiagpekmbeflilkcbgf?utm_source=tubetranscript&utm_content=$
+  url   https://www.youtube.com/watch?v=123456789
+  url   https://tubetranscript.com/features/youtube-video-translator/
+  url   https://tubetranscript.com/features/download-youtube-transcript/
+  url   https://tubetranscript.com/features/youtube-subtitle-downloader/
+  url   https://tubetranscript.com/features/youtube-video-summarizer/
+  url   https://tubetranscript.com/features/download-youtube-captions/
+  url   https://tubetranscript.com/features/youtube-to-text/
+  url   https://tubetranscript.com/features/youtube-video-transcript/
+
+=== https://videotranscriber.ai/ [200] bundles=2 buildId=-
+  url   https://cdn.videotranscriber.ai
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/entry.Q3bQ4qWK.css
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/ThemeSwitch.DnlFy_nj.css
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/usePageSeo.plPc8sUT.css
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/VideoFeature.DqBfwX8f.css
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/ShareSkeleton.Kj7C18Iw.css
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/B-WTpz91.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/mM3mio8j.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/2v5v0Yno.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/Dc61Iaab.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/CM0BnaOl.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/B1odCMsA.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/mH7eqk1H.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/kRIii9yh.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/CFHtZBvw.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/ezCxHGmX.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/C6Y-ieo6.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/CqHVF5P4.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/CB20aaxQ.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/-pFcbPj_.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/Ddn73WPY.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/i-oaZRV_.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/CSHhDBMY.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/CMrarkiT.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/CHIgUVhi.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/DjFhkA5p.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/DbiJGn6v.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/C7wNhKSK.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/DOdNDjBn.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/B4L22JXP.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/C2J1w8n1.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/DWgoFJXE.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/DooTcinH.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/D-fkysGk.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/DJaYyjKL.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/CVZLH7rh.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/N59NmbUk.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/D8TJi_Y2.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/B_U2YvwP.js
+  url   https://cdn.videotranscriber.ai/videotranscriber/pages/public/_nuxt/CCiICbtF.js
+
+=== https://youtubetranscript.com/ [200] bundles=3 buildId=-
+  url   https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic
+  url   https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+  url   https://www.youtube.com/iframe_api
+  url   https://www.youtube.com/embed/'
+  url   https://video.google.com/timedtext?type=track&v=
+  url   http://www.youtube.com/watch?v=ywBV6M7VOFU
+  url   https://cn4h.short.gy/yt-transcript-appstore
+  url   https://cn4h.short.gy/yt-transcript-merlin-ext
+  url   https://www.youtubesummaries.com/?utm_source=youtubetranscript&utm_medium=website&utm_campaign=youtubesummaries
+  url   https://chromewebstore.google.com/detail/merlin-1-click-access-to/camppjleccjaphfdbohjdohecfnoikec?utm_source=youtubetranscript&utm_medium=website&utm_campaign=extension_install
+
+=== https://downsub.com/ [200] bundles=0 buildId=-
+
+=== https://anthiago.com/transcript/ [200] bundles=4 buildId=-
+  url   https://anthiago.com/transcript/
+  url   https://anthiago.com/transcripteur/
+  url   https://anthiago.com/social/transcript-en.png
+  url   https://anthiago.com/transcript/#app
+  url   https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha
+  url   https://www.youtube.com/watch?v=
+
+=== https://summarize.tech/ [503] bundles=0 buildId=-
+
+=== https://eightify.app/ [403] bundles=0 buildId=-
+
+=== https://tubeonai.com/ [200] bundles=27 buildId=-
+  url   https://tubeonai.com/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=4.2.3'
+  url   https://api.w.org/
+  url   https://chromewebstore.google.com/detail/tubeonai-youtube-summary/pnjhdidebadhooniheolhcffimpeijgn
+  url   https://apps.apple.com/us/app/tubeonai-summarize-listen/id6451212292
+  url   https://tubeonai.com/wp-content/uploads/2025/02/Summaries-scaled.webp
+  url   https://tubeonai.com/youtube-to-blog-post-generator/
+  url   https://tubeonai.com/youtube-shorts-to-transcript/
+  url   https://tubeonai.com/facebook-video-summarizer/
+  url   https://web.tubeonai.com/summary?buy_now_package=48
+  url   https://youtube.com/channel/UCUwct7ppmWcBgAUdrDl0pKw
+  url   https://tubeonai.com/wp-content/plugins/tubeonai-custom-elementor-widgets/assets/js/create-summary-api-handler.js?ver=1788675326
+  url   https://tubeonai.com/wp-content/plugins/tubeonai-wp-plugin/dist/widgets/summarizer/frontend.js?ver=1.1.0
+  url   https://fonts.googleapis.com/css')&&data['response'])
+  url   https://img.youtube.com/vi/$
+  url   https://api.jqueryui.com/position/
+  url   https://player.vimeo.com/api/player.js
+  url   https://www.youtube.com/iframe_api
+  url   https://app.tubeonai.com/api/translate/$
+  url   https://app.tubeonai.com/api/summarize',
+  url   https://www.google.com/recaptcha/api/siteverify',
+  fetch https://www.google.com/recaptcha/api/siteverify
+  url   https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js
+  url   https://fonts.googleapis.com/css
+  url   https://ik.imagekit.io/senja/Logos/youtube_5osZnL0bQ.png?updatedAt=1683238870218
+  url   https://ik.imagekit.io/senja/Logos/zapier_ylMcpjHcH.webp?updatedAt=1683239048590
+  url   https://www.youtube.com/embed/$
+  url   https://chromewebstore.google.com/detail/tubeonai-best-ai-summariz/hjlpnfabcfhbmmfkiobekphagofbojie/reviews
+  url   https://web.tubeonai.com/api/text-to-pdf
+  url   https://youtube.com/watch?v=...)
+  url   https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API
+  url   https://example.com/video.mp4
+  url   https://www.tiktok.com/@user/video/...)
+  url   https://www.tiktok.com/@username/video/1234567890123456789
+
+=== https://glasp.co/youtube-summary [403] bundles=1 buildId=-
+
+=== https://www.you-tldr.com/ [200] bundles=24 buildId=-
+  url   https://www.youtube.com/watch?v=Unzc731iCUY&amp;t=40s
+  rel   /api
+  url   https://nextjs.org/docs/app/api-reference/functions/use-search-params#updating-searchparams
+  url   https://www.youtube.com/watch?v=$
+  rel   /api/ingestions
+  rel   /api/ingestions/
+  rel   /api/default-transcript
+  rel   /api/summarize-full
+  rel   /api/recent-activity/${e}/payload
+  rel   /api/transcript-jobs/${e}/payload
+  url   https://supabase.com/dashboard/project/_/settings/api
+  rel   /api/broadcast
+  rel   /api/me
+  rel   /api/web_experiments/?token=
+  rel   /api/early_access_features/?token=
+  rel   /api/product_tours/?token=
+  rel   /api/surveys/?token=
+
+=== https://transcriptube.com/ [200] bundles=1 buildId=-
+  url   https://transcriptube.com
+  url   https://transcriptube.com/id/transkrip-youtube
+  url   https://transcriptube.com/ko/youtube-jamak-chuchul
+  url   https://transcriptube.com/es/transcribir-video-a-texto
+  url   https://transcriptube.com/ja/youtube-transcript
+  url   https://transcriptube.com/pt/transcrever-video-do-youtube
+  url   https://transcriptube.com/og.png
+  url   https://transcriptube.com/
+
+=== https://www.videotowords.ai/ [200] bundles=2 buildId=-
+  url   https://www.videotowords.ai/
+  url   https://www.producthunt.com/products/1-ai-speech-video-to-text-tool?utm_source=badge-follow&amp;utm_medium=badge&amp;utm_souce=badge-1-ai-speech-video-to-text-tool
+  url   https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=595390&amp;theme=light
+  url   https://www.toolify.ai/tool/transcribe-video-audio-to-text-free-online/?ref=embed
+  url   https://www.videotowords.ai
+
+=== https://tubetotext.com/ [200] bundles=0 buildId=-
+  url   https://fonts.googleapis.com
+  url   https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap
+  url   https://tubetotext.com/api/v2/youtube/transcript?video_url=dQw4w9WgXcQ&format=json
+
+=== https://ytviewer.com/youtube-transcript-generator [404] bundles=1 buildId=-
+  url   https://fonts.googleapis.com/css?family=DM+Sans:300,300i,400,400i,600,600i,700,700i,800,800i
+
+=== https://www.clipto.com/media-downloader/youtube-transcript [200] bundles=6 buildId=-
+  url   https://www.youtube.com/@cliptoai
+  url   https://cliptocdn.com/clipto-website-next/static/main/img/social/Youtube.svg
+  url   https://www.clipto.com/media-downloader/youtube-transcript
+
+=== https://tactiq-apps-prod.tactiq.io/ [404] bundles=0 buildId=-
+
+=== https://www.youtube-transcript.io/auth/login [404] bundles=19 buildId=-
+  url   https://chromewebstore.google.com/detail/youtube-transcript-button/dpdbmkliofnneehokfgflldkagllbdae
+  rel   /api/transcripts
+  rel   /api/transcripts/v2
+  rel   /api
+  url   https://apis.google.com/js/api.js
+  url   https://www.google.com/recaptcha/api.js
+  rel   /api/web_experiments/?token=
+  rel   /api/early_access_features/?token=
+  rel   /api/product_tours/?token=
+  rel   /api/surveys/?token=
+  url   https://nextjs.org/docs/app/api-reference/functions/use-search-params#updating-searchparams
+  url   https://nextjs.org/docs/app/api-reference/functions/unstable_cache
+  url   https://nextjs.org/docs/messages/next-dynamic-api-wrong-context
+  url   https://nextjs.org/docs/messages/sync-dynamic-apis
+  rel   /api/stripe/recentSubscriptions
+
+=== https://kome.ai/ [200] bundles=13 buildId=-
+  rel   /api/extension/revoke
+  rel   /api/user
+  url   https://nextjs.org/docs/app/api-reference/functions/use-search-params#updating-searchparams
+  url   https://nextjs.org/docs/messages/next-dynamic-api-wrong-context
+  rel   /api/auth
+  url   https://nextjs.org/docs/messages/sync-dynamic-apis
+
+=== https://notegpt.io/ [200] bundles=1 buildId=-
+  url   https://www.youtube.com/@NoteGPT
+  url   https://chromewebstore.google.com/detail/notegpt-youtube-summary-c/baecjmoceaobpnffgnlkloccenkoibbb?hl=en&amp;;utm_source=ng_youtube_note
+  url   https://chromewebstore.google.com/detail/notegpt-udemy-summary-wit/indcipieilphhkjlepfgnldhjejiichk?hl=en
+  url   https://microsoftedge.microsoft.com/addons/detail/notegpt-youtube-web-su/mnnmpdiaiikcakickjaihekjeggflebl
+  url   https://cdn.notegpt.io/notegpt/static/workspace/image/YouTube_Subscribe_TED.jpg
+  url   https://www.youtube.com/@TED
+  rel   /api/_nuxt_icon
+  rel   /api/v1/ai-tab/get-prod-config
+  rel   /api/v2/ai-chat
+  rel   /api/v2/ai-chat/details
+  rel   /api/v2/share-link
+  rel   /api/v2/share/details
+  rel   /api/v2/share
+  rel   /api/v2/notes/add-video-notes
+  rel   /api/v2/notes/update-note
+  rel   /api/v2/notes/add-video
+  rel   /api/v2/notes/get-video-by-id
+  rel   /api/v2/notes/update-title
+  rel   /api/v2/notes/delete-note-content
+  rel   /api/v2/notes/list-folders
+  rel   /api/v2/notes/add-folder
+  rel   /api/v2/notes/rename-folder
+  rel   /api/v2/notes/delete-folder
+  rel   /api/v2/notes/list-notes
+  rel   /api/v2/notes/list-notes-v2
+  rel   /api/v2/notes/ai-chat
+  rel   /api/v2/notes/delete-note
+  rel   /api/v2/notes/move-note
+  rel   /api/v2/notes/update
+  rel   /api/v2/notes/image/start
+  rel   /api/v2/notes/image/status

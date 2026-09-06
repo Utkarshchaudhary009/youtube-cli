@@ -4,6 +4,12 @@
 
 `youtube-cli` is a minimal, agent-first CLI for searching, exploring, and extracting knowledge from YouTube with an exceptionally clean terminal UX.
 
+## Stack & Reference
+
+- **Runtime:** Bun (TypeScript, `bun test`).
+- **YouTube connectivity:** [`youtubei.js`](https://github.com/LuanRT/YouTube.js) (npm `youtubei.js`).
+- **Reference clone:** `reference/youtube.js` — shallow clone of YouTube.js for local API/docs reference only. Never import from it or commit it; the real dependency comes from npm. Its `docs/` folder documents every public class and method.
+
 The project exists to create a simple and reliable interface between AI agents and YouTube. It should make YouTube information easy to discover, retrieve, understand, and consume programmatically without introducing unnecessary complexity.
 
 ## Product & UX Principles
