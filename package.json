@@ -1,0 +1,20 @@
+{
+  "name": "youtube-cli",
+  "version": "0.1.0",
+  "description": "Minimal, agent-first CLI for searching, exploring, and extracting knowledge from YouTube.",
+  "type": "module",
+  "bin": {
+    "yt": "./src/main.ts"
+  },
+  "scripts": {
+    "dev": "bun run src/main.ts",
+    "test": "bun test test",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "bun": ">=1.2.0"
+  },
+  "devDependencies": {
+    "bun-types": "^1.4.2"
+  }
+}

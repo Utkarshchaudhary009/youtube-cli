@@ -1,0 +1,824 @@
+
+########## https://downsub.com/
+  bundles: 13
+   · :function(){return{isDebug:!1,urlAPI:"https://get.downsub.com/",apiYTB:"https://get-info.downsub.com/",data:{},title:"DownSub",titleTemplate:"%s - DownSub.com",isLoading:!1,isPlayer:!1,page:1,numberOf
+   · production",VUE_APP_API_URL:"https://get.downsub.com/",VUE_APP_API_YTB:"https://get-info.downsub.com/",BASE_URL:"/"}).VUE_ENV){var a=!0;try{var r="__vue-localstorage-test__";window.localStorage.setIte
+   · )},downloadSubtitle:function(e,t,n){var i=this;this.dialog.urlDownload="https://subtitle.downsub.com/",n.type?this.dialog.urlDownload+=n.type+"/":this.dialog.urlDownload+="srt/",delete n.type,n.url&&(
+   · ves the subtitle as SRT, VTT or TXT. Translate to 100+ languages, read the full transcript, and watch with dual subtitles - no copy-pasting URLs.",badge:"Free · No account required · Works on Chrome, 
+   · :",more:"More about {name} subtitles →",youtube:"Download YouTube subtitles and transcripts - every caption track plus auto-translations into 100+ languages, and AI subtitles for videos with no captio
+   · free_1:"Subtitles as SRT, VTT, plain text or text with timestamps",free_2:"Full transcript panel with click-to-seek timestamps and search",free_3:"Dual subtitles - two languages on the player at once"
+   · anguage on anime and shows.",q3:"Is the extension free?",a3:"Yes - downloading, transcripts, translation and dual subtitles are free with no account. Pro features like AI summary and auto-download nee
+   · nslating. An account is only required for Pro features such as AI summaries, AI transcription and auto-download."},cta:{title:"Ready? Add DownSub to your browser"}},common:{ads_free:"Fewer errors. No 
+   · a.</strong> We log the video URLs and files you submit for subtitle extraction, transcription, AI translation, summarization, comment analysis, or playlist download, along with the requested target la
+   · /p><p><strong>Uploaded content.</strong> If you upload audio or video files for transcription, those files are processed on our servers (or via our AI providers) only for the purpose of generating the
+   · henticate your account.</li><li>To process subtitle downloads, AI translations, transcriptions, summaries, and other features you request.</li><li>To process payments, manage subscriptions, free trial
+   ·  deliver downloads.</li><li><strong>AI providers</strong> for auto-translation, transcription, and summarization. The text or audio you submit for these features is sent to the provider solely to gene
+   · through our servers. Pro features (AI summary, comment analysis, audio→subtitle transcription) send the relevant content with your API key to member.downsub.com only when you trigger them.</p><p><stro
+   · laws that apply to you.</p><p>Some features (Premium downloads, AI translation, transcription, summarization, batch playlist downloads, comment analysis, and API access) require an account on member.d
+   · e uninterrupted, timely, secure, or error-free; that AI-generated translations, transcriptions, or summaries will be accurate, complete or reliable; or that defects will be corrected. You access conte
+   · ình phát là lưu được phụ đề dạng SRT, VTT hay TXT. Dịch sang 100+ ngôn ngữ, đọc transcript đầy đủ, xem phụ đề song ngữ - không cần copy/paste URL.",badge:"Miễn phí · Không cần tài khoản · Chạy trên Ch
+   · p trên từng trang video:",more:"Thêm về phụ đề {name} →",youtube:"Tải phụ đề và transcript YouTube - mọi track caption cùng bản dịch tự động sang 100+ ngôn ngữ, và phụ đề AI cho video không có caption
+   · ,free_1:"Phụ đề dạng SRT, VTT, text thuần hoặc text kèm timestamp",free_2:"Bảng transcript đầy đủ với timestamp click-để-nhảy và tìm kiếm",free_3:"Phụ đề song ngữ - hai ngôn ngữ trên trình phát cùng l
+   · ề chính thức của anime và show.",q3:"Tiện ích có miễn phí không?",a3:"Có - tải, transcript, dịch và phụ đề song ngữ đều miễn phí, không cần tài khoản. Tính năng Pro như AI tóm tắt và tự động tải cần t
+   · re le sous-titre en SRT, VTT ou TXT. Traduisez en plus de 100 langues, lisez la transcription complète et regardez avec des sous-titres doubles - sans copier-coller d'URL.",badge:"Gratuit · Sans compt
+   · voir plus sur les sous-titres {name} →",youtube:"Téléchargez les sous-titres et transcriptions YouTube - toutes les pistes de sous-titres plus les traductions automatiques en plus de 100 langues, et d
+   · us-titres en SRT, VTT, texte brut ou texte avec horodatages",free_2:"Panneau de transcription complet avec horodatages cliquables et recherche",free_3:"Sous-titres doubles - deux langues à la fois sur
+   · issions.",q3:"L'extension est-elle gratuite ?",a3:"Oui - le téléchargement, les transcriptions, la traduction et les sous-titres doubles sont gratuits, sans compte. Les fonctionnalités Pro comme le ré
+   · pte n'est requis que pour les fonctionnalités Pro telles que les résumés AI, la transcription AI et le téléchargement automatique."},cta:{title:"Prêt ? Ajoutez DownSub à votre navigateur"}},common:{ad
+   · istrons les URLs et fichiers que vous soumettez pour extraction de sous-titres, transcription, traduction IA, résumé, analyse de commentaires ou téléchargement de playlist, ainsi que la langue cible, 
+   · Contenu téléversé.</strong> Si vous téléversez des fichiers audio ou vidéo pour transcription, ces fichiers sont traités sur nos serveurs (ou via nos fournisseurs IA) uniquement pour générer le résult
+   · ompte.</li><li>Pour traiter les téléchargements de sous-titres, traductions IA, transcriptions, résumés et autres fonctionnalités demandées.</li><li>Pour traiter les paiements, gérer les abonnements, 
+   · veurs.</li><li><strong>Fournisseurs IA</strong> pour la traduction automatique, transcription et résumé.</li><li><strong>Services d'envoi d'e-mails</strong> pour les messages transactionnels.</li><li>
+   ·  par nos serveurs. Les fonctionnalités Pro (résumé IA, analyse de commentaires, transcription audio→sous-titre) envoient le contenu pertinent avec votre clé API à member.downsub.com uniquement lorsque
+   · cable.</p><p>Certaines fonctionnalités (téléchargements Premium, traduction IA, transcription, résumé, lots, analyse de commentaires et accès API) nécessitent un compte sur member.downsub.com. Vous êt
+   · exigences, sera ininterrompu, sécurisé ou sans erreur ; ni que les traductions, transcriptions ou résumés générés par IA seront exacts, complets ou fiables. Vous accédez au contenu à vos propres risqu
+   ·  ဆာဗာများလည်ပတ်ရန်။</li><li><strong>AI ပံ့ပိုးသူများ</strong> auto-translation, transcription, summarization အတွက်။</li><li><strong>အီးမေးလ်ပို့ဆောင်မှု</strong> transactional messages အတွက်။</li><li>
+   · ၏ဆာဗာမှလုံးဝမဖြတ်ပါ။ Pro features (AI summary, comment analysis, audio→subtitle transcription) သည် သင်စတင်လုပ်ဆောင်သောအခါတွင်သာ ဆက်စပ်အကြောင်းအရာနှင့် API key ကို member.downsub.com သို့ပို့သည်။</p><p
+   · nstanceof RegExp?ii(e,t):Mn(e)?ai(e,t,n):ri(e,t,n)}qn.parse=Un,qn.compile=Fn,qn.tokensToFunction=Hn,qn.tokensToRegExp=Wn;var ci=Object.create(null);function li(e,t,n){t=t||{};try{var i=ci[e]||(ci[e]=q
+   · ):Mn(e)?ai(e,t,n):ri(e,t,n)}qn.parse=Un,qn.compile=Fn,qn.tokensToFunction=Hn,qn.tokensToRegExp=Wn;var ci=Object.create(null);function li(e,t,n){t=t||{};try{var i=ci[e]||(ci[e]=qn.compile(e));return"st
+   · throw this.reason},a.source=function(){var e,t=new a((function(t){e=t}));return{token:t,cancel:e}},e.exports=a},"8df8":function(e,t,n){"use strict";e.exports=o,e.exports.isMobile=o,e.exports.default=o
+   · own, or grant any rights in the content you download, transcribe, translate, or summarize through the Service, and assumes no liability towards you or any third party for the legality, copyright statu
+   · t-Type"])&&(e["Content-Type"]=t)}function s(){var e;return("undefined"!==typeof XMLHttpRequest||"undefined"!==typeof t&&"[object process]"===Object.prototype.toString.call(t))&&(e=n("b50d")),e}var c={
+   · t-Type"],(i.isBlob(d)||i.isFile(d))&&d.type&&delete h["Content-Type"];var p=new XMLHttpRequest;if(e.auth){var f=e.auth.username||"",m=unescape(encodeURIComponent(e.auth.password))||"";h.Authorization=
+
+########## https://www.youtube-transcript.io/
+  bundles: 27
+   · type="image/x-icon" sizes="256x256"/><script> window.pRoutes = [{"path":"/api/transcripts","method":"POST"},{"path":"/api/transcripts/v2","method":"POST"}] </script><script>(()=>{var e;if(
+   · > window.pRoutes = [{"path":"/api/transcripts","method":"POST"},{"path":"/api/transcripts/v2","method":"POST"}] </script><script>(()=>{var e;if(window.botIdInitialized)return;window.botIdI
+   · ouslySetInnerHTML\":{\"__html\":\"\\n window.pRoutes = [{\\\"path\\\":\\\"/api/transcripts\\\",\\\"method\\\":\\\"POST\\\"},{\\\"path\\\":\\\"/api/transcripts/v2\\\",\\\"method\\\":\\\"POST\\\"}]
+   · th\\\":\\\"/api/transcripts\\\",\\\"method\\\":\\\"POST\\\"},{\\\"path\\\":\\\"/api/transcripts/v2\\\",\\\"method\\\":\\\"POST\\\"}]\\n \"}}],[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{
+   · oad Video Transcripts</title><meta name="description" content="Generate YouTube transcripts instantly with our free tool. Extract and download video transcripts effortlessly. Perfect for accessibility
+   · te YouTube transcripts instantly with our free tool. Extract and download video transcripts effortlessly. Perfect for accessibility, SEO, and content creation."/><meta property="og:title" content="You
+   · d Video Transcripts"/><meta property="og:description" content="Generate YouTube transcripts instantly with our free tool. Extract and download video transcripts effortlessly. Perfect for accessibility
+   · te YouTube transcripts instantly with our free tool. Extract and download video transcripts effortlessly. Perfect for accessibility, SEO, and content creation."/><meta property="og:site_name" content=
+   ·  Video Transcripts"/><meta name="twitter:description" content="Generate YouTube transcripts instantly with our free tool. Extract and download video transcripts effortlessly. Perfect for accessibility
+   · te YouTube transcripts instantly with our free tool. Extract and download video transcripts effortlessly. Perfect for accessibility, SEO, and content creation."/><link rel="icon" href="/favicon.ico" t
+   · ="image/x-icon" sizes="256x256"/><script> window.pRoutes = [{"path":"/api/transcripts","method":"POST"},{"path":"/api/transcripts/v2","method":"POST"}] </script><script>(()=>{var e;if(wind
+   ·  window.pRoutes = [{"path":"/api/transcripts","method":"POST"},{"path":"/api/transcripts/v2","method":"POST"}] </script><script>(()=>{var e;if(window.botIdInitialized)return;window.botIdIniti
+   · o-style" target="_blank" href="https://chromewebstore.google.com/detail/youtube-transcript-button/dpdbmkliofnneehokfgflldkagllbdae"><div class="p-2 hover:bg-gray-300 hover:dark:bg-zinc-800 rounded cur
+   · Application","name":"YouTube Transcript Extractor","image":"https://www.youtube-transcript.io/logo-small.svg","description":"Extract transcripts from YouTube videos quickly and easily with our powerfu
+   · mage":"https://www.youtube-transcript.io/logo-small.svg","description":"Extract transcripts from YouTube videos quickly and easily with our powerful tool.","brand":{"@type":"Brand","name":"YouTube Tra
+   · "@type":"Offer","name":"Free Plan","description":"25 tokens per month. Try bulk transcripts and API access.","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https:
+   · y":"USD","availability":"https://schema.org/InStock","url":"https://www.youtube-transcript.io/pricing"},{"@type":"Offer","name":"Plus Plan","description":"1000 tokens per month. Bulk transcripts, API 
+   · ,{"@type":"Offer","name":"Plus Plan","description":"1000 tokens per month. Bulk transcripts, API access, email support, chat with transcript.","price":"9.99","priceCurrency":"USD","availability":"http
+   · :"1000 tokens per month. Bulk transcripts, API access, email support, chat with transcript.","price":"9.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.youtube
+   · y":"USD","availability":"https://schema.org/InStock","url":"https://www.youtube-transcript.io/pricing"},{"@type":"Offer","name":"Pro Plan","description":"3000 tokens per month. Bulk transcripts, API a
+   · },{"@type":"Offer","name":"Pro Plan","description":"3000 tokens per month. Bulk transcripts, API access, email and chat support.","price":"24.99","priceCurrency":"USD","availability":"https://schema.o
+   · y":"USD","availability":"https://schema.org/InStock","url":"https://www.youtube-transcript.io/pricing"},{"@type":"Offer","name":"Enterprise Plan","description":"Custom pricing for over 3000 tokens per
+   · an","description":"Custom pricing for over 3000 tokens per month. Includes bulk transcripts, API access, customizations, and live support.","price":"0","priceCurrency":"USD","availability":"https://sc
+   · ":"USD","availability":"https://schema.org/PreOrder","url":"https://www.youtube-transcript.io/pricing"}],"review":[{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":1},"author":{"@type"
+   · :{"@type":"Person","name":"Based Team"},"reviewBody":"Very reliable for pulling transcripts.","datePublished":"2026-09-04T21:29:01.721Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValu
+   · "@type":"Person","name":"Anonymous"},"reviewBody":"This is the best tool to get transcriptions. I mean, it's lightning fast.","datePublished":"2026-09-02T02:41:30.396Z"},{"@type":"Review","reviewRatin
+   · },"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"This is the best transcript tool I have ever come across, Alhamdulillah I love it so much.","datePublished":"2026-08-30T07:47:38.734Z"},{
+   · tingValue":5},"author":{"@type":"Person","name":"Mohamed Fodili"},"reviewBody":"transcript","datePublished":"2026-08-26T18:04:55.499Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue"
+   · e":"Person","name":"Anonymous"},"reviewBody":"You used to be able to get me the transcript from the weekly sermon. Why not now?","datePublished":"2026-08-26T11:32:00.255Z"},{"@type":"Review","reviewRa
+   · gValue":1},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Default transcript extraction to the video’s language, or allow the user to change it.","datePublished":"2026-08-24T14:09:05.461
+   · atingValue":4},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"The transcript is amazing, but please make the words accurate.","datePublished":"2026-08-24T08:47:40.554Z"},{"@type":"Review
+   · ngValue":1},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"I want transcription in Tamil, but it's giving in Hindi.","datePublished":"2026-08-23T14:48:26.510Z"},{"@type":"Review","review
+   · 5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"I use it to add transcripts to Canvas with the videos I embed—to make my materials more accessible. Thanks!","datePublished":"2026-08-22
+   · {"@type":"Person","name":"Anonymous"},"reviewBody":"As a neurodivergent person, transcripts are essential to me. I often keep TXT documents to go back to them. When videos don't provide them, I find y
+   · hor":{"@type":"Person","name":"Anonymous"},"reviewBody":"I use the tool to make transcripts to show AI. It's generally quite accurate and does the job very quickly, without imposing a strict word limi
+   · Simple and easy and does exactly what it says. Being able to get multiple video transcripts or entire channels would be great.","datePublished":"2026-08-21T19:08:31.841Z"},{"@type":"Review","reviewRat
+   · uthor":{"@type":"Person","name":"Anonymous"},"reviewBody":"It’s good at getting transcripts. I guess? That’s sort of what it’s meant for.","datePublished":"2026-08-21T11:05:50.395Z"},{"@type":"Review"
+   · hor":{"@type":"Person","name":"Anonymous"},"reviewBody":"It is great at pulling transcripts from videos, very useful for researching topics and creating my own user manuals for kits.","datePublished":
+   · ingValue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Gives transcript.","datePublished":"2026-08-13T18:52:07.414Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue
+   ·  and writes \"Transcript Could Not Be Fetched.\" We were unable to retrieve the transcript for this video. This can happen for several reasons.\n\nCommon reasons for this error\nNo transcript availabl
+   · ideo. This can happen for several reasons.\n\nCommon reasons for this error\nNo transcript available\nThe video doesn't have captions or transcripts enabled by the creator. YouTube transcripts are onl
+   · ons for this error\nNo transcript available\nThe video doesn't have captions or transcripts enabled by the creator. YouTube transcripts are only available for videos that have captions.\n\nRestricted 
+   · nThe video doesn't have captions or transcripts enabled by the creator. YouTube transcripts are only available for videos that have captions.\n\nRestricted content\nThe video is private, age-restricte
+   · nabled.\n\nScraping error\nA technical error occurred while trying to fetch the transcript from YouTube.","datePublished":"2026-08-11T20:42:39.373Z"},{"@type":"Review","reviewRating":{"@type":"Rating"
+   · tingValue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"This transcript generator is instantaneous and perfect for siphoning out information needed quickly from a video. Nothing is 
+   · s simple, easy to use, and free. Please make this available for all audio/video transcription — not just YouTube.","datePublished":"2026-08-09T18:57:17.006Z"},{"@type":"Review","reviewRating":{"@type"
+   · gValue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Perfect transcript, no errors, very reliable.","datePublished":"2026-08-07T02:29:30.808Z"},{"@type":"Review","reviewRating":{"@t
+   · "Person","name":"Anonymous"},"reviewBody":"Simple to use; paste a link to get a transcript, with a copy button.","datePublished":"2026-08-06T19:57:28.005Z"},{"@type":"Review","reviewRating":{"@type":"
+   · :4},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Easily extract transcript. But would love if it could be structured in paragraphs instead of one large block.","datePublished":"2026-08
+   · ":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Very accurate transcription and easy to use. Thank you.","datePublished":"2026-08-05T21:28:44.379Z"},{"@type":"Review","reviewRating":
+   · 5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"I can study the transcript to learn a language.","datePublished":"2026-08-04T18:11:41.272Z"},{"@type":"Review","reviewRating":{"@type":"
+   · ank you! When you make your service paid, then I will switch to a cheap API for transcripts, haha","datePublished":"2026-07-27T20:45:13.410Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratin
+   · r":{"@type":"Person","name":"Anonymous"},"reviewBody":"Intuitive UI/UX and fast transcription.","datePublished":"2026-07-23T04:22:03.344Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingVa
+   · uthor":{"@type":"Person","name":"Anonymous"},"reviewBody":"It gives me the best transcription for free.","datePublished":"2026-07-20T11:48:22.705Z"},{"@type":"Review","reviewRating":{"@type":"Rating",
+   · gValue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"gets me transcripts less good","datePublished":"2026-07-19T16:51:14.750Z"},{"@type":"Review","reviewRating":{"@type":"Rating","r
+   · Value":1},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Make the transcript selectable and copyable.","datePublished":"2026-07-18T17:56:18.532Z"},{"@type":"Review","reviewRating":{"@typ
+   · hor":{"@type":"Person","name":"kamaljith nk"},"reviewBody":"Not able to receive transcript in English. While the video is in English, transcripts are coming in Hindi.","datePublished":"2026-07-16T11:4
+   · ody":"Not able to receive transcript in English. While the video is in English, transcripts are coming in Hindi.","datePublished":"2026-07-16T11:44:03.772Z"},{"@type":"Review","reviewRating":{"@type":
+   · equire me to sign up or fill out so many forms before I could use their YouTube transcription.","datePublished":"2026-07-14T13:37:04.692Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingVa
+   · tingValue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Good transcript","datePublished":"2026-07-14T12:15:03.759Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue"
+   · atingValue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"The transcript","datePublished":"2026-07-12T17:38:40.304Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue"
+   · @type":"Person","name":"Anonymous"},"reviewBody":"How fast it is to extract the transcripts 🫡✊","datePublished":"2026-07-10T13:53:46.066Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingV
+   · Every time I put in a YouTube link, it gives me excuses as to why I can't get a transcript. None of them apply to me.","datePublished":"2026-07-07T01:17:47.510Z"},{"@type":"Review","reviewRating":{"@t
+   · viewBody":"Supporting material for my books... Maybe using your service for 2–4 transcripts per month... Your ease of use is much welcomed.","datePublished":"2026-07-06T14:14:05.261Z"},{"@type":"Revie
+   · :{"@type":"Person","name":"Anonymous"},"reviewBody":"It is very accurate in its transcripts and has made my work much easier. Thumbs up, guys.","datePublished":"2026-07-03T00:20:52.535Z"},{"@type":"Re
+   · ame":"Anonymous"},"reviewBody":"It's absolutely life-saving for planning. Using transcripts with Claude has been a lifesaver!","datePublished":"2026-07-02T14:35:10.413Z"},{"@type":"Review","reviewRati
+   · Great value—3k videos transcribed per month for very little money. But playlist transcription really saves me time.","datePublished":"2026-07-02T10:47:49.699Z"},{"@type":"Review","reviewRating":{"@typ
+   · r":{"@type":"Person","name":"Anonymous"},"reviewBody":"Provides straightforward transcripts to help students with auditory challenges study various YouTube topics.","datePublished":"2026-07-01T01:49:1
+   · erson","name":"Anonymous"},"reviewBody":"Best and highly accurate YouTube video transcripts, and downloadable with or without timestamps. Highly recommend.","datePublished":"2026-06-30T09:03:32.331Z"}
+   · n","name":"Anonymous"},"reviewBody":"UI, reliability (other one broke on a long transcript), generous free credits","datePublished":"2026-06-29T00:00:15.728Z"},{"@type":"Review","reviewRating":{"@type
+   · knew I needed this, but now I do. And also the options to do something with the transcript in one dashboard. I'm very pleased with the UX.","datePublished":"2026-06-28T11:44:59.481Z"},{"@type":"Review
+   · e how much time it has saved me from watching training. I can literally get the transcript and give it to Claude to teach me in minutes rather than hours.","datePublished":"2026-06-23T05:19:45.483Z"},
+   · {"@type":"Person","name":"Anonymous"},"reviewBody":"I love that I can use these transcripts with AI to pull key data points from videos and compile the information quickly.","datePublished":"2026-06-2
+   · us"},"reviewBody":"The AI integration that allows you to ask anything about the transcript.","datePublished":"2026-06-21T16:28:23.574Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue
+   · "author":{"@type":"Person","name":"Anonymous"},"reviewBody":"The quality of the transcript.","datePublished":"2026-06-19T17:34:38.666Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue
+   ·  give it 5 stars, but it needs some improvements like an option to download the transcript as a PDF and also not place your watermark or link at the start of the transcript. Otherwise it's really usef
+   · anscript as a PDF and also not place your watermark or link at the start of the transcript. Otherwise it's really useful 😊","datePublished":"2026-06-12T06:05:48.821Z"},{"@type":"Review","reviewRating
+   · "It's quick, it gives me timestamps and options for how I want to summarise the transcript.","datePublished":"2026-06-09T03:05:39.362Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue
+   · "Anonymous"},"reviewBody":"I absolutely LOVE this app! It is the most efficient transcription tool I've found to date. Here are 3 reasons you should use YouTube Transcript today:\n🏃‍♀️ Only takes 4 e
+   · eate a quiz to test your learning.\n🥰 What more could you possibly need from a transcription app?\n💥 YouTube Transcript outperforms the competition hands down! 💥","datePublished":"2026-06-05T12:20:
+   ·  other two; Google had higher on the search results page. I want a simple, fast transcript. I don’t want to watch the video, and I don’t want it to tie up system resources (RAM).","datePublished":"202
+   · type":"Person","name":"Anonymous"},"reviewBody":"It's really helpful to put our transcripts into Claude for analysis, either to retrospectively see what worked or didn't, or to find patterns that help
+   · nonymous"},"reviewBody":"I absolutely love this tool. It's not easy copying the transcript on YouTube. Thank you!","datePublished":"2026-06-04T14:35:56.321Z"},{"@type":"Review","reviewRating":{"@type"
+   · me":"Anonymous"},"reviewBody":"Gone are the days of having no video summary, no transcript, and manually writing transcripts for an hour. Now I can transcribe ANY YouTube video with just a link—copy, 
+   · ne are the days of having no video summary, no transcript, and manually writing transcripts for an hour. Now I can transcribe ANY YouTube video with just a link—copy, paste, and ta-da. I have a full v
+   ·  ANY YouTube video with just a link—copy, paste, and ta-da. I have a full video transcription, summary, AI commentary, AND the ability to ask AI any questions I might have.\n💥 All this from a FREE ap
+   · to ask AI any questions I might have.\n💥 All this from a FREE app!\n💥 25 FREE transcriptions a month.\n💡 You are LITERALLY 2 clicks away from the easiest 4 steps you ever had to take!!\n🥰 I am lov
+   · ue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Downloading transcripts from YouTube helps me assess other channel content to compare/contrast ideas for our own channel content, an
+   · nnel content to compare/contrast ideas for our own channel content, and youtube-transcript.io saves me tons of time in getting those in a useful format. I love this tool, use it all the time! Thank yo
+   · hor":{"@type":"Person","name":"Anonymous"},"reviewBody":"It is a great tool for transcripts of YouTube videos. It transcripts a couple of hour video in just a couple of seconds with exact timing and w
+   · nymous"},"reviewBody":"It is a great tool for transcripts of YouTube videos. It transcripts a couple of hour video in just a couple of seconds with exact timing and words. No mistakes.","datePublished
+   · tingValue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"This transcript tool is what I describe as dynamic, seamless, hassle-free, usable by a non-technical person, user-friendly, a
+   · Person","name":"Anonymous"},"reviewBody":"It allows me to save time by skimming transcripts","datePublished":"2026-05-27T18:07:43.750Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue
+   · Anonymous"},"reviewBody":"The simplicity and the accuracy to the actual YouTube transcript. Bravo!","datePublished":"2026-05-24T03:58:16.863Z"},{"@type":"Review","reviewRating":{"@type":"Rating","rati
+   · hor":{"@type":"Person","name":"Anonymous"},"reviewBody":"It is very fast to get transcripts, no ads and free, thanks.","datePublished":"2026-05-23T09:59:51.339Z"},{"@type":"Review","reviewRating":{"@t
+   · {"@type":"Person","name":"Anonymous"},"reviewBody":"Easy for me to take out the transcript from YouTube.","datePublished":"2026-05-19T21:06:50.202Z"},{"@type":"Review","reviewRating":{"@type":"Rating"
+   · e":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Lecture full transcript, nothing more, nothing less.","datePublished":"2026-05-19T17:39:37.963Z"},{"@type":"Review","reviewRating":{"
+   · eviewBody":"The filename format thing, how easy it is to do so many things with transcription, the huge amount of free credits, the AI features—really, it's way better than 98% of the YouTube transcri
+   · f free credits, the AI features—really, it's way better than 98% of the YouTube transcript websites out there. Thanks so much to everyone on the team, bless you all!!!","datePublished":"2026-05-18T23:
+   · "reviewBody":"It's so seamless and fast. It's straight to the point and gets me transcripts in seconds.","datePublished":"2026-05-18T03:14:57.500Z"},{"@type":"Review","reviewRating":{"@type":"Rating",
+   · lue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"I like the transcription.","datePublished":"2026-05-17T13:02:03.232Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingVa
+   · \n\nI searched ChatGPT to find an online tool I could quickly use to scrape the transcription. Bingo! It worked EXTREMELY quickly and looks like it has a high degree of accuracy.\n\nPlus the transcrip
+   ·  EXTREMELY quickly and looks like it has a high degree of accuracy.\n\nPlus the transcript is timestamped, which makes it easier for me in the long term as well.\n\nThanks YTT!","datePublished":"2026-
+   · you want, show an ad before you show the summary. Still better than copying the transcript and summarizing in ChatGPT.","datePublished":"2026-05-13T02:41:39.870Z"},{"@type":"Review","reviewRating":{"@
+   · "I've discovered many use cases for this tool. I'm no longer just feeding these transcripts to AI for summaries. I'm using them to automate better note-taking.","datePublished":"2026-05-12T15:54:28.71
+   · ous"},"reviewBody":"It is super good when your school blocks the ability to get transcripts from YouTube. It does make some small mistakes, but the added chatbot to help find stuff is AWESOME!","dateP
+   · {"@type":"Person","name":"Anonymous"},"reviewBody":"Unlimited and uninterrupted transcriptions.","datePublished":"2026-05-11T06:59:07.081Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingV
+   · ":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Best tool for transcript of videos.","datePublished":"2026-05-11T03:53:28.401Z"},{"@type":"Review","reviewRating":{"@type":"Rating","r
+   · type":"Person","name":"Anonymous"},"reviewBody":"Thank you for such a difficult transcription—in both English and Spanish at the same time. Bless your platform, and thank you for keeping it free. Book
+   · pt modes are great: Study Guide is detailed enough + Quiz + Mindmap + Search in transcript + Automation ability","datePublished":"2026-05-10T09:22:40.110Z"},{"@type":"Review","reviewRating":{"@type":"
+   · or helping with revision, I typically summarise a long form video by taking the transcript and using AI to summarise it and make key points. Always my go-to.","datePublished":"2026-05-09T20:38:44.181Z
+   · t you can watch the video while being able to view the time-stamped, scrollable transcript beside it. The copy and download options come in very handy.","datePublished":"2026-05-08T19:36:09.499Z"},{"@
+   · lue":5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"I copy the transcript and because I have dyslexia, I drop it into Grok so I can discuss what’s being transcribed.","datePublished":
+   · pe":"Person","name":"Anonymous"},"reviewBody":"It's so easy to use! I can get a transcript of my videos within seconds.","datePublished":"2026-05-06T18:09:20.696Z"},{"@type":"Review","reviewRating":{"
+   · ratingValue":1},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"No transcript was produced.","datePublished":"2026-05-05T16:35:37.780Z"},{"@type":"Review","reviewRating":{"@type":"Rating"
+   · r":{"@type":"Person","name":"Anonymous"},"reviewBody":"Interface, details, full transcripts that can be exported into AI or other workflows, cheap price point.","datePublished":"2026-05-05T13:54:28.83
+   · 5},"author":{"@type":"Person","name":"Sadasivam Basavaiya"},"reviewBody":"Exact transcript and translation.","datePublished":"2026-05-03T10:11:18.958Z"},{"@type":"Review","reviewRating":{"@type":"Rati
+   · thor":{"@type":"Person","name":"Anonymous"},"reviewBody":"It's fast to take the transcript.","datePublished":"2026-04-30T03:37:43.095Z"},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue
+   · 5},"author":{"@type":"Person","name":"Anonymous"},"reviewBody":"Rely on youtube-transcript.io to reliably and quickly extract transcripts from my YouTube videos into a .txt file that I can then upload
+   · s"},"reviewBody":"Rely on youtube-transcript.io to reliably and quickly extract transcripts from my YouTube videos into a .txt file that I can then upload into Grok to generate compelling YouTube vide
+
+########## https://www.you-tldr.com/
+  bundles: 24
+   · text-foreground/60 transition-colors duration-200 hover:text-foreground" href="/transcripts">Transcript Library</a></li><li><a class="text-sm text-foreground/60 transition-colors duration-200 hover:te
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-search">Transcript Search</a></li><li><a class="text-sm text-foreground/60 transition-colors duration-200 hov
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-spanish">Spanish</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foreground
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-french">French</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foreground" 
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-german">German</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foreground" 
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-portuguese">Portuguese</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-fore
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-hindi">Hindi</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foreground" hr
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-japanese">Japanese</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foregrou
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-korean">Korean</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foreground" 
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-arabic">Arabic</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foreground" 
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-chinese">Chinese</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foreground
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-russian">Russian</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foreground
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-turkish">Turkish</a><a class="text-sm text-foreground/60 transition-colors duration-200 hover:text-foreground
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/youtube-transcript-indonesian">Indonesian</a></div></div><div class="mt-10 flex flex-col items-center justify-between gap-4 bord
+   · :"12","priceCurrency":"USD","priceValidUntil":"2026-12-31","description":"Fresh transcripts and summaries every day, all features, no ads","priceSpecification":{"@type":"UnitPriceSpecification","price
+   · illingIncrement":"1"}},"featureList":["AI-powered video summarization","Instant transcription in 125+ languages","Translate transcripts into 125+ languages","Interactive Q&A chatbot","YouTube to Blog 
+   · wered video summarization","Instant transcription in 125+ languages","Translate transcripts into 125+ languages","Interactive Q&A chatbot","YouTube to Blog conversion","YouTube to LinkedIn conversion"
+   · nt links to the exact moment it came from — verify any claim in one click. Live transcripts, chat with the full video, and one-click repurposing into blog, LinkedIn, X, and slides — in 125+ languages.
+   · ative aspect-[2386/928] w-full overflow-hidden bg-background"><img alt="YouTLDR transcript with active line highlighted" loading="lazy" decoding="async" data-nimg="fill" class="object-cover object-top
+   · min-width: 640px) 50vw, 85vw" srcSet="/_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=640&amp;q=75 640w
+   · anscript.png&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=750&amp;q=75 750w
+   · anscript.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=828&amp;q=75 828w
+   · anscript.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=1080&amp;q=75 108
+   · anscript.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=1200&amp;q=75 1
+   · script.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=1920&amp;q=75 1
+   · script.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=2048&amp;q=75 2
+   · script.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=3840&amp;q=75 3
+   · script.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=3840&amp;q
+   · t.png&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2Fchrome-extension%2F01-transcript.png&amp;w=3840&amp;q=75"/></div><figcaption class="flex items-center justify-between gap-3 border-t border-bo
+   · ight text-xs text-muted-foreground sm:text-sm">Ask the video anything. The full transcript is the context.</span></figcaption></figure><figure aria-hidden="true" class="group/card w-[85%] flex-shrink-
+   · ight text-xs text-muted-foreground sm:text-sm">Ask the video anything. The full transcript is the context.</span></figcaption></figure></div></div></section></div><div style="transition-delay:0.03s" c
+   · e</span></div><h3 class="text-lg font-bold tracking-tight text-foreground">Live transcript cursor</h3><p class="text-sm leading-relaxed text-muted-foreground">The active line lights up as the video pl
+   · H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg><span>Full transcript stays the source of truth</span></li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/s
+   · rate when the tab closes. Every video you run through YouTLDR is saved with its transcript, summary, and chat — searchable and re-openable from your history.</p></article><article class="flex h-full f
+   · xed text-muted-foreground">The Ask button stops at a reply. YouTLDR exports the transcript, translates into 125+ languages, and turns the video into blog posts, social posts, slides, study notes, and 
+   · path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div><span>Full transcript with 125+ language translation</span></li><li class="flex items-start gap-2.5"><div class="mt-0.5 flex h-5 w-
+   · eground">YouTLDR is an AI-powered YouTube video summarizer that creates instant transcripts, summaries with timestamped evidence, and repurposed content from any video in 125+ languages.</div></div></
+   · xt-muted-foreground">Paste any YouTube URL, pick a language, and get an instant transcript and summary. The transcript live-syncs to playback, every summary point links back to its timestamp, and you 
+   · ny YouTube URL, pick a language, and get an instant transcript and summary. The transcript live-syncs to playback, every summary point links back to its timestamp, and you can repurpose the video into
+   · h)"><div class="pb-4 pt-0 text-sm leading-relaxed text-muted-foreground">Public transcript pages remain available to browse, but processing a YouTube video requires an active Pro subscription.</div></
+   · very video to a searchable library, translates into 125+ languages, and exports transcripts, blog posts, social posts, slides, study notes, and quizzes.</div></div></div><div data-state="closed" data-
+   · t-sm leading-relaxed text-muted-foreground">YouTLDR supports 125+ languages for transcription and translation, including English, Spanish, French, German, Portuguese, Chinese, Japanese, Korean, Arabic
+   · ext-muted-foreground">Yes — the YouTLDR Chrome extension puts the full toolkit (transcripts, summaries, timeline, chat) right inside the YouTube player, with the same Watch Mode features as the web ap
+   · nt-semibold text-background shadow-sm transition hover:bg-foreground/90" href="/transcript/Unzc731iCUY">Open complete transcript<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="
+   · transition hover:bg-foreground/90" href="/transcript/Unzc731iCUY">Open complete transcript<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="current
+   · -90\",\"children\":\"Summarize a video\"}]\n8:[\"$\",\"$L18\",null,{\"href\":\"/transcripts\",\"className\":\"rounded-md border border-input px-6 py-3 font-semibold text-foreground transition hover:bg
+   · -semibold text-foreground transition hover:bg-secondary\",\"children\":\"Browse transcripts\"}]\n"])</script><script>self.__next_f.push([1,"9:[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"script\",\"sc
+   · ity-90\",\"children\":\"Summarize a video\"}],[\"$\",\"$L18\",null,{\"href\":\"/transcripts\",\"className\":\"rounded-md border border-input px-6 py-3 font-semibold text-foreground transition hover:bg
+   · -semibold text-foreground transition hover:bg-secondary\",\"children\":\"Browse transcripts\"}]]}]]}],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}]\n"])</script><script>sel
+   · ceCurrency\":\"USD\",\"priceValidUntil\":\"2026-12-31\",\"description\":\"Fresh transcripts and summaries every day, all features, no ads\",\"priceSpecification\":{\"@type\":\"UnitPriceSpecification\"
+   · crement\":\"1\"}},\"featureList\":[\"AI-powered video summarization\",\"Instant transcription in 125+ languages\",\"Translate transcripts into 125+ languages\",\"Interactive Q\u0026A chatbot\",\"YouTu
+   · d video summarization\",\"Instant transcription in 125+ languages\",\"Translate transcripts into 125+ languages\",\"Interactive Q\u0026A chatbot\",\"YouTube to Blog conversion\",\"YouTube to LinkedIn 
+   · ntent="Get the TLDR of any YouTube video in seconds. Transcribe, translate, and summarize videos in 125+ languages. Extract key insights, generate blog posts, and repurpose content."/><meta name="appl
+   · ntent="Get the TLDR of any YouTube video in seconds. Transcribe, translate, and summarize videos in 125+ languages. Extract key insights, generate blog posts, and repurpose content."/><meta property="
+   · ntent="Get the TLDR of any YouTube video in seconds. Transcribe, translate, and summarize videos in 125+ languages. Extract key insights, generate blog posts, and repurpose content."/><meta name="twit
+   · ts you get the TLDR of any YouTube video in seconds. Transcribe, translate, and summarize videos in 125+ languages. Extract key insights, generate blog posts, and repurpose content. Founded in 2019.",
+   · eground/60 transition-colors duration-200 hover:text-foreground" href="/podcast-summarizer">Podcast Summarizer</a></li><li><a class="text-sm text-foreground/60 transition-colors duration-200 hover:tex
+   · tion":"Get the TLDR of any YouTube video in seconds. Transcribe, translate, and summarize videos in 125+ languages. Extract key insights, generate blog posts, and repurpose content. Founded in 2019 an
+   · m leading-relaxed text-muted-foreground">YouTLDR is an AI-powered YouTube video summarizer that creates instant transcripts, summaries with timestamped evidence, and repurposed content from any video 
+   · ts you get the TLDR of any YouTube video in seconds. Transcribe, translate, and summarize videos in 125+ languages. Extract key insights, generate blog posts, and repurpose content. Founded in 2019.\"
+   · on\":\"Get the TLDR of any YouTube video in seconds. Transcribe, translate, and summarize videos in 125+ languages. Extract key insights, generate blog posts, and repurpose content. Founded in 2019 an
+   · nt\":\"Get the TLDR of any YouTube video in seconds. Transcribe, translate, and summarize videos in 125+ languages. Extract key insights, generate blog posts, and repurpose content.\"}],[\"$\",\"meta\
+   · planState},ow();try{ou.register(op)}catch{}}let oy=new Set(["signup_completed","transcript_fetched","video_saved","summary_generated","paywall_shown","upgrade_clicked","checkout_started","marketing_ct
+   · eb_experiment_applied","$feature_enrollment_update","$feature_flag_called"],M=["token"],O="NativeGzipValidationError",N=e=>e.length>=2&&31===e[0]&&139===e[1],A=(e,t)=>e===R.GZipJS||t===R.GZipJS||"gzip
+   · terval,0,864e5,e.rt)}ot(e,t){var i=Math.floor((t-e.lastAccess)/this.st);i>0&&(e.tokens=Math.min(e.tokens+i*this.nt,this.it),e.lastAccess=e.lastAccess+i*this.st)}consumeRateLimit(e){var t,i=Date.now(),
+   · t)}ot(e,t){var i=Math.floor((t-e.lastAccess)/this.st);i>0&&(e.tokens=Math.min(e.tokens+i*this.nt,this.it),e.lastAccess=e.lastAccess+i*this.st)}consumeRateLimit(e){var t,i=Date.now(),r=String(e),s=this
+   · var t,i=Date.now(),r=String(e),s=this.tt[r];return s?this.ot(s,i):this.tt[r]=s={tokens:this.it,lastAccess:i},0===s.tokens||(s.tokens--,0===s.tokens&&(null==(t=this.et)||t.call(this,e)),0===s.tokens)}s
+   · is.tt[r];return s?this.ot(s,i):this.tt[r]=s={tokens:this.it,lastAccess:i},0===s.tokens||(s.tokens--,0===s.tokens&&(null==(t=this.et)||t.call(this,e)),0===s.tokens)}stop(){this.tt={}}}var em="Mobile",e
+   · turn s?this.ot(s,i):this.tt[r]=s={tokens:this.it,lastAccess:i},0===s.tokens||(s.tokens--,0===s.tokens&&(null==(t=this.et)||t.call(this,e)),0===s.tokens)}stop(){this.tt={}}}var em="Mobile",ey="Android"
+   · s,i):this.tt[r]=s={tokens:this.it,lastAccess:i},0===s.tokens||(s.tokens--,0===s.tokens&&(null==(t=this.et)||t.call(this,e)),0===s.tokens)}stop(){this.tt={}}}var em="Mobile",ey="Android",eb="Tablet",ew
+   · ==s.tokens||(s.tokens--,0===s.tokens&&(null==(t=this.et)||t.call(this,e)),0===s.tokens)}stop(){this.tt={}}}var em="Mobile",ey="Android",eb="Tablet",ew=ey+" "+eb,ex="iPad",ek="Apple",eE=ek+" Watch",eS=
+   · s)}t8(e,r,i)}else{var n=e.requestRouter.endpointFor("assets","/array/"+e.config.token+"/config.js");t8(e,n,i)}},_.__PosthogExtensions__.loadSiteApp=(e,t,i)=>{var r=e.requestRouter.endpointFor("api",t)
+   · his.ri,this.Ne.cross_subdomain_cookie)}get ri(){var e=this._instance.config,t=e.token,i=e.opt_out_capturing_cookie_prefix;return e.consent_persistence_name||(i?i+t:"__ph_opt_in_out_"+t)}get ei(){var e
+   · t.tags||(t.tags={});var i=e.requestRouter.endpointFor("ui","/project/"+e.config.token+"/person/"+e.get_distinct_id());t.tags["PostHog Person URL"]=i,e.sessionRecordingStarted()&&(t.tags["PostHog Recor
+   · this.Ne=e,this.gi=i,this.props={},this.mi=void 0,this.yi=(e=>{var t="";return e.token&&(t=e.token.replace(/\+/g,"PL").replace(/\//g,"SL").replace(/=/g,"EQ")),e.persistence_name?"ph_"+e.persistence_nam
+   · is.gi=i,this.props={},this.mi=void 0,this.yi=(e=>{var t="";return e.token&&(t=e.token.replace(/\+/g,"PL").replace(/\//g,"SL").replace(/=/g,"EQ")),e.persistence_name?"ph_"+e.persistence_name:"ph_"+t+"_
+   · (),o=null!=(t=null==(i=this.instance.persistence)?void 0:i.get_property(iU))?t:{tokens:s,last:a};o.tokens+=(a-o.last)/1e3*n,o.last=a,o.tokens>s&&(o.tokens=s);var l=1>o.tokens;if(l||e||(o.tokens=Math.m
+   · =(i=this.instance.persistence)?void 0:i.get_property(iU))?t:{tokens:s,last:a};o.tokens+=(a-o.last)/1e3*n,o.last=a,o.tokens>s&&(o.tokens=s);var l=1>o.tokens;if(l||e||(o.tokens=Math.max(0,o.tokens-1)),l
+   · 0:i.get_property(iU))?t:{tokens:s,last:a};o.tokens+=(a-o.last)/1e3*n,o.last=a,o.tokens>s&&(o.tokens=s);var l=1>o.tokens;if(l||e||(o.tokens=Math.max(0,o.tokens-1)),l&&!e){var u=(en(o.dropped)?o.dropped
+   · rty(iU))?t:{tokens:s,last:a};o.tokens+=(a-o.last)/1e3*n,o.last=a,o.tokens>s&&(o.tokens=s);var l=1>o.tokens;if(l||e||(o.tokens=Math.max(0,o.tokens-1)),l&&!e){var u=(en(o.dropped)?o.dropped:0)+1;o.dropp
+   · ,last:a};o.tokens+=(a-o.last)/1e3*n,o.last=a,o.tokens>s&&(o.tokens=s);var l=1>o.tokens;if(l||e||(o.tokens=Math.max(0,o.tokens-1)),l&&!e){var u=(en(o.dropped)?o.dropped:0)+1;o.dropped=u,!this.lastEvent
+   · (a-o.last)/1e3*n,o.last=a,o.tokens>s&&(o.tokens=s);var l=1>o.tokens;if(l||e||(o.tokens=Math.max(0,o.tokens-1)),l&&!e){var u=(en(o.dropped)?o.dropped:0)+1;o.dropped=u,!this.lastEventRateLimited&&this.U
+   · ast=a,o.tokens>s&&(o.tokens=s);var l=1>o.tokens;if(l||e||(o.tokens=Math.max(0,o.tokens-1)),l&&!e){var u=(en(o.dropped)?o.dropped:0)+1;o.dropped=u,!this.lastEventRateLimited&&this.Ui(u)&&(o.dropped=0)}
+   · .instance.persistence)||r.set_property(iU,o),{isRateLimited:l,remainingTokens:o.tokens}}zi(e){var t=this.instance.config.property_denylist;return!Y(t)||!t.includes(e)}Wi(){var e;if(this.zi("$current_u
+   · r e;return null==(e=_._POSTHOG_REMOTE_CONFIG)||null==(e=e[this._instance.config.token])?void 0:e.config}Vi(e){var t,i;null!=(t=_.__PosthogExtensions__)&&t.loadExternalDependency?null==(i=_.__PosthogEx
+   · is._instance.requestRouter.endpointFor("assets","/array/"+this._instance.config.token+"/config"),callback:e})}load(){try{if(this.remoteConfig)return s1.info("Using preloaded remote config",this.remote
+   · tamp=null,this.Nr=t||rw,this.qr=i||rw;var r,s=this.Ne.persistence_name||this.Ne.token;if(this._sessionTimeoutMs=1e3*e_(this.Ne.session_idle_timeout_seconds||1800,60,36e3,nV.createLogger("session_idle_
+   · wId:"",sessionStartTimestamp:0}}}get projectToken(){return this.instance.config.token}add(e){return this.cn.add(e)}capture(e,t,i){var r=this;return y(function*(){i?r.instance.capture(e,t,{timestamp:i.
+   · Use before_send instead",av="Invalid value for property_denylist config: ",ag=["token","distinct_id",iY],a_="posthog",af=!nE&&-1===(null==p?void 0:p.indexOf("MSIE"))&&-1===(null==p?void 0:p.indexOf("M
+   · ost:"https://us.i.posthog.com",flags_api_host:null,ui_host:null,asset_host:null,token:"",autocapture:!0,cross_subdomain_cookie:function(e){var t=null==e?void 0:e.hostname;if(!et(t))return!1;var i=t.sp
+   · o=et(e)?e.trim():"";if(!o)return t3.critical("PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()"),this;if(this
+   · sthog.init()"),this;if(this.__loaded)return o!==(null==(a=this.config)?void 0:a.token)?console.warn("[PostHog.js]","You have already initialized PostHog with a different project token! Re-initializing
+   · n("[PostHog.js]","You have already initialized PostHog with a different project token! Re-initializing is a no-op, so events will keep going to the project this instance was initialized with. To captu
+   · on&&(this.Sn=t.process_person);var l=am(t.defaults),u=ab(t),h=rs({},l,u,{name:i,token:o});Z(l.rageclick)&&Z(u.rageclick)&&(h.rageclick=rs({},l.rageclick,u.rageclick)),Z(l.session_recording)&&Z(u.sessi
+   · essionStorage"}),c,!1),this._n="ph_"+(this.config.persistence_name||this.config.token)+"_session_registered_properties","memory"!==this.config.persistence&&!c&&rC.N()){var d=rC.H(this._n);Y(d)&&d.forE
+   · ey:null!=(l=null==(c=(h=Y(o=a.data)?o:[o])[0])||null==(u=c.properties)?void 0:u.token)?l:null==c?void 0:c.token,batch:h,sent_at:(new Date).toISOString()}:"body"===a.timestampMode&&(t=a.data,void 0===i
+   · o=a.data)?o:[o])[0])||null==(u=c.properties)?void 0:u.token)?l:null==c?void 0:c.token,batch:h,sent_at:(new Date).toISOString()}:"body"===a.timestampMode&&(t=a.data,void 0===i&&(i=(new Date).toISOStrin
+   · w",f.properties.$browser_type="bot"),c&&(f.properties.$lib_rate_limit_remaining_tokens=c.remainingTokens);var m="$feature_flag_called"===e&&!1===f.properties.$feature_flag_has_experiment&&!0===this.ge
+   · return t;var a,u=n?void 0:this.persistence.remove_event_timer(e),h=b({},t);if(h.token=this.config.token,h.$config_defaults=this.config.defaults,this.mn()&&(h[iY]=!0),"$snapshot"===e){var c=b({},this.p
+   · ?void 0:this.persistence.remove_event_timer(e),h=b({},t);if(h.token=this.config.token,h.$config_defaults=this.config.defaults,this.mn()&&(h[iY]=!0),"$snapshot"===e){var c=b({},this.persistence.propert
+   · ionStartTimestamp,r=this.requestRouter.endpointFor("ui","/project/"+this.config.token+"/replay/"+t.sessionId);if(null!=e&&e.withTimestamp&&i){var s,n=null!=(s=e.timestampLookBack)?s:10;if(!i)return r;
+   · uest({url:this._instance.requestRouter.endpointFor("api","/api/web_experiments/?token="+this.Ne.token),method:"GET",timestampMode:"query",callback:t=>e(200===t.statusCode&&t.json&&t.json.experiments||
+   · instance.requestRouter.endpointFor("api","/api/web_experiments/?token="+this.Ne.token),method:"GET",timestampMode:"query",callback:t=>e(200===t.statusCode&&t.json&&t.json.experiments||[])})}oa(e,t,i){
+   · .Ia(),!this._instance.Ki()&&!this._a())if(this.va)this.fa=!0;else{var i=this.Ne.token,r=this.wa(t9),s={token:i,distinct_id:this._instance.get_distinct_id(),groups:this._instance.getGroups(),$anon_dist
+   · i()&&!this._a())if(this.va)this.fa=!0;else{var i=this.Ne.token,r=this.wa(t9),s={token:i,distinct_id:this._instance.get_distinct_id(),groups:this._instance.getGroups(),$anon_distinct_id:this.$anon_dist
+   · getFeatureFlagResult for key "'+e+a1)}getRemoteConfigPayload(e,t){var i=this.Ne.token,r={distinct_id:this._instance.get_distinct_id(),token:i,person_properties:{$lib:f.LIB_NAME,$lib_version:f.LIB_VERS
+   · ayload(e,t){var i=this.Ne.token,r={distinct_id:this._instance.get_distinct_id(),token:i,person_properties:{$lib:f.LIB_NAME,$lib_version:f.LIB_VERSION}};this.Ca()&&(r.evaluation_contexts=this.Sa());var
+   · url:this._instance.requestRouter.endpointFor("api","/api/early_access_features/?token="+this.Ne.token+s),method:"GET",timestampMode:"query",callback:t=>{var i,r;if(t.json){var s=t.json.earlyAccessFeat
+   · ce.requestRouter.endpointFor("api","/api/early_access_features/?token="+this.Ne.token+s),method:"GET",timestampMode:"query",callback:t=>{var i,r;if(t.json){var s=t.json.earlyAccessFeatures;return null
+   · equest({url:this._instance.requestRouter.endpointFor("api","/api/product_tours/?token="+this._instance.config.token),method:"GET",timestampMode:"query",callback:t=>{if(aq(this._instance)){var r=t.stat
+   · uestRouter.endpointFor("api","/api/product_tours/?token="+this._instance.config.token),method:"GET",timestampMode:"query",callback:t=>{if(aq(this._instance)){var r=t.statusCode;if(200!==r||!t.json){va
+   · send_request({url:this._instance.requestRouter.endpointFor("api","/api/surveys/?token="+this.Ne.token),method:"GET",timestampMode:"query",timeout:this.Ne.surveys_request_timeout_ms,callback:t=>{this.g
+   · l:this._instance.requestRouter.endpointFor("api","/api/surveys/?token="+this.Ne.token),method:"GET",timestampMode:"query",timeout:this.Ne.surveys_request_timeout_ms,callback:t=>{this.gl=null;var r=t.s
+   · r e;return null==(e=_._POSTHOG_REMOTE_CONFIG)||null==(e=e[this._instance.config.token])?void 0:e.siteApps}initialize(){if(this.isEnabled){var e=this._instance._addCaptureHook(this.Xo.bind(this));this.
+   · SON.parse(t.getItem(aQ)||"{}")).source="localstorage",delete r.userIntent),!(!r.token||this.instance.config.token!==r.token||(this.loadToolbar(r),0))}catch(e){return!1}}Il(e){var t=_.ph_load_toolbar||
+   · ")).source="localstorage",delete r.userIntent),!(!r.token||this.instance.config.token!==r.token||(this.loadToolbar(r),0))}catch(e){return!1}}Il(e){var t=_.ph_load_toolbar||_.ph_load_editor;!es(t)&&Q(t
+   · ="localstorage",delete r.userIntent),!(!r.token||this.instance.config.token!==r.token||(this.loadToolbar(r),0))}catch(e){return!1}}Il(e){var t=_.ph_load_toolbar||_.ph_load_editor;!es(t)&&Q(t)?t(e,this
+   · equestRouter.region&&this.instance.config.advanced_disable_toolbar_metrics,n=b({token:this.instance.config.token},e,{apiURL:this.instance.requestRouter.endpointFor("ui")},r?{instrument:!1}:{});return(
+   · nstance.config.advanced_disable_toolbar_metrics,n=b({token:this.instance.config.token},e,{apiURL:this.instance.requestRouter.endpointFor("ui")},r?{instrument:!1}:{});return(s.localStorage.setItem(aQ,J
+   · ?void 0:_.__PosthogExtensions__;if(e&&!ee(this.Rl)&&this.Rl)if(this.Fl&&this.Fl.token){this.Al=!0;try{var t=e.initConversations;if(t)return this.Dl(t),void(this.Al=!1);var i=e.loadExternalDependency;i
+
+########## https://anthiago.com/transcript/
+  bundles: 9
+   · thiago</title><meta name="description" content="Paste a YouTube link to get the transcript free, no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premiu
+   · , no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premium."><link rel="canonical" href="https://anthiago.com/transcript/"><link rel="alternate" hreflan
+   · o transcription with Premium."><link rel="canonical" href="https://anthiago.com/transcript/"><link rel="alternate" hreflang="en" href="https://anthiago.com/transcript/"><link rel="alternate" hreflang=
+   · com/transcript/"><link rel="alternate" hreflang="en" href="https://anthiago.com/transcript/"><link rel="alternate" hreflang="es" href="https://anthiago.com/desgrabador/"><link rel="alternate" hreflang
+   · m/trascrittore/"><link rel="alternate" hreflang="fr" href="https://anthiago.com/transcripteur/"><link rel="alternate" hreflang="x-default" href="https://anthiago.com/transcript/"><meta name="author" c
+   · ripteur/"><link rel="alternate" hreflang="x-default" href="https://anthiago.com/transcript/"><meta name="author" content="anthiago.com"><meta property="locale" content="en"><meta property="type" conte
+   · hiago"><meta property="og:description" content="Paste a YouTube link to get the transcript free, no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premiu
+   · , no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premium."><meta property="og:type" content="website"><meta property="og:image" content="https://anthi
+   · ontent="website"><meta property="og:image" content="https://anthiago.com/social/transcript-en.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta p
+   · e, No Sign-Up | Anthiago"><meta property="og:url" content="https://anthiago.com/transcript/"><meta property="og:site_name" content="Anthiago"><meta name="twitter:card" content="summary_large_image"><m
+   · iago"><meta name="twitter:description" content="Paste a YouTube link to get the transcript free, no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premiu
+   · , no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premium."><meta name="twitter:image" content="https://anthiago.com/social/transcript-en.png"><meta na
+   ·  with Premium."><meta name="twitter:image" content="https://anthiago.com/social/transcript-en.png"><meta name="twitter:image:alt" content="YouTube Transcript Generator – Free, No Sign-Up | Anthiago"><
+   · text":"https://schema.org","@type":"WebApplication","@id":"https://anthiago.com/transcript/#app","name":"Anthiago YouTube Transcript","url":"https://anthiago.com/transcript/","description":"Paste a Yo
+   · anscript/#app","name":"Anthiago YouTube Transcript","url":"https://anthiago.com/transcript/","description":"Paste a YouTube link to get the transcript free, no sign-up. Copy it, search inside the text
+   · ttps://anthiago.com/transcript/","description":"Paste a YouTube link to get the transcript free, no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premiu
+   · , no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premium.","applicationCategory":"MultimediaApplication","operatingSystem":"Web","browserRequirements"
+   · class="text-base text-gray-600 dark:text-gray-400"> Read, copy and download the transcript in your language. </p> </div> </div> </div> <label class="flex w-full items-center justify-center gap-3 text-
+   · ="Page language"> <option value="/desgrabador/">Español</option><option value="/transcript/" selected>English</option><option value="/transkrip/">Bahasa Indonesia</option><option value="/trascrittore/
+   · donesia</option><option value="/trascrittore/">Italiano</option><option value="/transcripteur/">Français</option> </select> </label> <nav aria-label="Page language" class="hidden flex-wrap justify-cen
+   · lue-950 dark:text-blue-200" lang="en" hreflang="en" aria-current="page" id="url_transcript" href="/transcript/"> English </a><a class="inline-flex items-center min-h-11 px-3 py-2 rounded-md transition
+   · lue-200" lang="en" hreflang="en" aria-current="page" id="url_transcript" href="/transcript/"> English </a><a class="inline-flex items-center min-h-11 px-3 py-2 rounded-md transition-colors focus-visib
+   · -100 dark:text-gray-300 dark:hover:bg-gray-800" lang="fr" hreflang="fr" id="url_transcripteur" href="/transcripteur/"> Français </a> </nav> </div> </header> <script type="module">(function(){try{var e
+   · 0 dark:hover:bg-gray-800" lang="fr" hreflang="fr" id="url_transcripteur" href="/transcripteur/"> Français </a> </nav> </div> </header> <script type="module">(function(){try{var e=typeof window<`u`?win
+   · quot;Desgrabador&quot;,&quot;value&quot;:true}" await-children><!--[--><div id="transcription-tool" class="google-anno-skip mx-auto max-w-4xl pb-10 svelte-1ihnx9z"><div class="svelte-1ihnx9z"><section
+   · 4xl pb-10 svelte-1ihnx9z"><div class="svelte-1ihnx9z"><section aria-labelledby="transcription-title" class="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-
+   ·  shadow-sm dark:border-gray-700 dark:bg-gray-800 sm:p-6 svelte-1ihnx9z"><h2 id="transcription-title" class="mb-5 text-xl font-semibold text-gray-900 dark:text-gray-100 sm:text-2xl svelte-1ihnx9z">Past
+   · inter font-medium text-blue-700 dark:text-blue-300 svelte-1ihnx9z">See a sample transcript</summary> <ol class="my-3 flex flex-wrap gap-x-5 gap-y-2 text-gray-600 dark:text-gray-300 svelte-1ihnx9z"><!-
+   · ont-semibold text-gray-800 dark:text-gray-200 svelte-1ihnx9z">Tips for a useful transcript</summary> <ul class="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-gray-600 dark:text-gray-300 s
+   ·  pace.</p> </section> <section class="mx-auto mb-12 max-w-3xl" aria-labelledby="transcript-help-title"> <h2 id="transcript-help-title" class="mb-5 text-2xl font-bold text-gray-900 dark:text-white"> Yo
+   · lass="mx-auto mb-12 max-w-3xl" aria-labelledby="transcript-help-title"> <h2 id="transcript-help-title" class="mb-5 text-2xl font-bold text-gray-900 dark:text-white"> YouTube transcript questions </h2>
+   · p-title" class="mb-5 text-2xl font-bold text-gray-900 dark:text-white"> YouTube transcript questions </h2> <div class="divide-y divide-gray-200 rounded-xl border border-gray-200 bg-white px-5 dark:div
+   · -800 focus-visible:outline-blue-600 dark:text-gray-100"> How do I get a YouTube transcript for free? </summary> <p class="mt-1 pb-2 text-base leading-relaxed text-gray-600 dark:text-gray-300"> Paste t
+   ·  leading-relaxed text-gray-600 dark:text-gray-300"> Premium gives you unlimited transcription, an ad-free experience and AI transcription for videos without captions. You also get priority in the tran
+   · y-300"> Premium gives you unlimited transcription, an ad-free experience and AI transcription for videos without captions. You also get priority in the transcription queue. Choose the plan that fits y
+   ·  and AI transcription for videos without captions. You also get priority in the transcription queue. Choose the plan that fits your work. </p> </details><details class="group py-2"> <summary class="mi
+   · e leading-relaxed text-gray-600 dark:text-gray-300"> Yes, with Premium AI audio transcription. Free extraction uses existing captions; AI processes the audio to create the transcript. </p> </details><
+   · n. Free extraction uses existing captions; AI processes the audio to create the transcript. </p> </details><details class="group py-2"> <summary class="min-h-11 cursor-pointer py-3 font-semibold text-
+   · ray-800 focus-visible:outline-blue-600 dark:text-gray-100"> How do I choose the transcript language? </summary> <p class="mt-1 pb-2 text-base leading-relaxed text-gray-600 dark:text-gray-300"> The lan
+   · ool controls the requested text language. Availability depends on the video and transcription service. The page language selector changes only the interface. </p> </details><details class="group py-2"
+   · -1 pb-2 text-base leading-relaxed text-gray-600 dark:text-gray-300"> Search the transcript to find a word or phrase, including on your phone. Copy, TXT and PDF keep the full transcript with your readi
+   · find a word or phrase, including on your phone. Copy, TXT and PDF keep the full transcript with your reading options. Enable timestamps to retain references to moments in the video. </p> </details><de
+   · > Yes. Sign in to access Record audio and Upload file. Use Premium for AI audio transcription. Files are sent for processing; see the privacy policy for details about how they are handled. </p> </deta
+   ·  underline-offset-4 dark:text-blue-300" href="/en/guides/youtube-captions-vs-ai-transcription/"> Captions or AI: choose the right method </a> <a class="text-blue-700 underline underline-offset-4 dark:
+   · g,6))},R(a.g,9),$a(a.g,10),$a(a.g,11))})}function Z(a,b){a.i||(a.i=!0,a=new a.m.XMLHttpRequest,a.open("GET",b,!0),a.send())}function Fb(a){var b=u.btoa(a.j);a.m[b]&&Z(a,R(a.g,5))};(function(a,b){u[a]=
+   · `Current time`,duration:`Duration`,volume:`Volume`,mute:`Mute`,unmute:`Unmute`},transcription:{start:`Start Transcription`,inProgress:`Transcribing your audio...`,completed:`Transcription completed`,f
+   · ,duration:`Duración`,volume:`Volumen`,mute:`Silenciar`,unmute:`Activar sonido`},transcription:{start:`Iniciar Transcripción`,inProgress:`Transcribiendo tu audio...`,completed:`Transcripción completada
+   · u saat ini`,duration:`Durasi`,volume:`Volume`,mute:`Bisukan`,unmute:`Suarakan`},transcription:{start:`Mulai Transkripsi`,inProgress:`Mentranskripsikan audio Anda...`,completed:`Transkripsi selesai`,fa
+   · s actuel`,duration:`Durée`,volume:`Volume`,mute:`Muet`,unmute:`Activer le son`},transcription:{start:`Démarrer la Transcription`,inProgress:`Transcription de votre audio...`,completed:`Transcription t
+   · ption de votre audio...`,completed:`Transcription terminée`,failed:`Échec de la transcription`,retry:`Réessayer`,download:`Télécharger la Transcription`,saveChanges:`Enregistrer les Modifications`},st
+   · duration:`Durata`,volume:`Volume`,mute:`Disattiva audio`,unmute:`Attiva audio`},transcription:{start:`Inizia Trascrizione`,inProgress:`Trascrizione in corso...`,completed:`Trascrizione completata`,fai
+   · Desliza hacia abajo para ir al Desgrabador`,sponsored:`Herramienta Patrocinada`,transcriptSearch:{label:`Buscar en la transcripción`,placeholder:`Escribe una palabra o frase`,results:`Fragmentos encon
+   · tent. Your subscription also helps keep Anthiago running.`,benefits:[`Unlimited transcriptions`,`No ads across all tools`,`AI transcription for videos without captions`,`Priority in the transcription 
+   · go running.`,benefits:[`Unlimited transcriptions`,`No ads across all tools`,`AI transcription for videos without captions`,`Priority in the transcription queue`],from:`From`,period:`/ month`,action:`V
+   · ross all tools`,`AI transcription for videos without captions`,`Priority in the transcription queue`],from:`From`,period:`/ month`,action:`View Premium plans`,billing:`Subscription renews monthly.`},r
+   · , choose your goal. Then, write down the next step.`,previewTitle:`See a sample transcript`,trustLine:`Free caption extraction · No account needed`,audioLoginAction:`Want to record or upload audio? Si
+   · edLogin:`You need to log in to use this feature`,tips:{title:`Tips for a useful transcript`,text:[`Copy the complete link from YouTube’s Share menu.`,`For free text extraction, choose a video with ava
+   · :`in some countries`,errorSubtitulos:`This video is not subtitled`,apiEndPoint:`transcript`,title:`YouTube Transcript Generator – Free, No Sign-Up | Anthiago`,description:`Paste a YouTube link to get 
+   · tor – Free, No Sign-Up | Anthiago`,description:`Paste a YouTube link to get the transcript free, no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premiu
+   · , no sign-up. Copy it, search inside the text or download TXT and PDF. AI audio transcription with Premium.`,h1:`Turn YouTube videos into text`,h2Primero:`Read, copy and download the transcript in you
+   · ium.`,h1:`Turn YouTube videos into text`,h2Primero:`Read, copy and download the transcript in your language.`,whyChooseUsTitle:`From video to useful notes`,whyChooseUsDescription:`Turn captions into t
+   · nts:[{title:`Text you can work with`,description:`Copy, search and download the transcript; check names and quotations against the original video.`}]},downloadTranscriptTitle:`Download Transcript`,dow
+   · loadTranscriptSuccess:`Transcript downloaded successfully!`,faq:{title:`YouTube transcript questions`,questions:[{question:`How do I get a YouTube transcript for free?`,answer:`Paste the video link, c
+   · tle:`YouTube transcript questions`,questions:[{question:`How do I get a YouTube transcript for free?`,answer:`Paste the video link, choose a language and click Transcribe. When captions are available,
+   · .`},{question:`What do I get with Premium?`,answer:`Premium gives you unlimited transcription, an ad-free experience and AI transcription for videos without captions. You also get priority in the tran
+   · answer:`Premium gives you unlimited transcription, an ad-free experience and AI transcription for videos without captions. You also get priority in the transcription queue. Choose the plan that fits y
+   ·  and AI transcription for videos without captions. You also get priority in the transcription queue. Choose the plan that fits your work.`},{question:`Can I transcribe a video without captions?`,answe
+   · `Can I transcribe a video without captions?`,answer:`Yes, with Premium AI audio transcription. Free extraction uses existing captions; AI processes the audio to create the transcript.`},{question:`How
+   · n. Free extraction uses existing captions; AI processes the audio to create the transcript.`},{question:`How do I choose the transcript language?`,answer:`The language selector inside the tool control
+   ·  processes the audio to create the transcript.`},{question:`How do I choose the transcript language?`,answer:`The language selector inside the tool controls the requested text language. Availability d
+   · ool controls the requested text language. Availability depends on the video and transcription service. The page language selector changes only the interface.`},{question:`How do I search, copy or down
+   · `},{question:`How do I search, copy or download the result?`,answer:`Search the transcript to find a word or phrase, including on your phone. Copy, TXT and PDF keep the full transcript with your readi
+   · find a word or phrase, including on your phone. Copy, TXT and PDF keep the full transcript with your reading options. Enable timestamps to retain references to moments in the video.`},{question:`Why c
+   · :`Yes. Sign in to access Record audio and Upload file. Use Premium for AI audio transcription. Files are sent for processing; see the privacy policy for details about how they are handled.`}]},shareTe
+   · s:` videos have been processed`,botonAccion:`Transcribe`,botonAccionAbrir:`Open transcript`,msjExtrayendo:`Extracting text from the video. Will be done in a few seconds.`,msjError0:`Try again in a few
+   · aptions.`,msjCompartir:`Useful? Share it`,msjBuscar:`Use Ctrl + F to search the transcript.`,msjCopiar:`Copy transcript`,msjPie:`With this free tool, you will be able to extract the subtitle text or t
+   · l? Share it`,msjBuscar:`Use Ctrl + F to search the transcript.`,msjCopiar:`Copy transcript`,msjPie:`With this free tool, you will be able to extract the subtitle text or transcription from videos and 
+   · `,msjPie:`With this free tool, you will be able to extract the subtitle text or transcription from videos and audio files, including YouTube, TED Talks, interviews, classes, and more. This is a handy 
+   · nerating PDF...`,downloadPDF:`Download PDF`,reparagraphButtonTitle:`Format your transcript with AI`,newBadge:`NEW`,reparagraphMagicText:`Transform your transcript`,reparagraphMainText:`Format with AI`
+   · at your transcript with AI`,newBadge:`NEW`,reparagraphMagicText:`Transform your transcript`,reparagraphMainText:`Format with AI`,aiPoweredText:`AI Powered`,previewTimestamps:`Preview Timestamps`,hover
+   · n WhatsApp`,scrollDown:`Scroll down for Transcriber`,sponsored:`Sponsored Tool`,transcriptSearch:{label:`Search the transcript`,placeholder:`Enter a word or phrase`,results:`Matching segments: {count}
+   · for Transcriber`,sponsored:`Sponsored Tool`,transcriptSearch:{label:`Search the transcript`,placeholder:`Enter a word or phrase`,results:`Matching segments: {count}`,empty:`No matching word or phrase.
+   · `,clear:`Clear`,hint:`Search filters the view. Copy and downloads keep the full transcript.`},helpLinks:{title:`Help and plans`,plans:`View Premium plans`,privacy:`Privacy and file processing`,guide:`
+   · App`,scrollDown:`Gulir ke bawah untuk Transkriptor`,sponsored:`Alat Disponsori`,transcriptSearch:{label:`Cari dalam transkrip`,placeholder:`Masukkan kata atau frasa`,results:`{count} bagian ditemukan`
+   · `Scorri verso il basso per il Trascrittore`,sponsored:`Strumento Sponsorizzato`,transcriptSearch:{label:`Cerca nella trascrizione`,placeholder:`Inserisci una parola o frase`,results:`Passaggi trovati:
+   · s`,`Transcription par IA des vidéos sans sous-titres`,`Priorité dans la file de transcription`],from:`À partir de`,period:`/ mois`,action:`Voir les offres Premium`,billing:`Abonnement renouvelé chaque
+   · e objectif. Puis, écrivez la prochaine étape.`,previewTitle:`Voir un exemple de transcription`,trustLine:`Extraction gratuite des sous-titres · Sans compte`,audioLoginAction:`Vous souhaitez enregistre
+   · ctez-vous →`,interfaceLanguage:`Langue de la page`,outputLanguage:`Langue de la transcription`,urlLabel:`Lien de la vidéo ou du fichier audio`,urlHint:`Fonctionne mieux avec les vidéos sous-titrées.`,
+   · us connecter pour utiliser cette fonctionnalité`,tips:{title:`Conseils pour une transcription utile`,text:[`Copiez le lien complet depuis le menu Partager de YouTube.`,`Pour extraire gratuitement du t
+   · ertains pays`,errorSubtitulos:`Cette vidéo n'a pas de sous-titres`,apiEndPoint:`transcripteur`,title:`Transcrire une vidéo YouTube en texte gratuitement | Anthiago`,description:`Extrayez les sous-titr
+   · sformez les vidéos YouTube en texte`,h2Primero:`Lisez, copiez et téléchargez la transcription dans votre langue.`,whyChooseUsTitle:`De la vidéo à vos notes`,whyChooseUsDescription:`Transformez les sou
+   · le:`Un texte prêt à utiliser`,description:`Copiez, recherchez et téléchargez la transcription ; vérifiez les noms et citations dans la vidéo originale.`}]},downloadTranscriptTitle:`Télécharger la tran
+   ·  citations dans la vidéo originale.`}]},downloadTranscriptTitle:`Télécharger la transcription`,downloadTranscriptSuccess:`Transcription téléchargée avec succès !`,faq:{title:`Questions sur la transcri
+   · tSuccess:`Transcription téléchargée avec succès !`,faq:{title:`Questions sur la transcription YouTube`,questions:[{question:`Comment transcrire une vidéo YouTube gratuitement ?`,answer:`Collez le lien
+   · F.`},{question:`Quels sont les avantages de Premium ?`,answer:`Premium offre la transcription illimitée, une expérience sans publicité et la transcription par IA des vidéos sans sous-titres. Vous béné
+   · :`Premium offre la transcription illimitée, une expérience sans publicité et la transcription par IA des vidéos sans sous-titres. Vous bénéficiez aussi de la priorité dans la file de traitement. Chois
+   · stion:`Peut-on transcrire une vidéo sans sous-titres ?`,answer:`Oui, grâce à la transcription audio par IA de Premium. L’extraction gratuite utilise les sous-titres existants ; l’IA traite le son pour
+   · traite le son pour produire le texte.`},{question:`Comment choisir la langue de transcription ?`,answer:`Le sélecteur dans l’outil définit la langue demandée pour le texte. Sa disponibilité dépend de 
+   · ue demandée pour le texte. Sa disponibilité dépend de la vidéo et du service de transcription. Le sélecteur de langue de la page ne change que l’interface.`},{question:`Comment rechercher, copier ou t
+   ·  télécharger le résultat ?`,answer:`Recherchez un mot ou une expression dans la transcription, même sur mobile. Copier, TXT et PDF conservent le texte complet avec vos options de lecture. Activez les 
+   · l’enregistrement audio et à l’importation de fichiers. Utilisez Premium pour la transcription audio par IA. Les fichiers sont envoyés pour traitement ; consultez la politique de confidentialité pour e
+   · e de confidentialité pour en savoir plus.`}]},shareText:`Découvrez cet outil de transcription vidéo utile !`,h2Segundo:`Collez le lien de la vidéo`,textDesgrabados:` vidéos ont été transcrites`,pegaAq
+   · ous souhaitez transcrire.`,botonAccion:`Transcrire`,botonAccionAbrir:`Ouvrir le transcripteur`,msjExtrayendo:`Je suis en train d'extraire le texte de la vidéo, je vais finir dans quelques secondes.`,m
+   · ez cet outil`,msjBuscar:`Utilisez Ctrl + F pour effectuer une recherche dans la transcription.`,msjCopiar:`Copier la transcription`,msjPie:`Avec cet outil gratuit, vous pourrez extraire le texte des s
+   · l + F pour effectuer une recherche dans la transcription.`,msjCopiar:`Copier la transcription`,msjPie:`Avec cet outil gratuit, vous pourrez extraire le texte des sous-titres ou la transcription de fic
+   · e:`Avec cet outil gratuit, vous pourrez extraire le texte des sous-titres ou la transcription de fichiers vidéo et audio, notamment YouTube, TED Talks, interviews, cours, et plus encore. Cet outil pra
+   · PDF...`,downloadPDF:`Télécharger le PDF`,reparagraphButtonTitle:`Formatez votre transcription avec l'IA`,newBadge:`NOUVEAU`,reparagraphMagicText:`Transformez votre transcription`,reparagraphMainText:`
+   · scription avec l'IA`,newBadge:`NOUVEAU`,reparagraphMagicText:`Transformez votre transcription`,reparagraphMainText:`Formater avec l'IA`,aiPoweredText:`Propulsé par l'IA`,previewTimestamps:`Aperçu des 
+   · own:`Faites défiler pour accéder au Transcripteur`,sponsored:`Outil Sponsorisé`,transcriptSearch:{label:`Rechercher dans la transcription`,placeholder:`Saisissez un mot ou une expression`,results:`Pas
+   · pteur`,sponsored:`Outil Sponsorisé`,transcriptSearch:{label:`Rechercher dans la transcription`,placeholder:`Saisissez un mot ou une expression`,results:`Passages trouvés : {count}`,empty:`Aucun passag
+   · s Premium`,privacy:`Confidentialité et traitement des fichiers`,guide:`Guide de transcription`}}},Ge=O(`<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 278 400" class="sv
+   · </span></label> <!></div></details></div> <div class="mb-5 text-sm"><label for="transcript-search" class="mb-2 block font-medium"> </label> <div class="flex gap-2"><input id="transcript-search" type="
+   · ch" class="mb-2 block font-medium"> </label> <div class="flex gap-2"><input id="transcript-search" type="search" aria-controls="transcript-lines" aria-describedby="transcript-search-hint" class="min-h
+   · v class="flex gap-2"><input id="transcript-search" type="search" aria-controls="transcript-lines" aria-describedby="transcript-search-hint" class="min-h-11 min-w-0 flex-1 rounded-lg border border-gray
+   · script-search" type="search" aria-controls="transcript-lines" aria-describedby="transcript-search-hint" class="min-h-11 min-w-0 flex-1 rounded-lg border border-gray-300 bg-white px-3 dark:border-gray-
+   · ray-300 bg-white px-3 dark:border-gray-600 dark:bg-gray-800"/> <!></div> <p id="transcript-search-hint" class="mt-2 text-xs text-gray-500 dark:text-gray-400"> </p> <p class="mt-2 text-gray-600 dark:te
+   · y-600 dark:text-gray-300" role="status" aria-live="polite"> </p></div> <div id="transcript-lines" role="region"></div></div>`);function gt(s,u){c(u,!1);let p=a(),m=a(),_=a(),E=z(u,`subtitles`,8),O=z(u
+   · )=>f(oe));var Oe=r(X,2),ke=e=>{var n=lt(),r=t(n,!0);l(()=>D(r,(h(F()),v(()=>F().transcriptSearch.clear)))),x(`click`,n,K),w(e,n)};C(Oe,e=>{f(L)&&e(ke)}),n(Y);var Ae=r(Y,2),je=t(Ae,!0),Z=r(Ae,2),Q=t(Z,
+   · tenTimestamps))),D(we,(h(F()),v(()=>F().showAudioNotes))),D(J,(h(F()),v(()=>F().transcriptSearch.label))),B(X,`placeholder`,(h(F()),v(()=>F().transcriptSearch.placeholder))),D(je,(h(F()),v(()=>F().tra
+   · (h(F()),v(()=>F().transcriptSearch.label))),B(X,`placeholder`,(h(F()),v(()=>F().transcriptSearch.placeholder))),D(je,(h(F()),v(()=>F().transcriptSearch.hint))),D(Q,e),Ne=V(Me,1,`break-words rounded-xl
+
+########## https://tubetranscript.com/en
+  bundles: 5
+   · be Video Transcription"> <meta name="description" content="Get free YouTube transcripts easily. Our AI-powered tool generates accurate transcripts for any YouTube video quickly and securely."> 
+   · nt="Get free YouTube transcripts easily. Our AI-powered tool generates accurate transcripts for any YouTube video quickly and securely."> <meta name="author" content="Admin" /> <meta itemprop=
+   · ame="author" content="Admin" /> <meta itemprop="image" content="/images/tubetranscriptthumb.jpg"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Generate 
+   ·  Transcription"> <meta name="twitter:description" content="Get free YouTube transcripts easily. Our AI-powered tool generates accurate transcripts for any YouTube video quickly and securely."> 
+   · nt="Get free YouTube transcripts easily. Our AI-powered tool generates accurate transcripts for any YouTube video quickly and securely."> <meta name="twitter:image:src" content="/images/tubetransc
+   · quickly and securely."> <meta name="twitter:image:src" content="/images/tubetranscriptthumb.jpg"> <meta name="twitter:site" content="Tubetranscript.com"> <meta property="og:title" content=
+   · t="/images/tubetranscriptthumb.jpg"> <meta name="twitter:site" content="Tubetranscript.com"> <meta property="og:title" content="Generate YouTube Transcript - Free YouTube Video Transcription">
+   · "og:type" content="article"> <meta property="og:image" content="/images/tubetranscriptthumb.jpg"> <meta property="og:url" content="https://tubetranscript.com/en"> <meta property="og:descri
+   · ages/tubetranscriptthumb.jpg"> <meta property="og:url" content="https://tubetranscript.com/en"> <meta property="og:description" content="Get free YouTube transcripts easily. Our AI-powered too
+   · anscript.com/en"> <meta property="og:description" content="Get free YouTube transcripts easily. Our AI-powered tool generates accurate transcripts for any YouTube video quickly and securely."> 
+   · nt="Get free YouTube transcripts easily. Our AI-powered tool generates accurate transcripts for any YouTube video quickly and securely."> <meta property="og:site_name" content="Tubetranscript.com"
+   · be video quickly and securely."> <meta property="og:site_name" content="Tubetranscript.com"> <link href="/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"> <link href=
+   ·  href="/favicons/safari-pinned-tab.svg" rel="mask-icon"> <meta content="Tubetranscript.com" name="application-name"> <meta name="google" content="notranslate" /> <link rel="alternate" hre
+   · otranslate" /> <link rel="alternate" hreflang="x-default" href="https://tubetranscript.com/" /> <link rel="alternate" hreflang="en" href="https://tubetranscript.com/en" /> <link rel="alter
+   · betranscript.com/" /> <link rel="alternate" hreflang="en" href="https://tubetranscript.com/en" /> <link rel="alternate" hreflang="ru" href="https://tubetranscript.com/ru" /> <link rel="alt
+   · transcript.com/en" /> <link rel="alternate" hreflang="ru" href="https://tubetranscript.com/ru" /> <link rel="alternate" hreflang="es" href="https://tubetranscript.com/es" /> <link rel="alt
+   · transcript.com/ru" /> <link rel="alternate" hreflang="es" href="https://tubetranscript.com/es" /> <link rel="alternate" hreflang="ro" href="https://tubetranscript.com/ro" /> <link rel="alt
+   · transcript.com/es" /> <link rel="alternate" hreflang="ro" href="https://tubetranscript.com/ro" /> <link rel="alternate" hreflang="id" href="https://tubetranscript.com/id" /> <link rel="alt
+   · transcript.com/ro" /> <link rel="alternate" hreflang="id" href="https://tubetranscript.com/id" /> <link rel="alternate" hreflang="fil" href="https://tubetranscript.com/fil" /> <link rel="a
+   · ranscript.com/id" /> <link rel="alternate" hreflang="fil" href="https://tubetranscript.com/fil" /> <link rel="alternate" hreflang="hi" href="https://tubetranscript.com/hi" /> <link rel="al
+   · ranscript.com/fil" /> <link rel="alternate" hreflang="hi" href="https://tubetranscript.com/hi" /> <link rel="alternate" hreflang="de" href="https://tubetranscript.com/de" /> <link rel="alt
+   · transcript.com/hi" /> <link rel="alternate" hreflang="de" href="https://tubetranscript.com/de" /> <link rel="alternate" hreflang="fr" href="https://tubetranscript.com/fr" /> <link rel="alt
+   · transcript.com/de" /> <link rel="alternate" hreflang="fr" href="https://tubetranscript.com/fr" /> <link rel="alternate" hreflang="ar" href="https://tubetranscript.com/ar" /> <link rel="alt
+   · transcript.com/fr" /> <link rel="alternate" hreflang="ar" href="https://tubetranscript.com/ar" /> <link rel="alternate" hreflang="da" href="https://tubetranscript.com/da" /> <link rel="alt
+   · transcript.com/ar" /> <link rel="alternate" hreflang="da" href="https://tubetranscript.com/da" /> <link rel="alternate" hreflang="nl" href="https://tubetranscript.com/nl" /> <link rel="alt
+   · transcript.com/da" /> <link rel="alternate" hreflang="nl" href="https://tubetranscript.com/nl" /> <link rel="alternate" hreflang="he" href="https://tubetranscript.com/he" /> <link rel="alt
+   · transcript.com/nl" /> <link rel="alternate" hreflang="he" href="https://tubetranscript.com/he" /> <link rel="alternate" hreflang="it" href="https://tubetranscript.com/it" /> <link rel="alt
+   · transcript.com/he" /> <link rel="alternate" hreflang="it" href="https://tubetranscript.com/it" /> <link rel="alternate" hreflang="ja" href="https://tubetranscript.com/ja" /> <link rel="alt
+   · transcript.com/it" /> <link rel="alternate" hreflang="ja" href="https://tubetranscript.com/ja" /> <link rel="alternate" hreflang="ko" href="https://tubetranscript.com/ko" /> <link rel="alt
+   · transcript.com/ja" /> <link rel="alternate" hreflang="ko" href="https://tubetranscript.com/ko" /> <link rel="alternate" hreflang="pl" href="https://tubetranscript.com/pl" /> <link rel="alt
+   · transcript.com/ko" /> <link rel="alternate" hreflang="pl" href="https://tubetranscript.com/pl" /> <link rel="alternate" hreflang="pt" href="https://tubetranscript.com/pt" /> <link rel="alt
+   · transcript.com/pl" /> <link rel="alternate" hreflang="pt" href="https://tubetranscript.com/pt" /> <link rel="alternate" hreflang="sv" href="https://tubetranscript.com/sv" /> <link rel="alt
+   · transcript.com/pt" /> <link rel="alternate" hreflang="sv" href="https://tubetranscript.com/sv" /> <link rel="alternate" hreflang="tr" href="https://tubetranscript.com/tr" /> <link rel="alt
+   · transcript.com/sv" /> <link rel="alternate" hreflang="tr" href="https://tubetranscript.com/tr" /> <link rel="alternate" hreflang="vi" href="https://tubetranscript.com/vi" /> <link rel="alt
+   · transcript.com/tr" /> <link rel="alternate" hreflang="vi" href="https://tubetranscript.com/vi" /> <link rel="alternate" hreflang="th" href="https://tubetranscript.com/th" /> <link rel="alt
+   · transcript.com/vi" /> <link rel="alternate" hreflang="th" href="https://tubetranscript.com/th" /> <link rel="alternate" hreflang="uk" href="https://tubetranscript.com/uk" /> <link rel="alt
+   · transcript.com/th" /> <link rel="alternate" hreflang="uk" href="https://tubetranscript.com/uk" /> <link rel="alternate" hreflang="no" href="https://tubetranscript.com/no" /> <link rel="alt
+   · transcript.com/uk" /> <link rel="alternate" hreflang="no" href="https://tubetranscript.com/no" /> <link rel="alternate" hreflang="fi" href="https://tubetranscript.com/fi" /> <link rel="alt
+   · transcript.com/no" /> <link rel="alternate" hreflang="fi" href="https://tubetranscript.com/fi" /> <link rel="alternate" hreflang="zh-CN" href="https://tubetranscript.com/zh-CN" /> <link re
+   · nscript.com/fi" /> <link rel="alternate" hreflang="zh-CN" href="https://tubetranscript.com/zh-CN" /> <link rel="alternate" hreflang="zh-TW" href="https://tubetranscript.com/zh-TW" /> <lin
+   · ript.com/zh-CN" /> <link rel="alternate" hreflang="zh-TW" href="https://tubetranscript.com/zh-TW" /> <link rel="canonical" href="https://tubetranscript.com/en" /> <!-- Gatekeeper --> 
+   · tps://tubetranscript.com/zh-TW" /> <link rel="canonical" href="https://tubetranscript.com/en" /> <!-- Gatekeeper --> <link rel="preload" href="https://cmp.gatekeeperconsent.com/min.js" a
+   · 1px solid red;background-color:#fdd;color:red;border-radius:5px;font-size:14px}.transcript{width:100%}.install-button{background-color:#fe4c33;color:#fff;border:none;border-radius:50px;padding:12px 20
+   ·  <a class="logo" href="/"> <img alt="Download Free tubetranscript" height="32" src="/images/logo.svg" width="32"> <span> Tubetransc
+   · es/logo.svg" width="32"> <span> Tubetranscript.com </span> </a> <div class="mobile-nav"> 
+   ·  <li><a href="https://tubetranscript.com/features/" target="_self">Features</a></li> 
+   ·  <li><a href="https://tubetranscript.com/about-us/" target="_self">About Us</a></li> 
+   ·  <li><a href="https://tubetranscript.com/contact-us/" target="_self">Contact Us</a></li> </ul
+   ·  <li class="nav__item"><a class="nav__link" href="https://tubetranscript.com/features/" target="_self">Features</a></li> 
+   ·  <li class="nav__item"><a class="nav__link" href="https://tubetranscript.com/about-us/" target="_self">About Us</a></li> 
+   ·  <li class="nav__item"><a class="nav__link" href="https://tubetranscript.com/contact-us/" target="_self">Contact Us</a></li> 
+   · 'event', 'no_subtitles_click') break; case 'transcript_limit': gtag('event', 'transcript_limit_install_click') break; 
+   · ak; case 'transcript_limit': gtag('event', 'transcript_limit_install_click') break; case 'summary_partial': 
+   · ry_partial_install_click') break; case 'pro_transcript_error': gtag('event', 'pro_transcript_error_install_click') break; 
+   ·  case 'pro_transcript_error': gtag('event', 'pro_transcript_error_install_click') break; default: bre
+   · ogle.com/detail/youtube-to-text/apnedodbofogffiagpekmbeflilkcbgf?utm_source=tubetranscript&utm_content=${utm_content}`, "_blank") } // Event listener for language select change 
+   · tall-ext-banner/default.webp" alt="Extension to quick access to transcription and summary. Install in Chrome to use right in YouTube." width="2000" height="250" 
+   ·  <p class="title-description">Effortlessly create accurate YouTube video transcripts using our free AI-powered YouTube transcription tool. Perfect for content creators, researchers, and anyone 
+   · sly create accurate YouTube video transcripts using our free AI-powered YouTube transcription tool. Perfect for content creators, researchers, and anyone needing to convert YouTube videos to text quic
+   · v class="text-box"> <p class="ps1">Get fast, accurate YouTube video transcripts and summaries for free with our AI-powered YouTube transcription and summarizer tool. Perfect for content cr
+   · te YouTube video transcripts and summaries for free with our AI-powered YouTube transcription and summarizer tool. Perfect for content creators, researchers, and anyone needing to convert or summarize
+   · "Free and Easy YouTube Transcripts and Summaries" height="84" src="/images/free-transcript-youtube.svg" width="84"> </div> <div class="post-content"> 
+   · ripts and Summaries</h3> <p>Get fast and free YouTube video transcripts and summaries with no hidden fees. Our tool provides reliable transcription and summarization in seconds.</p
+   · video transcripts and summaries with no hidden fees. Our tool provides reliable transcription and summarization in seconds.</p> </div> </li> <li> 
+   ·  transcribe and summarize YouTube videos accurately. Get high-quality, reliable transcripts and summaries effortlessly.</p> </div> </li> <li> <d
+   · re and Private Transcription and Summarization" alt="Secure and private YouTube transcripts" height="84" src="/images/download-safe-and-secure.svg" width="84"> </div> <
+   ·  <h3>Secure and Private</h3> <p>Our YouTube transcription and summarizer tool is secure and private. All transcriptions and summaries are processed safely, with no 
+   ·  <p>Our YouTube transcription and summarizer tool is secure and private. All transcriptions and summaries are processed safely, with no personal data stored, ensuring complete confidentiality for a
+   · mg alt="High-Quality YouTube Transcripts and Summaries" alt="High-Quality video transcripts and summaries" height="84" src="/images/no-restrictions.svg" width="84"> 
+   · ty Transcripts and Summaries</h3> <p>Get accurate, detailed transcripts and summaries for all YouTube videos. Our AI tool ensures the best quality for your needs.</p> 
+   ·  <h3>Multi-Platform Support</h3> <p>Use our YouTube transcript and summarizer generator on any device. Whether you&#39;re on Windows, Mac, Android, or iPhone, it works acro
+   ·  <h3>No Software Needed!</h3> <p>Generate YouTube transcripts and summaries without the need for extra software. Just paste the video URL and click &#39;Generate Transcri
+   · anscript Generator</h2> <p class="ps1">Generate accurate YouTube video transcripts instantly. Whether you&#39;re on a computer or mobile device, our tool provides quick and easy transcription
+   · her you&#39;re on a computer or mobile device, our tool provides quick and easy transcription, no sign-up required.</p> <p class="magT40"><a class="btn-activecolor mag0" href="#download" type=
+   ·  <span>Click the &#39;Generate Transcript&#39; button to instantly receive your transcript for free.</span> </li> </ul> </div> <div class="header-banner-container cws-cta h
+   · itle"> <h4 itemprop="name">1. What is a YouTube transcript?</h4> </div> <div class="faq_item_content" itemprop="
+   ·  <div itemprop="text"> A YouTube transcript is a text version of the spoken content in a YouTube video. It allows you to read the video&#39;s dialogue or
+   ·  <h4 itemprop="name">2. How do I create a YouTube transcript?</h4> </div> <div class="faq_item_content" itemprop="
+   · itemprop="text"> You can generate a YouTube transcript by pasting the video URL into our tool, which will automatically transcribe the audio content for you. 
+   ·  <h4 itemprop="name">3. How can I use a YouTube transcript for faster review?</h4> </div> <div class="faq_item_c
+   · o URL.</li> <li>Paste the link into our transcript generator.</li> <li>Use the transcript to quickly review the video&#3
+   ·  transcript generator.</li> <li>Use the transcript to quickly review the video&#39;s content without watching the full video.</li> 
+   ·  <h4 itemprop="name">4. How can I use a YouTube transcript to create a summary?</h4> </div> <div class="faq_item
+   ·  <div itemprop="text"> After generating the transcript from a YouTube video, you can use any AI summarization tool to quickly summarize the content. This allows you
+   · le"> <h4 itemprop="name">5. Can I use a YouTube transcript for notes?</h4> </div> <div class="faq_item_content" 
+   · op="text"> Yes, once you&#39;ve generated a transcript, you can use it as notes for studying, reviewing important points, or sharing with others. 
+   · aq_item_title"> <h4 itemprop="name">6. Does the transcript include timestamps?</h4> </div> <div class="faq_item_
+   ·  <div itemprop="text"> Yes, our transcript tool provides timestamps so you can easily follow along with the video or refer to specific parts. 
+   · > <h4 itemprop="name">7. Can I edit the YouTube transcript?</h4> </div> <div class="faq_item_content" itemprop="
+   ·  itemprop="text"> Yes, after generating the transcript, you can edit it directly within our tool to make adjustments or add personal notes. 
+   ·  <h4 itemprop="name">8. How long does it take to generate a YouTube transcript?</h4> </div> <div class="faq_item_content" itemprop="
+   ·  <div itemprop="text"> The transcript is usually generated in just a few seconds, depending on the length of the video. 
+   ·  <h4 itemprop="name">9. Is it possible to translate a YouTube transcript?</h4> </div> <div class="faq_item_content" itemprop="
+   ·  <div itemprop="text"> Once the transcript is generated, you can use translation tools to convert it into different languages. 
+   ·  <h4 itemprop="name">10. Can I download the YouTube transcript?</h4> </div> <div class="faq_item_content" itemprop="
+   ·  itemprop="text"> Yes, after generating the transcript, you can download it for offline use or share it with others. </div> 
+   · r.webp" alt="Install the extension to quick and easy access to transcription" width="900" height="500" /> </div> </div> </div> <footer class="
+   ·  <div class="footer-logo"> <img alt="Download Free tubetranscript" height="32" src="/images/logo.svg" width="32"> <span>Tubetranscript</span> </div
+   · cript" height="32" src="/images/logo.svg" width="32"> <span>Tubetranscript</span> </div> <p class="footer-description"> Tubetranscript.com is no
+   ·  </div> <p class="footer-description"> Tubetranscript.com is not affiliated with YouTube. This tool is meant for educational purposes only. </p> 
+   · nks"><div class="footer-links-title">Features</div><ul><li><a href="https://tubetranscript.com/features/youtube-video-translator/">Youtube Video Translator</a></li><li><a href="https://tubetranscript.
+   · be-video-translator/">Youtube Video Translator</a></li><li><a href="https://tubetranscript.com/features/download-youtube-transcript/">Download YouTube Transcript</a></li><li><a href="https://tubetrans
+   · lator</a></li><li><a href="https://tubetranscript.com/features/download-youtube-transcript/">Download YouTube Transcript</a></li><li><a href="https://tubetranscript.com/features/youtube-subtitle-downl
+   · utube-transcript/">Download YouTube Transcript</a></li><li><a href="https://tubetranscript.com/features/youtube-subtitle-downloader/">Youtube Subtitle Downloader</a></li><li><a href="https://tubetrans
+   · title-downloader/">Youtube Subtitle Downloader</a></li><li><a href="https://tubetranscript.com/features/youtube-video-summarizer/">YouTube Video Summarizer</a></li><li><a href="https://tubetranscript.
+   · be-video-summarizer/">YouTube Video Summarizer</a></li><li><a href="https://tubetranscript.com/features/download-youtube-captions/">Download YouTube Captions</a></li><li><a href="https://tubetranscrip
+   · d-youtube-captions/">Download YouTube Captions</a></li><li><a href="https://tubetranscript.com/features/youtube-to-text/">YouTube to Text</a></li><li><a href="https://tubetranscript.com/features/youtu
+   · com/features/youtube-to-text/">YouTube to Text</a></li><li><a href="https://tubetranscript.com/features/youtube-video-transcript/">YouTube Video Transcript</a></li><li><a href="https://tubetranscript.
+   ·  to Text</a></li><li><a href="https://tubetranscript.com/features/youtube-video-transcript/">YouTube Video Transcript</a></li><li><a href="https://tubetranscript.com/features/youtube-transcript-extrac
+   · be-video-transcript/">YouTube Video Transcript</a></li><li><a href="https://tubetranscript.com/features/youtube-transcript-extractor/">YouTube Transcript Extractor</a></li><li><a href="https://tubetra
+   · deo Transcript</a></li><li><a href="https://tubetranscript.com/features/youtube-transcript-extractor/">YouTube Transcript Extractor</a></li><li><a href="https://tubetranscript.com/features/transcript-
+   · cript-extractor/">YouTube Transcript Extractor</a></li><li><a href="https://tubetranscript.com/features/transcript-for-youtube-videos/">Transcript for YouTube Videos</a></li><li><a href="https://tubet
+   · e Transcript Extractor</a></li><li><a href="https://tubetranscript.com/features/transcript-for-youtube-videos/">Transcript for YouTube Videos</a></li><li><a href="https://tubetranscript.com/features/c
+   · youtube-videos/">Transcript for YouTube Videos</a></li><li><a href="https://tubetranscript.com/features/convert-youtube-video-to-text/">Convert YouTube Video to Text</a></li><li><a href="https://tubet
+   · -video-to-text/">Convert YouTube Video to Text</a></li><li><a href="https://tubetranscript.com/features/youtube-link-to-transcript/">Youtube Link to Transcript</a></li><li><a href="https://chromewebst
+   · o Text</a></li><li><a href="https://tubetranscript.com/features/youtube-link-to-transcript/">Youtube Link to Transcript</a></li><li><a href="https://chromewebstore.google.com/detail/youtube-to-text/ap
+   · ogle.com/detail/youtube-to-text/apnedodbofogffiagpekmbeflilkcbgf?utm_source=tubetranscript&utm_campaign=footer">YouTube To Text Extension</a></li><li><a href="https://chromewebstore.google.com/detail/
+   · "><div class="footer-links-title">Audio Tools</div><ul><li><a href="https://tubetranscript.com/audio-tools/mp3-to-text/">MP3 to Text</a></li><li><a href="https://tubetranscript.com/audio-tools/m4a-to-
+   · ript.com/audio-tools/mp3-to-text/">MP3 to Text</a></li><li><a href="https://tubetranscript.com/audio-tools/m4a-to-text/">M4A to Text</a></li><li><a href="https://tubetranscript.com/audio-tools/wav-to-
+   · ript.com/audio-tools/m4a-to-text/">M4A to Text</a></li><li><a href="https://tubetranscript.com/audio-tools/wav-to-text/">WAV to Text</a></li><li><a href="https://tubetranscript.com/audio-tools/audio-t
+
+########## https://savesubs.com/
+  bundles: 3
+   · 9;jTwa7;JATfl;/jsd;4908651IbPtMG;AejpT9;replaceChild;[native code];source;QmEej;XMLHttpRequest;wOvYJ5;call;277443mdFSiT;pTRVh;toString;iVwCj;orioy;WOYiM;FAZlD;wKRWe;onreadystatechange;JDroI;contentDoc
+
+########## https://www.downloadyoutubesubtitles.com/
+  bundles: 6
+   · itle Downloader Tool Features:</h2><ul class='article'><li>You can download the transcript of a youtube video in plain text format (.txt) or most common subtitle format (.srt)</li><li>There is no timi
+   · ' style='margin-top:80px;'>How to Use Youtube Subtitles</h2><p>You may read the transcript of a video instead of watching it. Generally reading is faster than watching a video. You may also search for
+   · at lets you download the subtitles of a video from youtube.com. If you need the transcript from youtube, this web app is the right tool for you.</div></div></div><div class="accordion-item mb-4" style
+   · lapse3" aria-expanded="false" aria-controls="collapse3"><strong>What is Youtube transcript?</strong></button></h3><div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" dat
+   ·  read instead of watching the video in order to save time. You can download the transcript of a youtube video in text format (.txt)</div></div></div><div class="accordion-item mb-4" style='border:1px 
+   ·  aria-controls="collapse4"><strong>What is the difference between subtitles and transcript?</strong></button></h3><div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" dat
+   · n and straightforward text that is spoken in a video. A subtitle is a form of a transcript which is in different language and divided into time-coded chunks. Subtitles are generally intended for viewe
+   · lapse7" aria-expanded="false" aria-controls="collapse7"><strong>How to download transcript directly from Youtube website?</strong></button></h3><div id="collapse7" class="accordion-collapse collapse" 
+   · t="#faq_accordion"><div class="accordion-body">Recently youtube has changed the transcript location. To get the transcript of a video, first of all go to the video page and look underneath the video w
+   · ccordion-body">Recently youtube has changed the transcript location. To get the transcript of a video, first of all go to the video page and look underneath the video where the description is. Expand 
+   · s. Expand the description section with "more" button and you will see the "show transcript" button. Click on it, and the transcript of the video will be shown right hand side of the video. You may als
+   · ore" button and you will see the "show transcript" button. Click on it, and the transcript of the video will be shown right hand side of the video. You may also hide the timestamps with the 3 dots men
+   · ay also hide the timestamps with the 3 dots menu at the upper right side of the transcription. Now you can copy and paste the subtitles as text! Of course this process is much faster if you use our tr
+   · at lets you download the subtitles of a video from youtube.com. If you need the transcript from youtube, this web app is the right tool for you."}},{"@type":"Question","name":"How to download captions
+   · Choose the one you need to save!"}},{"@type":"Question","name":"What is Youtube transcript?","acceptedAnswer":{"@type":"Answer","text":"Simply it's the plain text of what is said at the video. Transcr
+   ·  read instead of watching the video in order to save time. You can download the transcript of a youtube video in text format (.txt)"}},{"@type":"Question","name":"What is the difference between subtit
+   · xt)"}},{"@type":"Question","name":"What is the difference between subtitles and transcript?","acceptedAnswer":{"@type":"Answer","text":"Transcript is a plain and straightforward text that is spoken in
+   · btitle in the format you choose."}},{"@type":"Question","name":"How to download transcript directly from Youtube website?","acceptedAnswer":{"@type":"Answer","text":"Recently youtube has changed the t
+   · e?","acceptedAnswer":{"@type":"Answer","text":"Recently youtube has changed the transcript location. To get the transcript of a video, first of all go to the video page and look underneath the video w
+   · nswer","text":"Recently youtube has changed the transcript location. To get the transcript of a video, first of all go to the video page and look underneath the video where the description is. Expand 
+   · Expand the description section with \"more\" button and you will see the \"show transcript\" button. Click on it, and the transcript of the video will be shown right hand side of the video. You may al
+   · \" button and you will see the \"show transcript\" button. Click on it, and the transcript of the video will be shown right hand side of the video. You may also hide the timestamps with the 3 dots men
+   · btitle downloader</strong></div><div class='container'><form id='subtitle-form' action='/'><div class='input-group input-group-lg d-flex flex-column flex-sm-row'><div class='pe-md-1 flex-grow-1'><inpu
+   · )}return we(c)}return me.prototype=b.filters=b.pseudos,b.setFilters=new me,h=se.tokenize=function(e,t){var n,r,i,o,a,s,u,l=x[e+" "];if(l)return t?0:l.slice(0);a=e,s=[],u=b.preFilter;while(a){for(o in 
+   · ght||e.getClientRects().length)},S.ajaxSettings.xhr=function(){try{return new C.XMLHttpRequest}catch(e){}};var _t={0:200,1223:204},zt=S.ajaxSettings.xhr();v.cors=!!zt&&"withCredentials"in zt,v.ajax=zt
+   · eType(i.mimeType),i.crossDomain||e["X-Requested-With"]||(e["X-Requested-With"]="XMLHttpRequest"),e)r.setRequestHeader(n,e[n]);o=function(e){return function(){o&&(o=a=r.onload=r.onerror=r.onabort=r.ont
+   ·  ni extends V{constructor(t,e){super(t,e),this._timeout=null,this._hasMouseInteraction=!1,this._hasKeyboardInteraction=!1,this._setListeners()}static get Default(){return si}static get DefaultType(){r
+   · uper(t,e),this._timeout=null,this._hasMouseInteraction=!1,this._hasKeyboardInteraction=!1,this._setListeners()}static get Default(){return si}static get DefaultType(){return ii}static get NAME(){retur
+   · g class='slogan'></strong></div><div class='container'><form id='subtitle-form' action='/'><div class='input-group input-group-lg d-flex flex-column flex-sm-row'><div class='pe-md-1 flex-grow-1'><inpu
+   · k.name=g.name,k.value=g.value,d.appendChild(k),g.hasAttribute("formaction")&&(m.action=d.getAttribute("action"),Gc(d,g.getAttribute("formaction"))),g.hasAttribute("formenctype")&&(m.enctype= d.getAttr
+   · sion_definition",yu:"_request_start_time",wb:"restricted_data_processing",Wp:"retoken", Xp:"sample_rate",Ei:"screen_name",Xc:"screen_resolution",Fl:"_script_source",Yp:"search_term",Pd:"send_page_view
+   · low",method:"get",mode:"no-cors"};d&&(e.mode="cors","setAttributionReporting"in XMLHttpRequest.prototype?e.attributionReporting={eventSourceEligible:"true",triggerEligible:"false"}:e.headers={"Attribu
+   · =Object.freeze({eventSourceEligible:!1,triggerEligible:!0});function ox(){var a=XMLHttpRequest.prototype;return a&&Db(a.setAttributionReporting)};var zx=function(){Rg.apply(this,arguments)};ua(zx,Rg);
+   · otype.endsWith},YE[11]=function(){return String.prototype.startsWith},YE[4]=XE("XMLHttpRequest"),YE),$E={},aF=($E[15]=!0,$E);var bF=/^(https?:)?\/\//; function wF(){};function xF(){Hf(62)&&(Ay("detec
+
+########## https://filmot.com/
+  (fetch failed)
+
+########## https://transcriptube.com/
+  bundles: 3
+   · ouTube link and get an AI summary with a timecode on every point, plus the full transcript. One free summary a day, no sign-up."><meta name="naver-site-verification" content="2abf937d6f021c854e6c146f3
+   · ="2abf937d6f021c854e6c146f3a2d0fbde8fa3031"><link rel="canonical" href="https://transcriptube.com"><link rel="alternate" hreflang="en" href="https://transcriptube.com"><link rel="alternate" hreflang="
+   · f="https://transcriptube.com"><link rel="alternate" hreflang="en" href="https://transcriptube.com"><link rel="alternate" hreflang="en-US" href="https://transcriptube.com"><link rel="alternate" hreflan
+   · https://transcriptube.com"><link rel="alternate" hreflang="en-US" href="https://transcriptube.com"><link rel="alternate" hreflang="en-IN" href="https://transcriptube.com"><link rel="alternate" hreflan
+   · https://transcriptube.com"><link rel="alternate" hreflang="en-IN" href="https://transcriptube.com"><link rel="alternate" hreflang="en-PH" href="https://transcriptube.com"><link rel="alternate" hreflan
+   · https://transcriptube.com"><link rel="alternate" hreflang="en-PH" href="https://transcriptube.com"><link rel="alternate" hreflang="en-CA" href="https://transcriptube.com"><link rel="alternate" hreflan
+   · https://transcriptube.com"><link rel="alternate" hreflang="en-CA" href="https://transcriptube.com"><link rel="alternate" hreflang="en-AU" href="https://transcriptube.com"><link rel="alternate" hreflan
+   · https://transcriptube.com"><link rel="alternate" hreflang="en-AU" href="https://transcriptube.com"><link rel="alternate" hreflang="en-GB" href="https://transcriptube.com"><link rel="alternate" hreflan
+   · https://transcriptube.com"><link rel="alternate" hreflang="en-GB" href="https://transcriptube.com"><link rel="alternate" hreflang="id" href="https://transcriptube.com/id/transkrip-youtube"><link rel="
+   · f="https://transcriptube.com"><link rel="alternate" hreflang="id" href="https://transcriptube.com/id/transkrip-youtube"><link rel="alternate" hreflang="ko" href="https://transcriptube.com/ko/youtube-j
+   · ube.com/id/transkrip-youtube"><link rel="alternate" hreflang="ko" href="https://transcriptube.com/ko/youtube-jamak-chuchul"><link rel="alternate" hreflang="es" href="https://transcriptube.com/es/trans
+   · com/ko/youtube-jamak-chuchul"><link rel="alternate" hreflang="es" href="https://transcriptube.com/es/transcribir-video-a-texto"><link rel="alternate" hreflang="ja" href="https://transcriptube.com/ja/y
+   · es/transcribir-video-a-texto"><link rel="alternate" hreflang="ja" href="https://transcriptube.com/ja/youtube-transcript"><link rel="alternate" hreflang="pt" href="https://transcriptube.com/pt/transcre
+   · ><link rel="alternate" hreflang="ja" href="https://transcriptube.com/ja/youtube-transcript"><link rel="alternate" hreflang="pt" href="https://transcriptube.com/pt/transcrever-video-do-youtube"><link r
+   · be.com/ja/youtube-transcript"><link rel="alternate" hreflang="pt" href="https://transcriptube.com/pt/transcrever-video-do-youtube"><link rel="alternate" hreflang="x-default" href="https://transcriptub
+   · ever-video-do-youtube"><link rel="alternate" hreflang="x-default" href="https://transcriptube.com"><meta property="og:type" content="website"><meta property="og:site_name" content="Transcriptube"><met
+   · ouTube link and get an AI summary with a timecode on every point, plus the full transcript. One free summary a day, no sign-up."><meta property="og:url" content="https://transcriptube.com"><meta prope
+   · . One free summary a day, no sign-up."><meta property="og:url" content="https://transcriptube.com"><meta property="og:locale" content="en"><meta property="og:image" content="https://transcriptube.com/
+   · ta property="og:locale" content="en"><meta property="og:image" content="https://transcriptube.com/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+   · card" content="summary_large_image"><meta name="twitter:image" content="https://transcriptube.com/og.png"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico"
+   · temListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://transcriptube.com/"}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","ma
+   · ree for videos up to 1.5 hours."}},{"@type":"Question","name":"How do I get the transcript of a YouTube video?","acceptedAnswer":{"@type":"Answer","text":"Paste the link, then switch to the Transcript
+   · You can search inside it, copy it or save it as a .txt file. Reading is free: 3 transcripts a day and 10 a week, with no account."}},{"@type":"Question","name":"Is this really free?","acceptedAnswer":
+   · ceptedAnswer":{"@type":"Answer","text":"Reading is free and needs no account: 3 transcripts a day and 10 a week, plus one AI summary a day for videos up to 1.5 hours and one .txt download a day. Copyi
+   · ","text":"Yes. If a video only has automatic captions, both the summary and the transcript are built from those. Accuracy depends on the audio quality and the speaker, but for most videos automatic ca
+   · same way as a ten-minute review. The free daily summary stops at 1.5 hours; the transcript itself has no limit."}}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type"
+   · @type":"WebApplication","name":"YouTube Transcript & AI Summary","url":"https://transcriptube.com","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":[{"@type":"Offer","pric
+   · >AI Summary</span> </h1> <p class="lede">Paste a YouTube link and read the full transcript with timestamps — then turn it into an AI summary with the key points and the minute each one was said. Free,
+   · Cta&quot;:[0,&quot;See plans&quot;],&quot;longTranscriptFree&quot;:[0,&quot;The transcript is free at any length.&quot;],&quot;label&quot;:[0,&quot;YouTube link or video ID&quot;],&quot;placeholder&qu
+   · }],&quot;shortformLeft&quot;:[0,&quot;{used} of {total} free TikTok &amp; Reels transcripts&quot;],&quot;shortformGone&quot;:[0,&quot;You have used all {total} free TikTok &amp; Reels transcripts&quot
+   · ;shortformGone&quot;:[0,&quot;You have used all {total} free TikTok &amp; Reels transcripts&quot;],&quot;cta&quot;:[0,&quot;Get transcript&quot;],&quot;ctaLoading&quot;:[0,&quot;Fetching…&quot;],&quot
+   · {total} free TikTok &amp; Reels transcripts&quot;],&quot;cta&quot;:[0,&quot;Get transcript&quot;],&quot;ctaLoading&quot;:[0,&quot;Fetching…&quot;],&quot;timestamps&quot;:[0,&quot;timestamps&quot;],&qu
+   ·  shall we do with this video?&quot;],&quot;sumStage1&quot;:[0,&quot;Reading the transcript…&quot;],&quot;sumStage2&quot;:[0,&quot;Picking out the key points…&quot;],&quot;sumStage3&quot;:[0,&quot;Writ
+   · ons – speech recognition, ≈ {credits} cr&quot;],&quot;sttCta&quot;:[0,&quot;Get transcript – {credits} cr&quot;],&quot;costDownloads&quot;:[0,&quot;Downloads use no credits.&quot;],&quot;langVideo&quo
+   · ;Ask about this video&quot;],&quot;askHint&quot;:[0,&quot;Answers come from the transcript, with the timecode they were drawn from.&quot;],&quot;askEmpty&quot;:[0,&quot;No questions yet.&quot;],&quot;
+   · t;:[0,&quot;No questions yet.&quot;],&quot;searchLabel&quot;:[0,&quot;Search in transcript&quot;],&quot;searchPlaceholder&quot;:[0,&quot;Find a word or phrase&quot;],&quot;searchCount&quot;:[0,&quot;{
+   · ot;],&quot;noCaptions&quot;:[0,&quot;This video has no captions, so there is no transcript to fetch. Try another video.&quot;],&quot;notAVideo&quot;:[0,&quot;This is a photo post, so there is no speec
+   · ibe. Paste a Reel or a video post instead. It was not counted against your free transcripts.&quot;],&quot;noSpeech&quot;:[0,&quot;We listened to this video and there is no speech in it — only music or
+   · ch in it — only music or background sound. It was not counted against your free transcripts.&quot;],&quot;shortformUnavailable&quot;:[0,&quot;This video is not available for processing. The platform w
+   · ivate, deleted, or restricted in some way. It was not counted against your free transcripts.&quot;],&quot;tooLong&quot;:[0,&quot;This video is about {minutes} minutes. TikTok and Instagram transcripts
+   · Long&quot;:[0,&quot;This video is about {minutes} minutes. TikTok and Instagram transcripts are capped at {maxMinutes} minutes — try a shorter one.&quot;],&quot;turnstile&quot;:[0,&quot;Please confirm
+   · se any video in seconds&quot;],&quot;valueTitleDownload&quot;:[0,&quot;Take the transcript with you&quot;],&quot;valueTitleAsk&quot;:[0,&quot;Ask the video anything&quot;],&quot;valueTitleBatch&quot;:
+   · t;],&quot;ctxShortform&quot;:[0,&quot;You’ve used all {n} free TikTok and Reels transcripts&quot;],&quot;ctxShortformShared&quot;:[0,&quot;This connection has used its free TikTok and Reels transcript
+   · ortformShared&quot;:[0,&quot;This connection has used its free TikTok and Reels transcripts&quot;],&quot;ctxDay&quot;:[0,&quot;You’ve used all three free transcripts today&quot;],&quot;ctxWeek&quot;:[
+   · Reels transcripts&quot;],&quot;ctxDay&quot;:[0,&quot;You’ve used all three free transcripts today&quot;],&quot;ctxWeek&quot;:[0,&quot;You’ve used all ten free transcripts this week&quot;],&quot;ctxQuo
+   ·  transcripts today&quot;],&quot;ctxWeek&quot;:[0,&quot;You’ve used all ten free transcripts this week&quot;],&quot;ctxQuotaShared&quot;:[0,&quot;This connection has used its nine free transcripts toda
+   · ot;],&quot;ctxQuotaShared&quot;:[0,&quot;This connection has used its nine free transcripts today&quot;],&quot;ctxSummaryDay&quot;:[0,&quot;You’ve used your free summary today&quot;],&quot;ctxSummaryS
+   · ,&quot;benefitsShortform&quot;:[1,[[0,&quot;Unlimited TikTok, Reels and YouTube transcripts&quot;],[0,&quot;AI summaries and questions on every video&quot;],[0,&quot;TXT, SRT and VTT downloads&quot;]]
+   · d VTT downloads&quot;]]],&quot;benefitsTranscripts&quot;:[1,[[0,&quot;Unlimited transcripts, any platform&quot;],[0,&quot;Copy and download in TXT, SRT and VTT&quot;],[0,&quot;AI summaries and questio
+   · t;:[1,[[0,&quot;TXT, SRT and VTT, as many as you like&quot;],[0,&quot;Unlimited transcripts on every platform&quot;],[0,&quot;AI summaries and questions&quot;]]],&quot;benefitsBatch&quot;:[1,[[0,&quot
+   · ot;],[0,&quot;Ask one question across the whole batch&quot;],[0,&quot;Unlimited transcripts and summaries&quot;]]],&quot;benefitsCredits&quot;:[1,[[0,&quot;Credits that never expire&quot;],[0,&quot;Ke
+   · &quot;Summarise every video&quot;],&quot;summariesHint&quot;:[0,&quot;Off means transcripts only, which is cheaper.&quot;],&quot;quoteVideos&quot;:[0,&quot;{count} videos&quot;],&quot;quoteMinutes&quo
+   · quot;{done} of {total}&quot;],&quot;phaseTranscript&quot;:[0,&quot;fetching the transcript&quot;],&quot;phaseSummary&quot;:[0,&quot;summarising&quot;],&quot;phasePrime&quot;:[0,&quot;opening the batch
+   · ot;:[0,&quot;Reopen for {credits}&quot;],&quot;tooLongNote&quot;:[0,&quot;Every transcript is here, but {minutes} minutes is too long to ask one question across. Split the list into smaller batches to
+   · , TikTok or Instagram Reels link…" value/><button class="btn" type="submit">Get transcript</button></div><p class="tt-input-hint">YouTube and Shorts read the captions. TikTok and Reels are transcribed
+   · at was actually said.</li> </ul> <p>A video summarizer earns its place when the transcript is longer than the time you have. Paste the link, read the text on this page, then press AI summary: you get 
+   · ss="widget"> <a class="widget-link" href="/"> <span class="widget-name">YouTube transcript</span> <span class="widget-desc">Paste a link and read the whole transcript, with a timecode on every line.</
+   · ube transcript</span> <span class="widget-desc">Paste a link and read the whole transcript, with a timecode on every line.</span> </a> <span class="chip chip-upper widget-plan chip-quiet">No account n
+   ·  video</span> <span class="widget-desc">Ask anything; the answer comes from the transcript and names its timecode.</span> </a> <span class="chip chip-upper widget-plan">Basic</span> </li><li class="wi
+   · lan">Basic</span> </li><li class="widget"> <a class="widget-link" href="/tiktok-transcript"> <span class="widget-name">TikTok transcript &amp; summary</span> <span class="widget-desc">Paste a TikTok l
+   · class="widget-link" href="/tiktok-transcript"> <span class="widget-name">TikTok transcript &amp; summary</span> <span class="widget-desc">Paste a TikTok link. There are no captions to fetch, so the au
+   · n total</span> </li><li class="widget"> <a class="widget-link" href="/instagram-transcript"> <span class="widget-name">Instagram Reels transcript &amp; summary</span> <span class="widget-desc">Paste a
+   · t-link" href="/instagram-transcript"> <span class="widget-name">Instagram Reels transcript &amp; summary</span> <span class="widget-desc">Paste a reel. Transcribed from the audio, then summarised, que
+   · </span> </li><li class="widget"> <a class="widget-link" href="/download-youtube-transcript"> <span class="widget-name">TXT, SRT and VTT downloads</span> <span class="widget-desc">One .txt a day is fre
+   · ens to know about the speaker. Every point has to be traceable to a line of the transcript, which is why they all carry a timestamp. When the video does not cover what you asked about, you get one sen
+   · ole set — naming which video each part of the answer came from.</p><h2>The full transcript is still right there</h2><p>Switch to the Transcript tab and the whole text is on the page, from the first wo
+   · atic ones YouTube generates.</p><p>Reading is free and stays free: fetching the transcript, reading all of it, searching inside it, one AI summary a day for videos up to 1.5 hours and one .txt downloa
+   · key points with their timecodes, then ask the video a question or open the full transcript.</li> </ol> <h2>How do I summarise a YouTube video?</h2> <p>Paste the video link into the field at the top o
+   · One summary a day is free for videos up to 1.5 hours.</p> <h2>How do I get the transcript of a YouTube video?</h2> <p>Paste the link, then switch to the Transcript tab. The full text appears on this 
+   · You can search inside it, copy it or save it as a .txt file. Reading is free: 3 transcripts a day and 10 a week, with no account.</p> <h2>Is this really free?</h2> <p>Reading is free and needs no acc
+   · .</p> <h2>Is this really free?</h2> <p>Reading is free and needs no account: 3 transcripts a day and 10 a week, plus one AI summary a day for videos up to 1.5 hours and one .txt download a day. Copyi
+   · ?</h2> <p>Yes. If a video only has automatic captions, both the summary and the transcript are built from those. Accuracy depends on the audio quality and the speaker, but for most videos automatic ca
+   · same way as a ten-minute review. The free daily summary stops at 1.5 hours; the transcript itself has no limit.</p> <h2>More tools</h2> <ul class="more"> <li><a href="/youtube-video-summarizer"><span
+   ·  an AI summary of any YouTube video.</span></a></li><li><a href="/youtube-video-transcript"><span class="t">YouTube Video Transcript</span><span class="d">View and copy the transcript of any YouTube v
+   · span class="t">YouTube Video Transcript</span><span class="d">View and copy the transcript of any YouTube video.</span></a></li><li><a href="/youtube-to-text"><span class="t">Video to Text</span><span
+   · ert YouTube speech to plain text.</span></a></li><li><a href="/download-youtube-transcript"><span class="t">Download YouTube Transcript</span><span class="d">Save any YouTube transcript as a file.</sp
+   · an class="t">Download YouTube Transcript</span><span class="d">Save any YouTube transcript as a file.</span></a></li><li><a href="/srt-to-txt"><span class="t">SRT to TXT Converter</span><span class="d
+   ·  href="/tools">Tools</a> <a href="/pricing">Pricing</a> <a href="/youtube-video-transcript">Video transcript</a> <a href="/tiktok-transcript">TikTok transcript</a> <a href="/instagram-transcript">Ins
+   · ls</a> <a href="/pricing">Pricing</a> <a href="/youtube-video-transcript">Video transcript</a> <a href="/tiktok-transcript">TikTok transcript</a> <a href="/instagram-transcript">Instagram transcript<
+   · </a> <a href="/youtube-video-transcript">Video transcript</a> <a href="/tiktok-transcript">TikTok transcript</a> <a href="/instagram-transcript">Instagram transcript</a> <a href="/download-youtube-tr
+   · ube-video-transcript">Video transcript</a> <a href="/tiktok-transcript">TikTok transcript</a> <a href="/instagram-transcript">Instagram transcript</a> <a href="/download-youtube-transcript">Download 
+   · ipt</a> <a href="/tiktok-transcript">TikTok transcript</a> <a href="/instagram-transcript">Instagram transcript</a> <a href="/download-youtube-transcript">Download transcript</a> <a href="/youtube-su
+   · tok-transcript">TikTok transcript</a> <a href="/instagram-transcript">Instagram transcript</a> <a href="/download-youtube-transcript">Download transcript</a> <a href="/youtube-subtitle-downloader">Sub
+   · ref="/instagram-transcript">Instagram transcript</a> <a href="/download-youtube-transcript">Download transcript</a> <a href="/youtube-subtitle-downloader">Subtitle downloader</a> <a href="/srt-transla
+   · cript">Instagram transcript</a> <a href="/download-youtube-transcript">Download transcript</a> <a href="/youtube-subtitle-downloader">Subtitle downloader</a> <a href="/srt-translator">SRT translator</
+   · -to-srt">VTT to SRT</a> <a href="/batch">A batch of links</a> <a href="/youtube-transcript-api">API</a> <a href="/privacy">Privacy</a> <a href="/terms">Terms</a> <a href="/support">Support</a> </nav>
+   · video-a-texto" lang="es" hreflang="es">Español</a></li><li><a href="/ja/youtube-transcript" lang="ja" hreflang="ja">日本語</a></li><li><a href="/pt/transcrever-video-do-youtube" lang="pt" hreflang="pt">P
+   · o-do-youtube" lang="pt" hreflang="pt">Português</a></li><li><a href="/fr/tiktok-transcription" lang="fr" hreflang="fr">Français</a></li> </ul> </nav> <p class="ft-note">Transcriptube is an independent
+   · &#34;close&#34;:&#34;Cerrar&#34;},&#34;ja&#34;:{&#34;href&#34;:&#34;/ja/youtube-transcript&#34;,&#34;text&#34;:&#34;このページは日本語でもご覧いただけます&#34;,&#34;close&#34;:&#34;閉じる&#34;},&#34;pt&#34;:{&#34;href&#34;
+   · ,&#34;close&#34;:&#34;Fechar&#34;},&#34;fr&#34;:{&#34;href&#34;:&#34;/fr/tiktok-transcription&#34;,&#34;text&#34;:&#34;Cette page est aussi disponible en français&#34;,&#34;close&#34;:&#34;Fermer&#34;
+   · ownload .srt&quot;],&quot;downloadVtt&quot;:[0,&quot;Download .vtt&quot;],&quot;summarize&quot;:[0,&quot;AI summary&quot;],&quot;ask&quot;:[0,&quot;Ask a question&quot;],&quot;findMoment&quot;:[0,&quo
+   · ns about the video, answered from what was actually said.</li> </ul> <p>A video summarizer earns its place when the transcript is longer than the time you have. Paste the link, read the text on this p
+   ·  and TXT, SRT and VTT downloads.</p> <p class="ai-more"><a href="/youtube-video-summarizer">More about the video summarizer</a></p> </section><section class="grid-tools"> <h2>Tools</h2> <p class="lede
+   · /p> <p class="ai-more"><a href="/youtube-video-summarizer">More about the video summarizer</a></p> </section><section class="grid-tools"> <h2>Tools</h2> <p class="lede">Eight tools, one paste field. E
+   · ded</span> </li><li class="widget"> <a class="widget-link" href="/youtube-video-summarizer"> <span class="widget-name">AI summary</span> <span class="widget-desc">The key points of a video, each carry
+   · o limit.</p> <h2>More tools</h2> <ul class="more"> <li><a href="/youtube-video-summarizer"><span class="t">Video Summarizer</span><span class="d">Get an AI summary of any YouTube video.</span></a></l
+   · d tt-human-note",children:t.tool.captchaNote})]})})}const mn=5400,M=["summary","transcript"],bt=200,fn=416,Se=[4600,6400,5200];function k(t,d){typeof window<"u"&&window.ttTrack&&window.ttTrack(t,d)}fu
+   · t]=c(""),[Ut,St]=c(""),[E,_]=c(null),[it,Ft]=c(null),[R,$t]=c(w),[ct,Kt]=c(w==="transcript"?"transcript":null),[Ce,Tt]=c(!1),Bt=F(null),[Vt,V]=c(null),[N,j]=c(""),[q,Jt]=c(!1),[tt,xt]=c(0),[dt,Wt]=c(n
+   · St]=c(""),[E,_]=c(null),[it,Ft]=c(null),[R,$t]=c(w),[ct,Kt]=c(w==="transcript"?"transcript":null),[Ce,Tt]=c(!1),Bt=F(null),[Vt,V]=c(null),[N,j]=c(""),[q,Jt]=c(!1),[tt,xt]=c(0),[dt,Wt]=c(null),[_e,Gt]=
+   · ,Q=b?null:Me||E?.shortform||null,de=!!Q&&(ce||!ie),ue=b&&ce?E?.rates?.shortform_transcript?.minimum??null:null,pt=E?.freeSummary?.maxDurationSec??mn,Pe=E?.freeSummary?E.freeSummary.remaining:1,Mt=b?nu
+   · atform)?"sf":"yt"),h("loading"),C(""),vt(null),kt(""),It(""),W(0),$t(w),Kt(w==="transcript"?"transcript":null),V(null),j(""),xt(0),Xt(0),_t(bt),mt([]),ft(""),ee(!1),et("");try{const p=await fetch("/ap
+   · "yt"),h("loading"),C(""),vt(null),kt(""),It(""),W(0),$t(w),Kt(w==="transcript"?"transcript":null),V(null),j(""),xt(0),Xt(0),_t(bt),mt([]),ft(""),ee(!1),et("");try{const p=await fetch("/api/transcript"
+   · "),xt(0),Xt(0),_t(bt),mt([]),ft(""),ee(!1),et("");try{const p=await fetch("/api/transcript",{method:"POST",headers:{"Content-Type":"application/json"},credentials:"same-origin",body:JSON.stringify({vi
+   · mmary&&_(L=>({...L||{},freeSummary:m.freeSummary})),m.quotaExceeded&&U("quota","transcript",{reason:m.quotaReason}),m.shortformQuota&&Ae(m.shortformQuota),k("transcript_ok",{page:s,videoId:r,platform:
+   · ,"transcript",{reason:m.quotaReason}),m.shortformQuota&&Ae(m.shortformQuota),k("transcript_ok",{page:s,videoId:r,platform:o.platform});else if($(m,"transcript"))h("idle");else if(h("error"),C(K(m)),k(
+   · rmQuota),k("transcript_ok",{page:s,videoId:r,platform:o.platform});else if($(m,"transcript"))h("idle");else if(h("error"),C(K(m)),k("transcript_fail",{page:s,reason:m.code||"error"}),m.code==="no_capt
+   · :o.platform});else if($(m,"transcript"))h("idle");else if(h("error"),C(K(m)),k("transcript_fail",{page:s,reason:m.code||"error"}),m.code==="no_captions"&&E?.limits?.ai)try{const L=await fetch("/api/pr
+   · L.ok&&T.status==="ok"&&T.stt&&T.credits?vt({videoId:T.videoId,credits:T.credits.transcript}):T.sttTooLong&&C(x(t.errors.sttTooLong,{hours:Math.round((T.maxSeconds||14400)/3600)}))}catch{}}catch{h("err
+   · ((T.maxSeconds||14400)/3600)}))}catch{}}catch{h("error"),C(t.errors.network),k("transcript_fail",{page:s,reason:"network"})}}async function He(){if(!P)return;const n=P;vt(null),Gt("sf"),h("loading"),C
+   · rn;const n=P;vt(null),Gt("sf"),h("loading"),C("");try{const o=await fetch("/api/transcript",{method:"POST",headers:{"Content-Type":"application/json"},credentials:"same-origin",body:JSON.stringify({vi
+   · ditsLeft=="number"&&(_(a=>a&&{...a,credits:r.creditsLeft}),z(r.creditsLeft)),k("transcript_ok",{page:s,videoId:n.videoId,platform:"youtube",stt:!0})):$(r,"transcript")?h("idle"):(h("error"),C(K(r)),k(
+   · ),k("transcript_ok",{page:s,videoId:n.videoId,platform:"youtube",stt:!0})):$(r,"transcript")?h("idle"):(h("error"),C(K(r)),k("transcript_fail",{page:s,reason:r.code||"error",stt:!0}))}catch{h("error")
+   · platform:"youtube",stt:!0})):$(r,"transcript")?h("idle"):(h("error"),C(K(r)),k("transcript_fail",{page:s,reason:r.code||"error",stt:!0}))}catch{h("error"),C(t.errors.network),k("transcript_fail",{page
+   · page:s,reason:r.code||"error",stt:!0}))}catch{h("error"),C(t.errors.network),k("transcript_fail",{page:s,reason:"network",stt:!0})}}function K(n){switch(n.code){case"no_captions":return t.errors.noCap
+   · })):i.segments.map(n=>({time:n.start,text:n.text})):[],[i,D,At]);B(()=>{if(R!=="transcript"||Ct>=Y.length)return;const n=requestAnimationFrame(()=>_t(o=>o+bt));return()=>cancelAnimationFrame(n)},[R,Ct
+   · >r===n?"":r),1600),!0}catch{return!1}}async function Ue(){je("copy")&&await Pt("transcript",await Ne())&&k("copy",{page:s,videoId:i.videoId})}function pe(n,o){const r=new Blob([o],{type:"text/plain;ch
+   · s:D})}),r=await o.json().catch(()=>({}));o.ok&&r.status==="ok"?(pe(r.filename||`transcript_${i.videoId}.${n}`,r.text),r.freeDownload&&_(a=>({...a||{},freeDownload:r.freeDownload})),k("download",{page:
+   · ",{class:"btn tt-choice tt-choose-btn",type:"button",disabled:v,onClick:()=>yt("transcript"),children:t.tool.tabTranscript})]})]}),ct&&R==="summary"&&e("div",{class:"tt-pane",role:"tabpanel","aria-lab
+   · ion")!=null?x(t.tool.costShort,{credits:G("question")}):" "})]})]})]}),ct&&R==="transcript"&&e("div",{class:"tt-pane",role:"tabpanel","aria-labelledby":"tt-tab-transcript",children:[e("div",{class:"tt
+   · transcript"&&e("div",{class:"tt-pane",role:"tabpanel","aria-labelledby":"tt-tab-transcript",children:[e("div",{class:"tt-meta",children:[e("span",{class:"tt-lang",children:v?e("span",{class:"sk sk-vid
+
+########## https://recapio.com/
+  bundles: 40
+   · ibe, chat, research, visualize, and automate YouTube content. Free AI tools for transcripts, video summaries, expert insights, and daily digests."/><meta name="application-name" content="Recapio"/><me
+   · eam"/><meta name="keywords" content="youtube tools, youtube summarizer, youtube transcript, chat with youtube, ai youtube tools, youtube to text, youtube podcast summary, ai note taking, youtube intel
+   · ibe, chat, research, visualize, and automate YouTube content. Free AI tools for transcripts, video summaries, expert insights, and daily digests."/><meta property="og:url" content="https://recapio.com
+   · ibe, chat, research, visualize, and automate YouTube content. Free AI tools for transcripts, video summaries, expert insights, and daily digests."/><meta name="twitter:image" content="https://recapio.
+   · s="prose prose-sm max-w-none leading-relaxed text-gray-600">We process the full transcript of each video using advanced language models and distill the key points, insights, and action items into a sh
+   ·  this instead of just watching the video?\",\"isFree\":\"Is it free to use?\",\"transcripts\":\"Is this different from just reading video transcripts?\",\"videoTypes\":\"What types of videos work best
+   · s it free to use?\",\"transcripts\":\"Is this different from just reading video transcripts?\",\"videoTypes\":\"What types of videos work best?\",\"accuracy\":\"How accurate are the responses?\",\"lan
+   · . A small subscription unlocks unlimited questions and additional features.\",\"transcripts\":\"Absolutely. Unlike transcripts which require you to sift through every word, our tool understands contex
+   · mited questions and additional features.\",\"transcripts\":\"Absolutely. Unlike transcripts which require you to sift through every word, our tool understands context and lets you have a conversation 
+   · .\",\"maxPollsReached\":\"Maximum attempts reached, please try again later.\",\"transcriptNotAvailableTitle\":\"Transcript processing failed.\",\"transcriptNotAvailableMessage\":\"The transcript could
+   · in later.\",\"transcriptNotAvailableTitle\":\"Transcript processing failed.\",\"transcriptNotAvailableMessage\":\"The transcript couldn't be processed or isn't available for this video.\",\"maxPollsRe
+   · tle\":\"Transcript processing failed.\",\"transcriptNotAvailableMessage\":\"The transcript couldn't be processed or isn't available for this video.\",\"maxPollsReachedAfterError\":\"Max attempts reach
+   · ouTube URL.\",\"shortsNotSupported\":\"YouTube Shorts are not supported because transcripts cannot be processed for videos under 2 minutes. Please try a regular YouTube video instead.\",\"liveVideoNot
+   · ad.\",\"liveVideoNotSupported\":\"YouTube live videos are not supported because transcripts cannot be processed for live content. Please try a regular YouTube video instead.\",\"unsupportedVideo\":\"T
+   · pe is not supported. YouTube Shorts and live videos cannot be processed because transcripts are not available.\"},\"buttons\":{\"chatNow\":\"Chat Now\",\"chatting\":\"Starting chat...\",\"signIn\":\"S
+   · "},\"processingButton\":\"Processing...\",\"processingTranscript\":\"Processing transcript...\",\"processingDescription\":\"This shouldn't take long. We're fetching the transcript and formatting it fo
+   · t...\",\"processingDescription\":\"This shouldn't take long. We're fetching the transcript and formatting it for you.\",\"initialMessage\":\"Hello! I'm ready to answer any questions you have about thi
+   · \":\"Ask anything about the video...\",\"chatPlaceholderWaiting\":\"Waiting for transcript to be ready...\",\"editButton\":\"Edit\",\"saveToWorkspaceButton\":\"Save to Workspace\",\"saveToAIBrainButto
+   · r better conversations...\",\"loadingNotification7Title\":\"Building searchable transcript\",\"loadingNotification7Description\":\"Creating timestamps and making content easily navigable...\",\"loadin
+   · imit\",\"shortsNotSupportedForSaving\":\"YouTube Shorts cannot be saved because transcripts cannot be processed for videos under 2 minutes.\",\"liveVideoNotSupportedForSaving\":\"YouTube live videos c
+   · "liveVideoNotSupportedForSaving\":\"YouTube live videos cannot be saved because transcripts cannot be processed for live content.\",\"unsupportedVideoForSaving\":\"This video type cannot be saved. You
+   ·  type cannot be saved. YouTube Shorts and live videos are not supported because transcripts are not available.\"},\"contentMetadata\":{\"author\":\"Author\",\"readingTime\":\"{time} min read\",\"chann
+   · bsite\":\"website\",\"contentTypeContent\":\"content\"},\"ItemDetailsModal\":{\"transcriptTitle\":\"Transcript\",\"showLess\":\"Show Less\",\"showMore\":\"Show More\",\"chatWithVideo\":\"Chat with Vid
+   · rator | Convert Video to Text\",\"metaDescription\":\"Generate accurate YouTube transcripts with timestamps for free. Convert any YouTube video to text instantly. No signup required. Perfect for stude
+   · o limits, no hidden fees\",\"fast\":\"Instant Results\",\"fastDesc\":\"Get your transcript in seconds, not minutes\",\"timestamps\":\"With Timestamps\",\"timestampsDesc\":\"Click any timestamp to jump
+   · oment\",\"noSignup\":\"No Signup Required\",\"noSignupDesc\":\"Start generating transcripts immediately\",\"accurate\":\"High Accuracy\",\"accurateDesc\":\"AI-powered transcription with 95%+ accuracy\
+   · ipts immediately\",\"accurate\":\"High Accuracy\",\"accurateDesc\":\"AI-powered transcription with 95%+ accuracy\",\"multilingual\":\"Multi-Language\",\"multilingualDesc\":\"Support for 100+ languages
+   · \",\"step3\":\"Get Transcript\",\"step3Desc\":\"Download or copy your formatted transcript\"},\"useCases\":{\"title\":\"Perfect For\",\"students\":\"Students\",\"studentsDesc\":\"Take notes from lectu
+   · esc\":\"Find specific information instantly with text search functionality\"},\"transcript\":{\"title\":\"Transcript\",\"copyButton\":\"Copy Transcript\",\"downloadButton\":\"Download\",\"toggleTimest
+   · \"toggleTimestamps\":\"Show/Hide Timestamps\",\"searchPlaceholder\":\"Search in transcript...\",\"noTranscript\":\"No transcript available for this video\",\"processing\":\"Generating transcript...\",
+   · tamps\",\"searchPlaceholder\":\"Search in transcript...\",\"noTranscript\":\"No transcript available for this video\",\"processing\":\"Generating transcript...\",\"processingDesc\":\"This usually take
+   · script\":\"No transcript available for this video\",\"processing\":\"Generating transcript...\",\"processingDesc\":\"This usually takes 30-60 seconds depending on video length\"},\"faq\":{\"title\":\"
+   · th\"},\"faq\":{\"title\":\"Frequently Asked Questions\",\"q1\":\"How do I get a transcript from a YouTube video?\",\"a1\":\"Simply paste the YouTube video URL into the input field above and click 'Gen
+   ·  You'll get the full text with timestamps in seconds.\",\"q2\":\"Is the YouTube transcript generator free?\",\"a2\":\"Yes! Our YouTube transcript generator is completely free to use. You can generate 
+   · ,\"q2\":\"Is the YouTube transcript generator free?\",\"a2\":\"Yes! Our YouTube transcript generator is completely free to use. You can generate transcripts for any YouTube video without signing up or
+   · s! Our YouTube transcript generator is completely free to use. You can generate transcripts for any YouTube video without signing up or paying anything.\",\"q3\":\"Can I download the YouTube transcrip
+   · eo without signing up or paying anything.\",\"q3\":\"Can I download the YouTube transcript?\",\"a3\":\"Absolutely! You can copy the transcript text with one click or download it in various formats inc
+   · "Can I download the YouTube transcript?\",\"a3\":\"Absolutely! You can copy the transcript text with one click or download it in various formats including TXT, PDF, and DOCX.\",\"q4\":\"Does this work
+   · .\",\"q4\":\"Does this work with videos in other languages?\",\"a4\":\"Yes, our transcript generator supports over 100 languages. It automatically detects the video language and generates accurate tra
+   · 0 languages. It automatically detects the video language and generates accurate transcripts.\",\"q5\":\"How accurate are the transcripts?\",\"a5\":\"Our AI-powered transcription achieves 95%+ accuracy
+   · eo language and generates accurate transcripts.\",\"q5\":\"How accurate are the transcripts?\",\"a5\":\"Our AI-powered transcription achieves 95%+ accuracy for clear audio. Accuracy may vary based on 
+   · scripts.\",\"q5\":\"How accurate are the transcripts?\",\"a5\":\"Our AI-powered transcription achieves 95%+ accuracy for clear audio. Accuracy may vary based on audio quality, accents, and background 
+   · uality, accents, and background noise.\",\"q6\":\"Can I get timestamps with the transcript?\",\"a6\":\"Yes! All transcripts include clickable timestamps that let you jump to specific moments in the vi
+   · noise.\",\"q6\":\"Can I get timestamps with the transcript?\",\"a6\":\"Yes! All transcripts include clickable timestamps that let you jump to specific moments in the video.\",\"q7\":\"What video lengt
+   · ps to multi-hour lectures and podcasts.\",\"q8\":\"Is there a limit on how many transcripts I can generate?\",\"a8\":\"No limits! Generate as many transcripts as you need, completely free.\",\"q9\":\"
+   ·  on how many transcripts I can generate?\",\"a8\":\"No limits! Generate as many transcripts as you need, completely free.\",\"q9\":\"Can I edit the transcript after generating it?\",\"a9\":\"While you
+   · ate as many transcripts as you need, completely free.\",\"q9\":\"Can I edit the transcript after generating it?\",\"a9\":\"While you can't edit directly in our tool, you can copy the text and edit it 
+   · at if the video doesn't have captions?\",\"a10\":\"No problem! Our AI generates transcripts directly from the audio, even if the video doesn't have existing captions or subtitles.\"},\"cta\":{\"title\
+   · on\":\"Join thousands of students, creators, and professionals who use our free transcript generator daily.\",\"button\":\"Generate Your First Transcript\",\"upgrade\":\"Upgrade for Advanced Features\
+   · e input above\",\"step2\":\"AI Analyzes\",\"step2Desc\":\"Our AI reads the full transcript and identifies what matters most\",\"step3\":\"Get Your Summary\",\"step3Desc\":\"Receive key points, chapter
+   ·  AI YouTube video summarizer work?\",\"a1\":\"Our AI analyzes the video's audio transcript, identifies key points, and generates a concise summary with the most important information, saving you time 
+   · "Our AI video summarizer achieves high accuracy by analyzing the complete video transcript and using advanced natural language processing to extract the most relevant points and key insights.\",\"q4\"
+   · ink\":\"Copy Link\",\"copied\":\"Copied!\",\"videoDetails\":\"Video Details\",\"transcript\":\"Transcript\",\"summary\":\"Summary\",\"error\":{\"failedToGenerate\":\"Failed to generate summary. Please
+   · fetchingVideo\":\"Loading video data...\",\"processingTranscript\":\"Processing transcript...\",\"waitingForTranscript\":\"Waiting for transcript to be ready...\"}},\"YouTubeToWhiteboard\":{\"pageTitl
+   · ranscript\":\"Processing transcript...\",\"waitingForTranscript\":\"Waiting for transcript to be ready...\"}},\"YouTubeToWhiteboard\":{\"pageTitle\":\"YouTube to Whiteboard - AI Infographic Generator\
+   · "answers\":{\"whatIsThis\":\"YouTube to Whiteboard uses AI to analyze a video's transcript and create a hand-drawn style infographic that visualizes the key concepts, takeaways, and important points f
+   · ional content, lectures, tutorials, and presentations work best. The AI needs a transcript to analyze, so videos with clear spoken content produce the best results.\",\"credits\":\"Each whiteboard gen
+   · tusReady\":\"Video is ready for image generation\",\"statusProcessing\":\"Video transcript is being processed. Please wait...\",\"statusError\":\"Failed to process video transcript\"},\"step2\":{\"tit
+   ·  is being processed. Please wait...\",\"statusError\":\"Failed to process video transcript\"},\"step2\":{\"title\":\"Step 2: Configure Image\"},\"youtubeUrl\":{\"label\":\"YouTube Video URL\",\"placeh
+   · ibe, chat, research, visualize, and automate YouTube content. Free AI tools for transcripts, video summaries, expert insights, and daily digests.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"application-name
+   · {\"name\":\"keywords\",\"content\":\"youtube tools, youtube summarizer, youtube transcript, chat with youtube, ai youtube tools, youtube to text, youtube podcast summary, ai note taking, youtube intel
+   · ibe, chat, research, visualize, and automate YouTube content. Free AI tools for transcripts, video summaries, expert insights, and daily digests.\"}],[\"$\",\"meta\",\"18\",{\"property\":\"og:url\",\"
+   · ibe, chat, research, visualize, and automate YouTube content. Free AI tools for transcripts, video summaries, expert insights, and daily digests.\"}],[\"$\",\"meta\",\"31\",{\"name\":\"twitter:image\"
+   · se try again.\",\"authMissingTokens\":\"Authentication failed. Missing required tokens.\",\"incorrectEmail\":\"Incorrect email\",\"enterValidEmail\":\"Enter valid email\",\"incorrectPassword\":\"Incor
+   · redirected to the login page shortly.\",\"invalidToken\":\"Invalid verification token. Please try again or request a new verification email.\",\"unexpectedError\":\"An unexpected error occurred. Pleas
+   · " content="Recapio Team"/><meta name="keywords" content="youtube tools, youtube summarizer, youtube transcript, chat with youtube, ai youtube tools, youtube to text, youtube podcast summary, ai note t
+   · on","name":"Recapio","description":"YouTube Intelligence Platform — AI tools to summarize, transcribe, chat, research, visualize, and automate YouTube content","url":"https://recapio.com","logo":"http
+   · :"USD","availability":"InStock","description":"Free AI second brain and content summarizer"}}</script><div class="flex flex-col min-h-screen" data-sentry-component="HomeLayout" data-sentry-source-file
+   · </h3><p class="text-gray-600 leading-relaxed">Add the YouTube channels you want summarized. Takes under a minute.</p></div><div class="text-center"><div class="mb-6 rounded-2xl overflow-hidden border 
+   · ] leading-relaxed">Add any YouTube channel to your recap. Every new upload gets summarized, even the ones we don&#x27;t curate yet.</p></div></div></div></div></section><!--/$--><!--$--><section id="i
+   · se text-gray-700 mb-4 md:mb-6 leading-relaxed">Just came across @recapioGPT. It summarizes web pages and PDFs in one click. What are you using to quickly summarize content?</p><div class="flex items-c
+   · T. It summarizes web pages and PDFs in one click. What are you using to quickly summarize content?</p><div class="flex items-center gap-3 md:gap-4"><img alt="John Mattox Solar Pro" loading="lazy" widt
+   · ext-sm md:text-base text-gray-700 mb-4 md:mb-6 leading-relaxed">A great tool to summarize any webpage! @recapioGPT</p><div class="flex items-center gap-3 md:gap-4"><img alt="Samarjit Sinha" loading="l
+   · :text-base text-gray-700 mb-4 md:mb-6 leading-relaxed">It&#x27;s really nice to summarize web content just within moments with the RecapioGPT browser extension. @recapioGPT</p><div class="flex items-c
+   · -gray-700 mb-4 md:mb-6 leading-relaxed">New interesting AI tool, can be used to summarize long text with one click. Check it out: @recapioGPT</p><div class="flex items-center gap-3 md:gap-4"><img alt=
+   · thin minutes. When you add your channels, we pull the last 24 hours of uploads, summarize them, and send your first recap straight to your inbox. No waiting until tomorrow.</div></div></div></div><div
+   · <span class="font-medium text-sm text-gray-900 leading-relaxed">How does the AI summarize videos?</span><span class="ml-4 flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+   · Recapio\\\",\\\"description\\\":\\\"YouTube Intelligence Platform — AI tools to summarize, transcribe, chat, research, visualize, and automate YouTube content\\\",\\\"url\\\":\\\"https://recapio.com\\
+   · ty\\\":\\\"InStock\\\",\\\"description\\\":\\\"Free AI second brain and content summarizer\\\"}}\"},\"data-sentry-component\":\"JsonLd\",\"data-sentry-source-file\":\"JsonLd.tsx\"}],[\"$\",\"$L14\",nu
+   · ",\"text\":\"Text\",\"file\":\"File\"},\"placeholders\":{\"url\":\"Enter URL to summarize\",\"youtube\":\"Enter YouTube URL to summarize\",\"text\":\"Enter text to summarize\",\"file\":\"Upload file t
+   · olders\":{\"url\":\"Enter URL to summarize\",\"youtube\":\"Enter YouTube URL to summarize\",\"text\":\"Enter text to summarize\",\"file\":\"Upload file to summarize\"},\"advancedConfig\":{\"title\":\"
+   · arize\",\"youtube\":\"Enter YouTube URL to summarize\",\"text\":\"Enter text to summarize\",\"file\":\"Upload file to summarize\"},\"advancedConfig\":{\"title\":\"Advanced Summary Configuration\",\"de
+   · L to summarize\",\"text\":\"Enter text to summarize\",\"file\":\"Upload file to summarize\"},\"advancedConfig\":{\"title\":\"Advanced Summary Configuration\",\"description\":\"You can customize your s
+   · raph\",\"medium\":\"Medium: 3 paragraphs\",\"long\":\"Long: 5-6 paragraphs\"},\"summarizeButton\":{\"default\":\"Summarize\",\"submitting\":\"Summarizing...\"},\"summariesInfo\":{\"loginMessage\":\"Lo
+   · e\",\"ctaButton2\":\"Learn More\"},\"tools\":{\"title\":\"Powerful AI Tools\",\"summarizer\":{\"title\":\"Advanced AI Summarizer\",\"description\":\"Extract the essence from any website, YouTube video
+   · ints \u0026 Chapter Summaries | Recapio\",\"metaDescription\":\"Free AI YouTube summarizer that extracts highlights, key points, and chapter summaries from any video in seconds. Turn hours of content 
+   · \"title\":\"Frequently Asked Questions\",\"q1\":\"How does the AI YouTube video summarizer work?\",\"a1\":\"Our AI analyzes the video's audio transcript, identifies key points, and generates a concise
+   ·  while ensuring you don't miss crucial details.\",\"q2\":\"Is the YouTube video summarizer free?\",\"a2\":\"Yes! Our YouTube video summarizer is completely free to use. You can summarize any YouTube v
+   · "q2\":\"Is the YouTube video summarizer free?\",\"a2\":\"Yes! Our YouTube video summarizer is completely free to use. You can summarize any YouTube video without signing up or paying anything.\",\"q3\
+   · ",\"a2\":\"Yes! Our YouTube video summarizer is completely free to use. You can summarize any YouTube video without signing up or paying anything.\",\"q3\":\"How accurate are the AI video summaries?\"
+   · ng.\",\"q3\":\"How accurate are the AI video summaries?\",\"a3\":\"Our AI video summarizer achieves high accuracy by analyzing the complete video transcript and using advanced natural language process
+   · ocessing to extract the most relevant points and key insights.\",\"q4\":\"Can I summarize long YouTube videos?\",\"a4\":\"Yes! Our summarizer works with videos of any length, from short clips to multi
+   · y insights.\",\"q4\":\"Can I summarize long YouTube videos?\",\"a4\":\"Yes! Our summarizer works with videos of any length, from short clips to multi-hour lectures, podcasts, and presentations. Longer
+   · d into digestible summaries.\",\"q5\":\"What types of videos work best with the summarizer?\",\"a5\":\"Our AI works excellently with educational content, business presentations, podcasts, interviews, 
+   · :\"Ready to Save Hours on YouTube?\",\"subtitle\":\"Join thousands of users who summarize videos daily\",\"button\":\"Start Summarizing Now\",\"upgradeTitle\":\"Want More Advanced Features?\",\"upgrad
+   · title\":\"Social Sharing\",\"description\":\"Create shareable infographics that summarize video insights.\"}},\"testimonials\":{\"title\":\"What People Are Saying\"},\"faq\":{\"title\":\"Frequently As
+   · "$\",\"meta\",\"4\",{\"name\":\"keywords\",\"content\":\"youtube tools, youtube summarizer, youtube transcript, chat with youtube, ai youtube tools, youtube to text, youtube podcast summary, ai note t
+   · "^/teams/([^/]+)/settings$","paramNames":["teamSlug"]},{"path":"/teams/invites/:token","regex":"^/teams/invites/([^/]+)$","paramNames":["token"]},{"path":"/teams/r/:recapId/:generationId","regex":"^/t
+   · path":"/teams/invites/:token","regex":"^/teams/invites/([^/]+)$","paramNames":["token"]},{"path":"/teams/r/:recapId/:generationId","regex":"^/teams/r/([^/]+)/([^/]+)$","paramNames":["recapId","generat
+   · t(t.headers)),t.headers.set("X-App-Language",c());let r=h();if(r)t.headers.set("Authorization","Bearer ".concat(r));else if(!t.headers.has("X-Device-Fingerprint"))try{let e=await m();e&&t.headers.set(
+   · nt-Type":"application/json",Accept:"text/event-stream"};if(p()){let t=h();t&&(m.Authorization="Bearer ".concat(t))}let f=c();f&&(m["Accept-Language"]=f);let v=await fetch("".concat(s,"/youtube-chat/me
+   · headers.set("X-App-Language",c());let r=h();if(r)t.headers.set("Authorization","Bearer ".concat(r));else if(!t.headers.has("X-Device-Fingerprint"))try{let e=await m();e&&t.headers.set("X-Device-Finger
+   · cation/json",Accept:"text/event-stream"};if(p()){let t=h();t&&(m.Authorization="Bearer ".concat(t))}let f=c();f&&(m["Accept-Language"]=f);let v=await fetch("".concat(s,"/youtube-chat/message"),{method
+   · t t of document.cookie.split(";")){let[e,a]=t.trim().split("=");if("team_access_token"===e&&a)return decodeURIComponent(a)}return null},p=()=>{if(d()||l())return!!u();let t=localStorage.getItem("acces
+   · }return null},p=()=>{if(d()||l())return!!u();let t=localStorage.getItem("access_token"),e=localStorage.getItem("token_expiration");return!!t&&!!e&&new Date(e)>new Date},h=()=>d()||l()?u():localStorage
+   · )return!!u();let t=localStorage.getItem("access_token"),e=localStorage.getItem("token_expiration");return!!t&&!!e&&new Date(e)>new Date},h=()=>d()||l()?u():localStorage.getItem("access_token"),g=async
+   · !!t&&!!e&&new Date(e)>new Date},h=()=>d()||l()?u():localStorage.getItem("access_token"),g=async()=>p()?null:m();i.interceptors.request.use(async t=>{var e,a;t.headers instanceof n.$t||(t.headers=new n
+   · tion error":"Token expired or invalid")),!c&&(p()||localStorage.getItem("access_token"))&&(console.log("[API] Triggering auth-error event for token expiration"),window.dispatchEvent(new CustomEvent("a
+   · e.getItem("access_token"))&&(console.log("[API] Triggering auth-error event for token expiration"),window.dispatchEvent(new CustomEvent("auth-error",{detail:"Your session has expired. Please sign in a
+   · =a.message||a.msg||e,p()&&h()&&(console.warn("User appears to be logged in, but token may be invalid"),window.dispatchEvent(new CustomEvent("auth-error",{detail:{message:"Your session has expired. Ple
+   · =t=>{let e=h(),a=new URLSearchParams;t&&a.append("redirect_url",t),e&&a.append("token",e);let r=a.toString();return"".concat(s,"/integrations/slack/connect").concat(r?"?".concat(r):"")},D=async()=>(aw
+   · rams;t&&r.append("redirect_url",t),e&&r.append("community_uuid",e),a&&r.append("token",a);let n=r.toString();return"".concat(s,"/integrations/discord/connect").concat(n?"?".concat(n):"")},O=async()=>(
+   ·  r=a(95125),n=a(60919),o=a(43641);let s="https://api.recapio.com",i=r.A.create({baseURL:s,headers:{"Content-Type":"application/json"}}),c=()=>localStorage.getItem("NEXT_LOCALE")||"en",d=o.Dq,l=()=>{le
+   · f(o.signal&&o.signal.aborted)return n(new lb("Aborted","AbortError"));var i=new XMLHttpRequest;function a(){i.abort()}i.onload=function(){var t,e,n={status:i.status,statusText:i.statusText,headers:(t=
+   · nnel",description:"Add any YouTube channel to your recap. Every new upload gets summarized, even the ones we don't curate yet."}];return(0,o.jsx)("section",{id:"why-recapio",className:"scroll-mt-24 py
+   · "Unlimited curated topic recaps","Custom AI prompts (summary style)","On-demand transcript & summary for any YouTube video","Choose delivery time","Priority support"],isPopular:!0}].map((e,t)=>{var r;
+   · (tM(r.baseURL,r.url,r.allowAbsoluteUrls),t.params,t.paramsSerializer),f&&a.set("Authorization","Basic "+btoa((f.username||"")+":"+(f.password?unescape(encodeURIComponent(f.password)):""))),V.isFormDat
+   · ignal.unsubscribe=()=>this.unsubscribe(e),t.signal}static source(){let t;return{token:new ea(function(e){t=e}),cancel:t}}}let ef={Continue:100,SwitchingProtocols:101,Processing:102,EarlyHints:103,Ok:2
+   · (r.url))){let t=o&&s&&tD.read(s);t&&a.set(o,t)}return r},tJ="undefined"!=typeof XMLHttpRequest&&function(t){return new Promise(function(e,r){let n,i,o,s,a,f=tz(t),u=f.data,l=tU.from(f.headers).normali
+   · oken.unsubscribe(n),f.signal&&f.signal.removeEventListener("abort",n)}let y=new XMLHttpRequest;function g(){if(!y)return;let n=tU.from("getAllResponseHeaders"in y&&y.getAllResponseHeaders());tL(functi
