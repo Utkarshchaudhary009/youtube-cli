@@ -1,6 +1,7 @@
 import { CliError, formatError } from "./lib/errors.ts";
 import { parseArgs } from "./lib/args.ts";
 import { getCommand, getCommandNames, registerCommand } from "./commands/registry.ts";
+import "./commands/transcript.ts";
 
 const VERSION = "0.1.0";
 
